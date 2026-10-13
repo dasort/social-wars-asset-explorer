@@ -1,0 +1,212 @@
+{
+  "id": "2c8b95ab1e1a1531",
+  "key": "10060_chest.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_6_10060_chest",
+      "clave": "DefineSprite_6_10060_chest",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ea71e233a11eeb8eb63a5eb2471c12fe40fca7d59e7d5f886d3a19a774ef316c",
+          "crop": [
+            3,
+            18,
+            111,
+            96
+          ],
+          "canvas": [
+            114,
+            98
+          ],
+          "restore_mirror": false,
+          "size": [
+            108,
+            78
+          ],
+          "url": "media/hq/ea/ea71e233a11eeb8eb63a5eb2471c12fe40fca7d59e7d5f886d3a19a774ef316c.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "fdbd792f58f7cd562d32207ba204abfb0d7d8047e4e82e0b7cc7863cff13f590",
+          "crop": [
+            0,
+            0,
+            111,
+            98
+          ],
+          "canvas": [
+            114,
+            98
+          ],
+          "restore_mirror": false,
+          "size": [
+            111,
+            98
+          ],
+          "bundle": "packs/7d/7df6fc53844b1504519de13cdd4c425f590a03346d84ffed5b0b56bc86d0f890.swp",
+          "offset": 3967108,
+          "length": 3406
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_5__10060_chest_fla.Symbol1_2",
+      "clave": "DefineSprite_5__10060_chest_fla.Symbol1_2",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ea71e233a11eeb8eb63a5eb2471c12fe40fca7d59e7d5f886d3a19a774ef316c",
+          "crop": [
+            0,
+            18,
+            108,
+            96
+          ],
+          "canvas": [
+            111,
+            98
+          ],
+          "restore_mirror": false,
+          "size": [
+            108,
+            78
+          ],
+          "url": "media/hq/ea/ea71e233a11eeb8eb63a5eb2471c12fe40fca7d59e7d5f886d3a19a774ef316c.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "1bfa9cd4c8b9fe34d437a8f468f2f8fa631b06c8e45fcf8c5a0d1c746bee3fd1",
+          "crop": [
+            0,
+            0,
+            111,
+            98
+          ],
+          "canvas": [
+            111,
+            98
+          ],
+          "restore_mirror": false,
+          "size": [
+            111,
+            98
+          ],
+          "bundle": "packs/48/48c6430b3a2d4b9ba6d3c1077d05b67a1ff4504cc12537fee56919863d24b8d4.swp",
+          "offset": 394918,
+          "length": 3344
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "22b3468066f21503c59541d42820f4a32290bd63cee89b2e320c6951bc33a06b",
+          "crop": [
+            0,
+            0,
+            108,
+            78
+          ],
+          "canvas": [
+            108,
+            78
+          ],
+          "restore_mirror": false,
+          "size": [
+            108,
+            78
+          ],
+          "bundle": "packs/47/47cf56daa0f8740c27bfa2afe6ccf01fadbf2cd3efa043a1beb152681fea8522.swp",
+          "offset": 644344,
+          "length": 3074
+        }
+      ]
+    },
+    {
+      "nombre": "images/3.png",
+      "clave": "images/3.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 3,
+          "asset": "e25f9cfb42a4dcc26fae90f5265951b37d6318040c30147ae20e9c7e48cca247",
+          "crop": [
+            0,
+            0,
+            111,
+            98
+          ],
+          "canvas": [
+            111,
+            98
+          ],
+          "restore_mirror": false,
+          "size": [
+            111,
+            98
+          ],
+          "bundle": "packs/7f/7f2a660aa8642778121c93b621c232a15dc671356a19b4c7eb65a84199e729c4.swp",
+          "offset": 3619402,
+          "length": 3906
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "22b3468066f21503c59541d42820f4a32290bd63cee89b2e320c6951bc33a06b": {
+        "bundle": "packs/47/47cf56daa0f8740c27bfa2afe6ccf01fadbf2cd3efa043a1beb152681fea8522.swp",
+        "offset": 644344,
+        "length": 3074
+      },
+      "e25f9cfb42a4dcc26fae90f5265951b37d6318040c30147ae20e9c7e48cca247": {
+        "bundle": "packs/7f/7f2a660aa8642778121c93b621c232a15dc671356a19b4c7eb65a84199e729c4.swp",
+        "offset": 3619402,
+        "length": 3906
+      },
+      "1bfa9cd4c8b9fe34d437a8f468f2f8fa631b06c8e45fcf8c5a0d1c746bee3fd1": {
+        "bundle": "packs/48/48c6430b3a2d4b9ba6d3c1077d05b67a1ff4504cc12537fee56919863d24b8d4.swp",
+        "offset": 394918,
+        "length": 3344
+      },
+      "fdbd792f58f7cd562d32207ba204abfb0d7d8047e4e82e0b7cc7863cff13f590": {
+        "bundle": "packs/7d/7df6fc53844b1504519de13cdd4c425f590a03346d84ffed5b0b56bc86d0f890.swp",
+        "offset": 3967108,
+        "length": 3406
+      }
+    },
+    "bundles": {
+      "packs/47/47cf56daa0f8740c27bfa2afe6ccf01fadbf2cd3efa043a1beb152681fea8522.swp": {
+        "sha256": "47cf56daa0f8740c27bfa2afe6ccf01fadbf2cd3efa043a1beb152681fea8522",
+        "bytes": 4054268
+      },
+      "packs/7f/7f2a660aa8642778121c93b621c232a15dc671356a19b4c7eb65a84199e729c4.swp": {
+        "sha256": "7f2a660aa8642778121c93b621c232a15dc671356a19b4c7eb65a84199e729c4",
+        "bytes": 4049235
+      },
+      "packs/48/48c6430b3a2d4b9ba6d3c1077d05b67a1ff4504cc12537fee56919863d24b8d4.swp": {
+        "sha256": "48c6430b3a2d4b9ba6d3c1077d05b67a1ff4504cc12537fee56919863d24b8d4",
+        "bytes": 4045289
+      },
+      "packs/7d/7df6fc53844b1504519de13cdd4c425f590a03346d84ffed5b0b56bc86d0f890.swp": {
+        "sha256": "7df6fc53844b1504519de13cdd4c425f590a03346d84ffed5b0b56bc86d0f890",
+        "bytes": 4049433
+      }
+    }
+  }
+}
