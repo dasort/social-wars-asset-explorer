@@ -1,0 +1,187 @@
+{
+  "id": "8f928f46b713ab7f",
+  "key": "292_winged_paladin_academy.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_6_292_winged_paladin_academy",
+      "clave": "DefineSprite_6_292_winged_paladin_academy",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320",
+          "crop": [
+            0,
+            0,
+            432,
+            363
+          ],
+          "canvas": [
+            432,
+            363
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            185
+          ],
+          "url": "media/hq/bc/bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "6f8362c0025540fac346ab7eee947f916d182205278ad993fb649573c3e08aa7",
+          "crop": [
+            0,
+            0,
+            432,
+            363
+          ],
+          "canvas": [
+            432,
+            363
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            185
+          ],
+          "bundle": "packs/d8/d87a6f535837c8bbaef3b1fa75e61d1c53e6243937a5ab87f189b112f6124194.swp",
+          "offset": 1765330,
+          "length": 16928
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_5",
+      "clave": "DefineSprite_5",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320",
+          "crop": [
+            0,
+            0,
+            432,
+            363
+          ],
+          "canvas": [
+            432,
+            363
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            185
+          ],
+          "url": "media/hq/bc/bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320",
+          "crop": [
+            0,
+            0,
+            432,
+            363
+          ],
+          "canvas": [
+            432,
+            363
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            185
+          ],
+          "url": "media/hq/bc/bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320",
+          "crop": [
+            0,
+            0,
+            432,
+            363
+          ],
+          "canvas": [
+            432,
+            363
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            185
+          ],
+          "url": "media/hq/bc/bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320",
+          "crop": [
+            0,
+            0,
+            432,
+            363
+          ],
+          "canvas": [
+            432,
+            363
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            185
+          ],
+          "url": "media/hq/bc/bca5de7402a03fcddf54faffe85bf949d65304bff13c97d79bc8baa9f7133320.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "6f8362c0025540fac346ab7eee947f916d182205278ad993fb649573c3e08aa7": {
+        "bundle": "packs/d8/d87a6f535837c8bbaef3b1fa75e61d1c53e6243937a5ab87f189b112f6124194.swp",
+        "offset": 1765330,
+        "length": 16928
+      }
+    },
+    "bundles": {
+      "packs/d8/d87a6f535837c8bbaef3b1fa75e61d1c53e6243937a5ab87f189b112f6124194.swp": {
+        "sha256": "d87a6f535837c8bbaef3b1fa75e61d1c53e6243937a5ab87f189b112f6124194",
+        "bytes": 4043540
+      }
+    }
+  }
+}

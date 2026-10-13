@@ -1,0 +1,159 @@
+{
+  "id": "91a9568718b5de41",
+  "key": "0199_space_station.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_0199_space_station",
+      "clave": "DefineSprite_5_0199_space_station",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d",
+          "crop": [
+            0,
+            0,
+            973,
+            813
+          ],
+          "canvas": [
+            973,
+            813
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            184
+          ],
+          "url": "media/hq/68/680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "f5c69600e32e393bc8371c97a089c468b2f4e3256385a84905d3141ad60b30dc",
+          "crop": [
+            0,
+            0,
+            973,
+            813
+          ],
+          "canvas": [
+            973,
+            813
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            184
+          ],
+          "bundle": "packs/e2/e27f74b8ca32485050e3badfaf1820914f542a1a045caac28916decdfabfc962.swp",
+          "offset": 3871706,
+          "length": 15448
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d",
+          "crop": [
+            0,
+            0,
+            973,
+            813
+          ],
+          "canvas": [
+            973,
+            813
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            184
+          ],
+          "url": "media/hq/68/680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d",
+          "crop": [
+            0,
+            0,
+            973,
+            813
+          ],
+          "canvas": [
+            973,
+            813
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            184
+          ],
+          "url": "media/hq/68/680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d",
+          "crop": [
+            0,
+            0,
+            973,
+            813
+          ],
+          "canvas": [
+            973,
+            813
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            184
+          ],
+          "url": "media/hq/68/680d162bd361a89cb0300ed3bfcc5a8f6d1d8eee44b1ed3ef31d8303b91a873d.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "f5c69600e32e393bc8371c97a089c468b2f4e3256385a84905d3141ad60b30dc": {
+        "bundle": "packs/e2/e27f74b8ca32485050e3badfaf1820914f542a1a045caac28916decdfabfc962.swp",
+        "offset": 3871706,
+        "length": 15448
+      }
+    },
+    "bundles": {
+      "packs/e2/e27f74b8ca32485050e3badfaf1820914f542a1a045caac28916decdfabfc962.swp": {
+        "sha256": "e27f74b8ca32485050e3badfaf1820914f542a1a045caac28916decdfabfc962",
+        "bytes": 4047097
+      }
+    }
+  }
+}

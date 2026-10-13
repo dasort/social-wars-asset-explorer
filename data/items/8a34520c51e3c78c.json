@@ -1,0 +1,170 @@
+{
+  "id": "8a34520c51e3c78c",
+  "key": "0080_fortress_1_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_0080_fortress_1_m",
+      "clave": "DefineSprite_5_0080_fortress_1_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "921c11aa5d39dddb0ba9832646e3a0c6eb8a6dc0965e92a2067a5394b765ecdc",
+          "crop": [
+            15,
+            0,
+            417,
+            353
+          ],
+          "canvas": [
+            432,
+            369
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            193
+          ],
+          "url": "media/hq/92/921c11aa5d39dddb0ba9832646e3a0c6eb8a6dc0965e92a2067a5394b765ecdc.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "0e08a5371398bd2070badbc64508c5f88bdc4037d7525c330457af586102a3ff",
+          "crop": [
+            15,
+            0,
+            417,
+            353
+          ],
+          "canvas": [
+            432,
+            369
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            193
+          ],
+          "bundle": "packs/81/81a1f78a7747573b08e416abe1c60a8f1bab6e80943620868ed517b8f841a688.swp",
+          "offset": 127076,
+          "length": 9172
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "921c11aa5d39dddb0ba9832646e3a0c6eb8a6dc0965e92a2067a5394b765ecdc",
+          "crop": [
+            15,
+            0,
+            417,
+            353
+          ],
+          "canvas": [
+            432,
+            369
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            193
+          ],
+          "url": "media/hq/92/921c11aa5d39dddb0ba9832646e3a0c6eb8a6dc0965e92a2067a5394b765ecdc.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "78314b2a0afc11f8512802517d3497f25e333e4a858293af2e2deb62c99753ff",
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "canvas": [
+            1,
+            1
+          ],
+          "restore_mirror": false,
+          "size": [
+            1,
+            1
+          ],
+          "bundle": "packs/2e/2e880a150ece0b5235ca41aa40c520a3696bb0f5fa51fb76cc8ea04fe8bf2ba7.swp",
+          "offset": 2072084,
+          "length": 72
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "921c11aa5d39dddb0ba9832646e3a0c6eb8a6dc0965e92a2067a5394b765ecdc",
+          "crop": [
+            15,
+            0,
+            417,
+            353
+          ],
+          "canvas": [
+            432,
+            369
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            193
+          ],
+          "url": "media/hq/92/921c11aa5d39dddb0ba9832646e3a0c6eb8a6dc0965e92a2067a5394b765ecdc.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "78314b2a0afc11f8512802517d3497f25e333e4a858293af2e2deb62c99753ff": {
+        "bundle": "packs/2e/2e880a150ece0b5235ca41aa40c520a3696bb0f5fa51fb76cc8ea04fe8bf2ba7.swp",
+        "offset": 2072084,
+        "length": 72
+      },
+      "0e08a5371398bd2070badbc64508c5f88bdc4037d7525c330457af586102a3ff": {
+        "bundle": "packs/81/81a1f78a7747573b08e416abe1c60a8f1bab6e80943620868ed517b8f841a688.swp",
+        "offset": 127076,
+        "length": 9172
+      }
+    },
+    "bundles": {
+      "packs/2e/2e880a150ece0b5235ca41aa40c520a3696bb0f5fa51fb76cc8ea04fe8bf2ba7.swp": {
+        "sha256": "2e880a150ece0b5235ca41aa40c520a3696bb0f5fa51fb76cc8ea04fe8bf2ba7",
+        "bytes": 4049557
+      },
+      "packs/81/81a1f78a7747573b08e416abe1c60a8f1bab6e80943620868ed517b8f841a688.swp": {
+        "sha256": "81a1f78a7747573b08e416abe1c60a8f1bab6e80943620868ed517b8f841a688",
+        "bytes": 4048695
+      }
+    }
+  }
+}
