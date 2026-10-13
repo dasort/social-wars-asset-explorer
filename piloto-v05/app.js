@@ -258,7 +258,7 @@ function updateFrame(){
   state.frame=frames.length?Math.max(0,Math.min(state.frame,frames.length-1)):0;
   const f=frames[state.frame];
   if(f?.asset){
-    const request=++renderEpoch,canvas=$('stage-canvas');el.stage.hidden=true;el.placeholder.hidden=true;canvas.hidden=false;el.downloadFrame.disabled=true;
+    const request=++renderEpoch,canvas=$('stage-canvas');el.stage.hidden=true;el.placeholder.hidden=true;canvas.hidden=false;el.downloadFrame.disabled=false;
     SWMedia.show(canvas,f,group).then(image=>{if(request!==renderEpoch)return;const ctx=canvas.getContext('2d');ctx.clearRect(0,0,canvas.width,canvas.height);ctx.drawImage(image,0,0);el.downloadFrame.disabled=false;}).catch(error=>{if(request!==renderEpoch)return;stopPlayback();el.warning.textContent='No se pudo cargar el frame. Volvé a seleccionar el grupo para reintentar.';notify('Error de carga: '+error.message);});
   }else showStage(f?.url||(state.actionFilter>=0?null:realCoverFor(state.current))||null);
   el.controls.hidden=!frames.length;
@@ -526,7 +526,7 @@ async function downloadCurrentFrame(){
     const blob=await new Promise((resolve,reject)=>canvas.toBlob(value=>value?resolve(value):reject(new Error('No se pudo exportar PNG')),'image/png'));
     downloadBlob(blob,filename);notify('Descarga del fotograma solicitada');
   }catch(error){console.error('Descarga PNG',error);notify('No se pudo descargar el fotograma.');}
-  finally{bitmap?.close();delete button.dataset.busy;button.disabled=el.stage.hidden;button.textContent='PNG';}
+  finally{bitmap?.close();delete button.dataset.busy;button.disabled=el.stage.hidden&&$('stage-canvas').hidden;button.textContent='PNG';}
 }
 function setupEvents(){
   configureProject();
