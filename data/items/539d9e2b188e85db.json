@@ -1,0 +1,131 @@
+{
+  "id": "539d9e2b188e85db",
+  "key": "240_avatar_soldado_academy.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_240_avatar_soldado_academy",
+      "clave": "DefineSprite_4_240_avatar_soldado_academy",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "023dc98868e4a6726b58c45d40582246ce986a473f89a9b1625a270672362de6",
+          "crop": [
+            0,
+            0,
+            432,
+            360
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "url": "media/hq/02/023dc98868e4a6726b58c45d40582246ce986a473f89a9b1625a270672362de6.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "254033630573a617c78d95a1be1da7354b51b09b9a2dc2e00ab5c698fc495037",
+          "crop": [
+            0,
+            0,
+            432,
+            360
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "bundle": "packs/69/69fd0e1fdcd567b52817d49745501b081836641051e777c4246fd3dfb48012f9.swp",
+          "offset": 570076,
+          "length": 17844
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "023dc98868e4a6726b58c45d40582246ce986a473f89a9b1625a270672362de6",
+          "crop": [
+            0,
+            0,
+            432,
+            360
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "url": "media/hq/02/023dc98868e4a6726b58c45d40582246ce986a473f89a9b1625a270672362de6.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "023dc98868e4a6726b58c45d40582246ce986a473f89a9b1625a270672362de6",
+          "crop": [
+            0,
+            0,
+            432,
+            360
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "url": "media/hq/02/023dc98868e4a6726b58c45d40582246ce986a473f89a9b1625a270672362de6.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "254033630573a617c78d95a1be1da7354b51b09b9a2dc2e00ab5c698fc495037": {
+        "bundle": "packs/69/69fd0e1fdcd567b52817d49745501b081836641051e777c4246fd3dfb48012f9.swp",
+        "offset": 570076,
+        "length": 17844
+      }
+    },
+    "bundles": {
+      "packs/69/69fd0e1fdcd567b52817d49745501b081836641051e777c4246fd3dfb48012f9.swp": {
+        "sha256": "69fd0e1fdcd567b52817d49745501b081836641051e777c4246fd3dfb48012f9",
+        "bytes": 4046776
+      }
+    }
+  }
+}
