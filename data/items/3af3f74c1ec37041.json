@@ -1,0 +1,142 @@
+{
+  "id": "3af3f74c1ec37041",
+  "key": "10019_resource_steel_regen.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_10019_resource_steel_regen",
+      "clave": "DefineSprite_4_10019_resource_steel_regen",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "da24ee8265d98d2bd6e8c4784f13837b2c44c7cf4e71d2a94577dc33c548d32e",
+          "crop": [
+            0,
+            0,
+            108,
+            54
+          ],
+          "canvas": [
+            109,
+            55
+          ],
+          "restore_mirror": false,
+          "size": [
+            108,
+            54
+          ],
+          "url": "media/hq/da/da24ee8265d98d2bd6e8c4784f13837b2c44c7cf4e71d2a94577dc33c548d32e.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "57bc6ea5b1c0e2ab771efa04d9eb9ec553854649bc67b00d1613e87b49de693e",
+          "crop": [
+            1,
+            0,
+            109,
+            54
+          ],
+          "canvas": [
+            109,
+            55
+          ],
+          "restore_mirror": false,
+          "size": [
+            108,
+            54
+          ],
+          "bundle": "packs/43/432ced01c78c33424616aae9fa215e0cd65f805703a0da86383f89d30b1f98a7.swp",
+          "offset": 1468948,
+          "length": 2614
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "da24ee8265d98d2bd6e8c4784f13837b2c44c7cf4e71d2a94577dc33c548d32e",
+          "crop": [
+            0,
+            0,
+            108,
+            54
+          ],
+          "canvas": [
+            109,
+            55
+          ],
+          "restore_mirror": false,
+          "size": [
+            108,
+            54
+          ],
+          "url": "media/hq/da/da24ee8265d98d2bd6e8c4784f13837b2c44c7cf4e71d2a94577dc33c548d32e.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "0aa5cc8ecf449cee701ec323301568c065c2bbc96418edb589623cc2c3b28104",
+          "crop": [
+            0,
+            0,
+            108,
+            54
+          ],
+          "canvas": [
+            109,
+            55
+          ],
+          "restore_mirror": false,
+          "size": [
+            108,
+            54
+          ],
+          "bundle": "packs/37/37f74c21c33311d82febf17c1b036b75b92a75b823263a2f929d14a2b321eb30.swp",
+          "offset": 139812,
+          "length": 2928
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "0aa5cc8ecf449cee701ec323301568c065c2bbc96418edb589623cc2c3b28104": {
+        "bundle": "packs/37/37f74c21c33311d82febf17c1b036b75b92a75b823263a2f929d14a2b321eb30.swp",
+        "offset": 139812,
+        "length": 2928
+      },
+      "57bc6ea5b1c0e2ab771efa04d9eb9ec553854649bc67b00d1613e87b49de693e": {
+        "bundle": "packs/43/432ced01c78c33424616aae9fa215e0cd65f805703a0da86383f89d30b1f98a7.swp",
+        "offset": 1468948,
+        "length": 2614
+      }
+    },
+    "bundles": {
+      "packs/37/37f74c21c33311d82febf17c1b036b75b92a75b823263a2f929d14a2b321eb30.swp": {
+        "sha256": "37f74c21c33311d82febf17c1b036b75b92a75b823263a2f929d14a2b321eb30",
+        "bytes": 4045798
+      },
+      "packs/43/432ced01c78c33424616aae9fa215e0cd65f805703a0da86383f89d30b1f98a7.swp": {
+        "sha256": "432ced01c78c33424616aae9fa215e0cd65f805703a0da86383f89d30b1f98a7",
+        "bytes": 4045067
+      }
+    }
+  }
+}

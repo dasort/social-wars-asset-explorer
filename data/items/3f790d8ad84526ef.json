@@ -1,0 +1,170 @@
+{
+  "id": "3f790d8ad84526ef",
+  "key": "218_dwarf_house.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_218_dwarf_house",
+      "clave": "DefineSprite_5_218_dwarf_house",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "778a99b3168a91c31b65711e75a70086925fc18f2bae343323f79b6790808167",
+          "crop": [
+            0,
+            0,
+            216,
+            219
+          ],
+          "canvas": [
+            216,
+            220
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            219
+          ],
+          "url": "media/hq/77/778a99b3168a91c31b65711e75a70086925fc18f2bae343323f79b6790808167.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "69c408c2dbc9bfbd6620c9c63f980a133c3c23b0ce385a479ecaf9cc69d44779",
+          "crop": [
+            0,
+            0,
+            216,
+            219
+          ],
+          "canvas": [
+            216,
+            220
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            219
+          ],
+          "bundle": "packs/11/11727083d9acbaa5a22bad66cc11604ea13f035cd8ed2b8b68cf9ba1f7814c40.swp",
+          "offset": 1719318,
+          "length": 11082
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "778a99b3168a91c31b65711e75a70086925fc18f2bae343323f79b6790808167",
+          "crop": [
+            0,
+            0,
+            216,
+            219
+          ],
+          "canvas": [
+            216,
+            220
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            219
+          ],
+          "url": "media/hq/77/778a99b3168a91c31b65711e75a70086925fc18f2bae343323f79b6790808167.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "778a99b3168a91c31b65711e75a70086925fc18f2bae343323f79b6790808167",
+          "crop": [
+            0,
+            0,
+            216,
+            219
+          ],
+          "canvas": [
+            216,
+            220
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            219
+          ],
+          "url": "media/hq/77/778a99b3168a91c31b65711e75a70086925fc18f2bae343323f79b6790808167.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "0a88f16ca674f521d7120ddc4c00f93905077f214c7f958784738b6fcb096359",
+          "crop": [
+            0,
+            0,
+            216,
+            219
+          ],
+          "canvas": [
+            216,
+            220
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            219
+          ],
+          "bundle": "packs/23/235c7c3fbf552a13e6bb23b8c88f924785a3b61826a2d9e9366f730a862ebad1.swp",
+          "offset": 179166,
+          "length": 12058
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "0a88f16ca674f521d7120ddc4c00f93905077f214c7f958784738b6fcb096359": {
+        "bundle": "packs/23/235c7c3fbf552a13e6bb23b8c88f924785a3b61826a2d9e9366f730a862ebad1.swp",
+        "offset": 179166,
+        "length": 12058
+      },
+      "69c408c2dbc9bfbd6620c9c63f980a133c3c23b0ce385a479ecaf9cc69d44779": {
+        "bundle": "packs/11/11727083d9acbaa5a22bad66cc11604ea13f035cd8ed2b8b68cf9ba1f7814c40.swp",
+        "offset": 1719318,
+        "length": 11082
+      }
+    },
+    "bundles": {
+      "packs/23/235c7c3fbf552a13e6bb23b8c88f924785a3b61826a2d9e9366f730a862ebad1.swp": {
+        "sha256": "235c7c3fbf552a13e6bb23b8c88f924785a3b61826a2d9e9366f730a862ebad1",
+        "bytes": 4044769
+      },
+      "packs/11/11727083d9acbaa5a22bad66cc11604ea13f035cd8ed2b8b68cf9ba1f7814c40.swp": {
+        "sha256": "11727083d9acbaa5a22bad66cc11604ea13f035cd8ed2b8b68cf9ba1f7814c40",
+        "bytes": 4054504
+      }
+    }
+  }
+}

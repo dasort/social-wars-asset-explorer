@@ -1,0 +1,159 @@
+{
+  "id": "3d146489fd38e171",
+  "key": "0160_robo_lancer_academy_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_0160_robo_lancer_academy_m",
+      "clave": "DefineSprite_5_0160_robo_lancer_academy_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380",
+          "crop": [
+            0,
+            0,
+            432,
+            370
+          ],
+          "canvas": [
+            432,
+            370
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            188
+          ],
+          "url": "media/hq/ba/ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "165347d150c57fa7547f96c41ddfa83d119c30104e0768477c6fde0a10281da5",
+          "crop": [
+            0,
+            0,
+            432,
+            370
+          ],
+          "canvas": [
+            432,
+            370
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            188
+          ],
+          "bundle": "packs/fd/fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c.swp",
+          "offset": 360062,
+          "length": 13966
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380",
+          "crop": [
+            0,
+            0,
+            432,
+            370
+          ],
+          "canvas": [
+            432,
+            370
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            188
+          ],
+          "url": "media/hq/ba/ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380",
+          "crop": [
+            0,
+            0,
+            432,
+            370
+          ],
+          "canvas": [
+            432,
+            370
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            188
+          ],
+          "url": "media/hq/ba/ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380",
+          "crop": [
+            0,
+            0,
+            432,
+            370
+          ],
+          "canvas": [
+            432,
+            370
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            188
+          ],
+          "url": "media/hq/ba/ba79b3c39047219eda4aaae6fc526dcbce4d45e64f7ebdb61cf7edb8b24eb380.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "165347d150c57fa7547f96c41ddfa83d119c30104e0768477c6fde0a10281da5": {
+        "bundle": "packs/fd/fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c.swp",
+        "offset": 360062,
+        "length": 13966
+      }
+    },
+    "bundles": {
+      "packs/fd/fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c.swp": {
+        "sha256": "fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c",
+        "bytes": 4043822
+      }
+    }
+  }
+}
