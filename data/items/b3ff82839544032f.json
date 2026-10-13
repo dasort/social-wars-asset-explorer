@@ -1,0 +1,159 @@
+{
+  "id": "b3ff82839544032f",
+  "key": "235_viking_rune_golem_academy.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_235_viking_rune_golem_academy",
+      "clave": "DefineSprite_5_235_viking_rune_golem_academy",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7",
+          "crop": [
+            0,
+            0,
+            447,
+            439
+          ],
+          "canvas": [
+            447,
+            440
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            216
+          ],
+          "url": "media/hq/8c/8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "f5ba47596b2d901a754dbc70fa193199cb144bdcbccc3cf8ef9ddf89e4a1195f",
+          "crop": [
+            0,
+            0,
+            447,
+            439
+          ],
+          "canvas": [
+            447,
+            440
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            216
+          ],
+          "bundle": "packs/67/67f7f786e5e894f5396ffa31dfbf6e29613eb95707c5376b62ed35e772914057.swp",
+          "offset": 3842098,
+          "length": 15152
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7",
+          "crop": [
+            0,
+            0,
+            447,
+            439
+          ],
+          "canvas": [
+            447,
+            440
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            216
+          ],
+          "url": "media/hq/8c/8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7",
+          "crop": [
+            0,
+            0,
+            447,
+            439
+          ],
+          "canvas": [
+            447,
+            440
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            216
+          ],
+          "url": "media/hq/8c/8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7",
+          "crop": [
+            0,
+            0,
+            447,
+            439
+          ],
+          "canvas": [
+            447,
+            440
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            216
+          ],
+          "url": "media/hq/8c/8ce795a7b77694aa04b5d316e1b8038d561dafe484663b37309d443b281fc2c7.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "f5ba47596b2d901a754dbc70fa193199cb144bdcbccc3cf8ef9ddf89e4a1195f": {
+        "bundle": "packs/67/67f7f786e5e894f5396ffa31dfbf6e29613eb95707c5376b62ed35e772914057.swp",
+        "offset": 3842098,
+        "length": 15152
+      }
+    },
+    "bundles": {
+      "packs/67/67f7f786e5e894f5396ffa31dfbf6e29613eb95707c5376b62ed35e772914057.swp": {
+        "sha256": "67f7f786e5e894f5396ffa31dfbf6e29613eb95707c5376b62ed35e772914057",
+        "bytes": 4044746
+      }
+    }
+  }
+}
