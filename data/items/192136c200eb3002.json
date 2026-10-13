@@ -1,0 +1,131 @@
+{
+  "id": "192136c200eb3002",
+  "key": "301_punisherBot_Factory.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_301_punisherBot_Factory",
+      "clave": "DefineSprite_4_301_punisherBot_Factory",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f85c07548a9db0b3bceaffbefcd231a81ffd44fd1d4fb7b2590f432d14acb67b",
+          "crop": [
+            0,
+            0,
+            432,
+            445
+          ],
+          "canvas": [
+            432,
+            445
+          ],
+          "restore_mirror": false,
+          "size": [
+            214,
+            220
+          ],
+          "url": "media/hq/f8/f85c07548a9db0b3bceaffbefcd231a81ffd44fd1d4fb7b2590f432d14acb67b.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "a81300fe16adf38556f38637ee4498ef12487523736c7a0b012be46346c928e2",
+          "crop": [
+            0,
+            0,
+            432,
+            445
+          ],
+          "canvas": [
+            432,
+            445
+          ],
+          "restore_mirror": false,
+          "size": [
+            214,
+            220
+          ],
+          "bundle": "packs/85/85e1649989dca93bd5cb4813912ff49d73c20693ce509cb6973a016726531881.swp",
+          "offset": 2609482,
+          "length": 12146
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f85c07548a9db0b3bceaffbefcd231a81ffd44fd1d4fb7b2590f432d14acb67b",
+          "crop": [
+            0,
+            0,
+            432,
+            445
+          ],
+          "canvas": [
+            432,
+            445
+          ],
+          "restore_mirror": false,
+          "size": [
+            214,
+            220
+          ],
+          "url": "media/hq/f8/f85c07548a9db0b3bceaffbefcd231a81ffd44fd1d4fb7b2590f432d14acb67b.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f85c07548a9db0b3bceaffbefcd231a81ffd44fd1d4fb7b2590f432d14acb67b",
+          "crop": [
+            0,
+            0,
+            432,
+            445
+          ],
+          "canvas": [
+            432,
+            445
+          ],
+          "restore_mirror": false,
+          "size": [
+            214,
+            220
+          ],
+          "url": "media/hq/f8/f85c07548a9db0b3bceaffbefcd231a81ffd44fd1d4fb7b2590f432d14acb67b.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "a81300fe16adf38556f38637ee4498ef12487523736c7a0b012be46346c928e2": {
+        "bundle": "packs/85/85e1649989dca93bd5cb4813912ff49d73c20693ce509cb6973a016726531881.swp",
+        "offset": 2609482,
+        "length": 12146
+      }
+    },
+    "bundles": {
+      "packs/85/85e1649989dca93bd5cb4813912ff49d73c20693ce509cb6973a016726531881.swp": {
+        "sha256": "85e1649989dca93bd5cb4813912ff49d73c20693ce509cb6973a016726531881",
+        "bytes": 4052072
+      }
+    }
+  }
+}

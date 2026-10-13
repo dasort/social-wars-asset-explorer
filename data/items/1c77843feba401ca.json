@@ -1,0 +1,367 @@
+{
+  "id": "1c77843feba401ca",
+  "key": "0044_bazooka_academy_3_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_10_0044_bazooka_academy_3_m",
+      "clave": "DefineSprite_10_0044_bazooka_academy_3_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d8fba8bdb0b72ff7f581e1548587621096362b31f705c5673db21268db219b73",
+          "crop": [
+            0,
+            2,
+            540,
+            360
+          ],
+          "canvas": [
+            540,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "url": "media/hq/d8/d8fba8bdb0b72ff7f581e1548587621096362b31f705c5673db21268db219b73.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "70227df7cdb487050f7a63d1702c1877c74a65fdada77cb79b6ea8fb93550a68",
+          "crop": [
+            0,
+            2,
+            540,
+            360
+          ],
+          "canvas": [
+            540,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "bundle": "packs/fd/fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c.swp",
+          "offset": 1810160,
+          "length": 11302
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_9",
+      "clave": "DefineSprite_9",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d8fba8bdb0b72ff7f581e1548587621096362b31f705c5673db21268db219b73",
+          "crop": [
+            0,
+            2,
+            540,
+            360
+          ],
+          "canvas": [
+            540,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "url": "media/hq/d8/d8fba8bdb0b72ff7f581e1548587621096362b31f705c5673db21268db219b73.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "e76b9cdf78abf25266eb9ac6b7bf817754161b41991853a160b1f2071fabdcaa",
+          "crop": [
+            0,
+            0,
+            34,
+            71
+          ],
+          "canvas": [
+            34,
+            71
+          ],
+          "restore_mirror": false,
+          "size": [
+            34,
+            71
+          ],
+          "bundle": "packs/f9/f93f6e189de7903628f81a6f6161df30d42da666debb5660d36937cd50a3f568.swp",
+          "offset": 3689688,
+          "length": 1388
+        }
+      ]
+    },
+    {
+      "nombre": "images/2.png",
+      "clave": "images/2.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 2,
+          "asset": "bb2a30e82cceb1ced6029f305cf697e4b7d5df2f0ff94ba7e08303588df65ba3",
+          "crop": [
+            0,
+            0,
+            81,
+            58
+          ],
+          "canvas": [
+            81,
+            58
+          ],
+          "restore_mirror": false,
+          "size": [
+            81,
+            58
+          ],
+          "bundle": "packs/57/575127d377b30e9de2fc9e6906ccc32d466018b94ee2e139a87d86ecf103e0e1.swp",
+          "offset": 2923186,
+          "length": 1852
+        }
+      ]
+    },
+    {
+      "nombre": "images/3.png",
+      "clave": "images/3.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 3,
+          "asset": "a3cfef92f5b39a947dada6e1fc3807c143282807955146e7243f4d44de5277cf",
+          "crop": [
+            0,
+            0,
+            61,
+            35
+          ],
+          "canvas": [
+            61,
+            35
+          ],
+          "restore_mirror": false,
+          "size": [
+            61,
+            35
+          ],
+          "bundle": "packs/e8/e87e3af1b80f174555b79b3214170e125d6cd53ee2a6d2c931e2a5f111480ef5.swp",
+          "offset": 2593458,
+          "length": 1206
+        }
+      ]
+    },
+    {
+      "nombre": "images/4.png",
+      "clave": "images/4.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 4,
+          "asset": "f75438449a9fcd8ada9bf2bd1ea31d8b47eb44286816cf1124702de0d9edae6d",
+          "crop": [
+            0,
+            0,
+            75,
+            43
+          ],
+          "canvas": [
+            75,
+            43
+          ],
+          "restore_mirror": false,
+          "size": [
+            75,
+            43
+          ],
+          "bundle": "packs/7b/7b6b27a992dec4555a1dea0bc8387b08278cfb350eb035b7b18f5bbe86ac5b3a.swp",
+          "offset": 3875794,
+          "length": 1410
+        }
+      ]
+    },
+    {
+      "nombre": "images/5.png",
+      "clave": "images/5.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 5,
+          "asset": "a3cfef92f5b39a947dada6e1fc3807c143282807955146e7243f4d44de5277cf",
+          "crop": [
+            0,
+            0,
+            61,
+            35
+          ],
+          "canvas": [
+            61,
+            35
+          ],
+          "restore_mirror": false,
+          "size": [
+            61,
+            35
+          ],
+          "bundle": "packs/e8/e87e3af1b80f174555b79b3214170e125d6cd53ee2a6d2c931e2a5f111480ef5.swp",
+          "offset": 2593458,
+          "length": 1206
+        }
+      ]
+    },
+    {
+      "nombre": "images/6.png",
+      "clave": "images/6.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 6,
+          "asset": "7d75d4e7497d6038d28a14269b786ff29509a8fecf0c8e23ff84b89f6f755cdf",
+          "crop": [
+            0,
+            0,
+            96,
+            72
+          ],
+          "canvas": [
+            96,
+            72
+          ],
+          "restore_mirror": false,
+          "size": [
+            96,
+            72
+          ],
+          "bundle": "packs/a6/a6be336ea5739a4ad0fec24e94cf5d249c82ae8bf83192f2d50dc4015ce692a6.swp",
+          "offset": 2084974,
+          "length": 2398
+        }
+      ]
+    },
+    {
+      "nombre": "images/7.png",
+      "clave": "images/7.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 7,
+          "asset": "1888d5c531a9af963284220ad39ce87273bd907d3041f3f20d55e61b8e9e7f66",
+          "crop": [
+            0,
+            2,
+            540,
+            360
+          ],
+          "canvas": [
+            540,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "bundle": "packs/b1/b1776983e99c0ad4d050a027616b0b06fb514a02f7ed49b01ad50ccc5285d3f9.swp",
+          "offset": 351880,
+          "length": 9746
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "e76b9cdf78abf25266eb9ac6b7bf817754161b41991853a160b1f2071fabdcaa": {
+        "bundle": "packs/f9/f93f6e189de7903628f81a6f6161df30d42da666debb5660d36937cd50a3f568.swp",
+        "offset": 3689688,
+        "length": 1388
+      },
+      "bb2a30e82cceb1ced6029f305cf697e4b7d5df2f0ff94ba7e08303588df65ba3": {
+        "bundle": "packs/57/575127d377b30e9de2fc9e6906ccc32d466018b94ee2e139a87d86ecf103e0e1.swp",
+        "offset": 2923186,
+        "length": 1852
+      },
+      "a3cfef92f5b39a947dada6e1fc3807c143282807955146e7243f4d44de5277cf": {
+        "bundle": "packs/e8/e87e3af1b80f174555b79b3214170e125d6cd53ee2a6d2c931e2a5f111480ef5.swp",
+        "offset": 2593458,
+        "length": 1206
+      },
+      "f75438449a9fcd8ada9bf2bd1ea31d8b47eb44286816cf1124702de0d9edae6d": {
+        "bundle": "packs/7b/7b6b27a992dec4555a1dea0bc8387b08278cfb350eb035b7b18f5bbe86ac5b3a.swp",
+        "offset": 3875794,
+        "length": 1410
+      },
+      "7d75d4e7497d6038d28a14269b786ff29509a8fecf0c8e23ff84b89f6f755cdf": {
+        "bundle": "packs/a6/a6be336ea5739a4ad0fec24e94cf5d249c82ae8bf83192f2d50dc4015ce692a6.swp",
+        "offset": 2084974,
+        "length": 2398
+      },
+      "1888d5c531a9af963284220ad39ce87273bd907d3041f3f20d55e61b8e9e7f66": {
+        "bundle": "packs/b1/b1776983e99c0ad4d050a027616b0b06fb514a02f7ed49b01ad50ccc5285d3f9.swp",
+        "offset": 351880,
+        "length": 9746
+      },
+      "70227df7cdb487050f7a63d1702c1877c74a65fdada77cb79b6ea8fb93550a68": {
+        "bundle": "packs/fd/fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c.swp",
+        "offset": 1810160,
+        "length": 11302
+      }
+    },
+    "bundles": {
+      "packs/f9/f93f6e189de7903628f81a6f6161df30d42da666debb5660d36937cd50a3f568.swp": {
+        "sha256": "f93f6e189de7903628f81a6f6161df30d42da666debb5660d36937cd50a3f568",
+        "bytes": 4057720
+      },
+      "packs/57/575127d377b30e9de2fc9e6906ccc32d466018b94ee2e139a87d86ecf103e0e1.swp": {
+        "sha256": "575127d377b30e9de2fc9e6906ccc32d466018b94ee2e139a87d86ecf103e0e1",
+        "bytes": 4055440
+      },
+      "packs/e8/e87e3af1b80f174555b79b3214170e125d6cd53ee2a6d2c931e2a5f111480ef5.swp": {
+        "sha256": "e87e3af1b80f174555b79b3214170e125d6cd53ee2a6d2c931e2a5f111480ef5",
+        "bytes": 4055422
+      },
+      "packs/7b/7b6b27a992dec4555a1dea0bc8387b08278cfb350eb035b7b18f5bbe86ac5b3a.swp": {
+        "sha256": "7b6b27a992dec4555a1dea0bc8387b08278cfb350eb035b7b18f5bbe86ac5b3a",
+        "bytes": 4044120
+      },
+      "packs/a6/a6be336ea5739a4ad0fec24e94cf5d249c82ae8bf83192f2d50dc4015ce692a6.swp": {
+        "sha256": "a6be336ea5739a4ad0fec24e94cf5d249c82ae8bf83192f2d50dc4015ce692a6",
+        "bytes": 4054322
+      },
+      "packs/b1/b1776983e99c0ad4d050a027616b0b06fb514a02f7ed49b01ad50ccc5285d3f9.swp": {
+        "sha256": "b1776983e99c0ad4d050a027616b0b06fb514a02f7ed49b01ad50ccc5285d3f9",
+        "bytes": 4049931
+      },
+      "packs/fd/fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c.swp": {
+        "sha256": "fd28551207c356d74339da7c956e67b8e6932f9e6649a0e3c91e541e13e2c00c",
+        "bytes": 4043822
+      }
+    }
+  }
+}
