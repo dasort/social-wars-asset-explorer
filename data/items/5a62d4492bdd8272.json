@@ -1,0 +1,131 @@
+{
+  "id": "5a62d4492bdd8272",
+  "key": "0155_robo_swordsman_academy_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_0155_robo_swordsman_academy_m",
+      "clave": "DefineSprite_4_0155_robo_swordsman_academy_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "08713a7e13be508ce739bbc413643c90527c3ecd9f62f839ab6486e44269917b",
+          "crop": [
+            0,
+            0,
+            432,
+            311
+          ],
+          "canvas": [
+            432,
+            311
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            158
+          ],
+          "url": "media/hq/08/08713a7e13be508ce739bbc413643c90527c3ecd9f62f839ab6486e44269917b.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "d368982d487001942361208c27c849a33b5414718e991fc15b61ab040284fcf8",
+          "crop": [
+            0,
+            0,
+            432,
+            311
+          ],
+          "canvas": [
+            432,
+            311
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            158
+          ],
+          "bundle": "packs/58/58d4583459a66dc7dff97388e57ee69002d295907bf07f1eaeb4b71311aa1352.swp",
+          "offset": 3243586,
+          "length": 11056
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "08713a7e13be508ce739bbc413643c90527c3ecd9f62f839ab6486e44269917b",
+          "crop": [
+            0,
+            0,
+            432,
+            311
+          ],
+          "canvas": [
+            432,
+            311
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            158
+          ],
+          "url": "media/hq/08/08713a7e13be508ce739bbc413643c90527c3ecd9f62f839ab6486e44269917b.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "08713a7e13be508ce739bbc413643c90527c3ecd9f62f839ab6486e44269917b",
+          "crop": [
+            0,
+            0,
+            432,
+            311
+          ],
+          "canvas": [
+            432,
+            311
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            158
+          ],
+          "url": "media/hq/08/08713a7e13be508ce739bbc413643c90527c3ecd9f62f839ab6486e44269917b.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "d368982d487001942361208c27c849a33b5414718e991fc15b61ab040284fcf8": {
+        "bundle": "packs/58/58d4583459a66dc7dff97388e57ee69002d295907bf07f1eaeb4b71311aa1352.swp",
+        "offset": 3243586,
+        "length": 11056
+      }
+    },
+    "bundles": {
+      "packs/58/58d4583459a66dc7dff97388e57ee69002d295907bf07f1eaeb4b71311aa1352.swp": {
+        "sha256": "58d4583459a66dc7dff97388e57ee69002d295907bf07f1eaeb4b71311aa1352",
+        "bytes": 4051682
+      }
+    }
+  }
+}

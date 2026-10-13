@@ -1,0 +1,142 @@
+{
+  "id": "6280b4d2d3bfe4d7",
+  "key": "10052_chickens.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_10052_chickens",
+      "clave": "DefineSprite_4_10052_chickens",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1f1b6e789ee4b8dc8679a139c1beb8a5deaf7353a8c6c0296f7e3b8845297468",
+          "crop": [
+            0,
+            0,
+            216,
+            170
+          ],
+          "canvas": [
+            216,
+            170
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            170
+          ],
+          "url": "media/hq/1f/1f1b6e789ee4b8dc8679a139c1beb8a5deaf7353a8c6c0296f7e3b8845297468.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "381395fad9c372143cb8fec404723aac461beec513230d3627034d191c9da5fe",
+          "crop": [
+            0,
+            0,
+            216,
+            170
+          ],
+          "canvas": [
+            216,
+            170
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            170
+          ],
+          "bundle": "packs/a3/a32e9e014ce25dc8f7d3084b7822abefde28eb4b5328a72c9697bdc7d63a3456.swp",
+          "offset": 903126,
+          "length": 6064
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1f1b6e789ee4b8dc8679a139c1beb8a5deaf7353a8c6c0296f7e3b8845297468",
+          "crop": [
+            0,
+            0,
+            216,
+            170
+          ],
+          "canvas": [
+            216,
+            170
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            170
+          ],
+          "url": "media/hq/1f/1f1b6e789ee4b8dc8679a139c1beb8a5deaf7353a8c6c0296f7e3b8845297468.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "5ed70425dcbb6acef1859e845715ee9b085a999cce14b56a4d61571c0bb4ed86",
+          "crop": [
+            0,
+            0,
+            216,
+            170
+          ],
+          "canvas": [
+            216,
+            170
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            170
+          ],
+          "bundle": "packs/82/82cd41ab46b3ebc8eed5954b4ccc34b99e8359eafcb3bc5b904e131df3e93c87.swp",
+          "offset": 1427144,
+          "length": 6618
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "5ed70425dcbb6acef1859e845715ee9b085a999cce14b56a4d61571c0bb4ed86": {
+        "bundle": "packs/82/82cd41ab46b3ebc8eed5954b4ccc34b99e8359eafcb3bc5b904e131df3e93c87.swp",
+        "offset": 1427144,
+        "length": 6618
+      },
+      "381395fad9c372143cb8fec404723aac461beec513230d3627034d191c9da5fe": {
+        "bundle": "packs/a3/a32e9e014ce25dc8f7d3084b7822abefde28eb4b5328a72c9697bdc7d63a3456.swp",
+        "offset": 903126,
+        "length": 6064
+      }
+    },
+    "bundles": {
+      "packs/82/82cd41ab46b3ebc8eed5954b4ccc34b99e8359eafcb3bc5b904e131df3e93c87.swp": {
+        "sha256": "82cd41ab46b3ebc8eed5954b4ccc34b99e8359eafcb3bc5b904e131df3e93c87",
+        "bytes": 4055805
+      },
+      "packs/a3/a32e9e014ce25dc8f7d3084b7822abefde28eb4b5328a72c9697bdc7d63a3456.swp": {
+        "sha256": "a32e9e014ce25dc8f7d3084b7822abefde28eb4b5328a72c9697bdc7d63a3456",
+        "bytes": 4052918
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "60b988d7b5ff7a84",
+  "key": "0068_iguazu_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_0068_iguazu_m",
+      "clave": "DefineSprite_4_0068_iguazu_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d6af53de928ba3dc901c0ccd4fb170f6ee59feee6f4e79515911a67102108213",
+          "crop": [
+            0,
+            0,
+            317,
+            210
+          ],
+          "canvas": [
+            317,
+            210
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "url": "media/hq/d6/d6af53de928ba3dc901c0ccd4fb170f6ee59feee6f4e79515911a67102108213.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "81ff9d0319246448f6214cfb1733f7972215515ec614e16390a2fe2570386a5b",
+          "crop": [
+            0,
+            0,
+            317,
+            210
+          ],
+          "canvas": [
+            317,
+            210
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "bundle": "packs/ab/ab95fe3ae61e7cc77bde916d73f274ae94768787746d7b6f5d562130b7af87b4.swp",
+          "offset": 1872084,
+          "length": 8246
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d6af53de928ba3dc901c0ccd4fb170f6ee59feee6f4e79515911a67102108213",
+          "crop": [
+            0,
+            0,
+            317,
+            210
+          ],
+          "canvas": [
+            317,
+            210
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "url": "media/hq/d6/d6af53de928ba3dc901c0ccd4fb170f6ee59feee6f4e79515911a67102108213.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d6af53de928ba3dc901c0ccd4fb170f6ee59feee6f4e79515911a67102108213",
+          "crop": [
+            0,
+            0,
+            317,
+            210
+          ],
+          "canvas": [
+            317,
+            210
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            146
+          ],
+          "url": "media/hq/d6/d6af53de928ba3dc901c0ccd4fb170f6ee59feee6f4e79515911a67102108213.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "81ff9d0319246448f6214cfb1733f7972215515ec614e16390a2fe2570386a5b": {
+        "bundle": "packs/ab/ab95fe3ae61e7cc77bde916d73f274ae94768787746d7b6f5d562130b7af87b4.swp",
+        "offset": 1872084,
+        "length": 8246
+      }
+    },
+    "bundles": {
+      "packs/ab/ab95fe3ae61e7cc77bde916d73f274ae94768787746d7b6f5d562130b7af87b4.swp": {
+        "sha256": "ab95fe3ae61e7cc77bde916d73f274ae94768787746d7b6f5d562130b7af87b4",
+        "bytes": 4045328
+      }
+    }
+  }
+}

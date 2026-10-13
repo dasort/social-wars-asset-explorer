@@ -1,0 +1,187 @@
+{
+  "id": "63a098db5661c56d",
+  "key": "282_spatial_space_ship_hangar.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_6_282_spatial_space_ship_hangar",
+      "clave": "DefineSprite_6_282_spatial_space_ship_hangar",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19",
+          "crop": [
+            0,
+            0,
+            432,
+            416
+          ],
+          "canvas": [
+            432,
+            416
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            212
+          ],
+          "url": "media/hq/43/43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "2bbc962d93749fa6334a0389486a5afbf54074f8ca6df65a6b5200560a9c8add",
+          "crop": [
+            0,
+            0,
+            432,
+            416
+          ],
+          "canvas": [
+            432,
+            416
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            212
+          ],
+          "bundle": "packs/e8/e8317d198b28fa0bb8578eae93c58e9d5c7aa50737270d983327aec0b80de492.swp",
+          "offset": 713416,
+          "length": 16726
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_5",
+      "clave": "DefineSprite_5",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19",
+          "crop": [
+            0,
+            0,
+            432,
+            416
+          ],
+          "canvas": [
+            432,
+            416
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            212
+          ],
+          "url": "media/hq/43/43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19",
+          "crop": [
+            0,
+            0,
+            432,
+            416
+          ],
+          "canvas": [
+            432,
+            416
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            212
+          ],
+          "url": "media/hq/43/43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19",
+          "crop": [
+            0,
+            0,
+            432,
+            416
+          ],
+          "canvas": [
+            432,
+            416
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            212
+          ],
+          "url": "media/hq/43/43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19",
+          "crop": [
+            0,
+            0,
+            432,
+            416
+          ],
+          "canvas": [
+            432,
+            416
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            212
+          ],
+          "url": "media/hq/43/43e47e370a25fb95e605b377e50b78f3ce700eae79cd8e7c723a45c2a0518c19.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "2bbc962d93749fa6334a0389486a5afbf54074f8ca6df65a6b5200560a9c8add": {
+        "bundle": "packs/e8/e8317d198b28fa0bb8578eae93c58e9d5c7aa50737270d983327aec0b80de492.swp",
+        "offset": 713416,
+        "length": 16726
+      }
+    },
+    "bundles": {
+      "packs/e8/e8317d198b28fa0bb8578eae93c58e9d5c7aa50737270d983327aec0b80de492.swp": {
+        "sha256": "e8317d198b28fa0bb8578eae93c58e9d5c7aa50737270d983327aec0b80de492",
+        "bytes": 4049689
+      }
+    }
+  }
+}
