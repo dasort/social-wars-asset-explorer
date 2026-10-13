@@ -1,0 +1,103 @@
+{
+  "id": "9dcc724d9c47d010",
+  "key": "10028_broken_bridge.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_10028_broken_bridge",
+      "clave": "DefineSprite_4_10028_broken_bridge",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1ef4d2625a279ed52212c9d42b012f66d34df02552a04922642daa9b7a9c381e",
+          "crop": [
+            43,
+            0,
+            683,
+            366
+          ],
+          "canvas": [
+            684,
+            374
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            126
+          ],
+          "url": "media/hq/1e/1ef4d2625a279ed52212c9d42b012f66d34df02552a04922642daa9b7a9c381e.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "3b4ec7c59706122b4d77eb3a0108abedbb89dd1da7c77b8e59387c9a05335dc5",
+          "crop": [
+            1,
+            7,
+            641,
+            373
+          ],
+          "canvas": [
+            684,
+            374
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            126
+          ],
+          "bundle": "packs/d9/d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6.swp",
+          "offset": 1001688,
+          "length": 10906
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1ef4d2625a279ed52212c9d42b012f66d34df02552a04922642daa9b7a9c381e",
+          "crop": [
+            0,
+            0,
+            640,
+            366
+          ],
+          "canvas": [
+            641,
+            367
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            126
+          ],
+          "url": "media/hq/1e/1ef4d2625a279ed52212c9d42b012f66d34df02552a04922642daa9b7a9c381e.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "3b4ec7c59706122b4d77eb3a0108abedbb89dd1da7c77b8e59387c9a05335dc5": {
+        "bundle": "packs/d9/d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6.swp",
+        "offset": 1001688,
+        "length": 10906
+      }
+    },
+    "bundles": {
+      "packs/d9/d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6.swp": {
+        "sha256": "d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6",
+        "bytes": 4044378
+      }
+    }
+  }
+}

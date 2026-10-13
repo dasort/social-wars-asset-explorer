@@ -1,0 +1,131 @@
+{
+  "id": "a74d5d93a506ac4e",
+  "key": "0131_black_aircraft_academy_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_0131_black_aircraft_academy_m",
+      "clave": "DefineSprite_4_0131_black_aircraft_academy_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "74cbb2730ff9f507ece387c24a3defb613250ef9e0ee293f2532ddc80fca8894",
+          "crop": [
+            0,
+            0,
+            540,
+            536
+          ],
+          "canvas": [
+            540,
+            537
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            218
+          ],
+          "url": "media/hq/74/74cbb2730ff9f507ece387c24a3defb613250ef9e0ee293f2532ddc80fca8894.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "3485b7ae1e50ea8a9b377b6afba02f5a5ff2be3086c4c55c587303d287809c11",
+          "crop": [
+            0,
+            0,
+            540,
+            536
+          ],
+          "canvas": [
+            540,
+            537
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            218
+          ],
+          "bundle": "packs/61/613a2192266df6093562983484dfee6b8a5883a06bae524be782036232eb113e.swp",
+          "offset": 817736,
+          "length": 11736
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "74cbb2730ff9f507ece387c24a3defb613250ef9e0ee293f2532ddc80fca8894",
+          "crop": [
+            0,
+            0,
+            540,
+            536
+          ],
+          "canvas": [
+            540,
+            537
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            218
+          ],
+          "url": "media/hq/74/74cbb2730ff9f507ece387c24a3defb613250ef9e0ee293f2532ddc80fca8894.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "74cbb2730ff9f507ece387c24a3defb613250ef9e0ee293f2532ddc80fca8894",
+          "crop": [
+            0,
+            0,
+            540,
+            536
+          ],
+          "canvas": [
+            540,
+            537
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            218
+          ],
+          "url": "media/hq/74/74cbb2730ff9f507ece387c24a3defb613250ef9e0ee293f2532ddc80fca8894.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "3485b7ae1e50ea8a9b377b6afba02f5a5ff2be3086c4c55c587303d287809c11": {
+        "bundle": "packs/61/613a2192266df6093562983484dfee6b8a5883a06bae524be782036232eb113e.swp",
+        "offset": 817736,
+        "length": 11736
+      }
+    },
+    "bundles": {
+      "packs/61/613a2192266df6093562983484dfee6b8a5883a06bae524be782036232eb113e.swp": {
+        "sha256": "613a2192266df6093562983484dfee6b8a5883a06bae524be782036232eb113e",
+        "bytes": 4046989
+      }
+    }
+  }
+}

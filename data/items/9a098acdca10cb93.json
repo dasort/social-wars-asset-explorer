@@ -1,0 +1,103 @@
+{
+  "id": "9a098acdca10cb93",
+  "key": "10048_oil_barrel.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_3_10048_oil_barrel",
+      "clave": "DefineSprite_3_10048_oil_barrel",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "55ee192534497295f49e0c4c64e672cef2e9e1ad41f0f2de147626bf8b9a88ae",
+          "crop": [
+            0,
+            0,
+            97,
+            159
+          ],
+          "canvas": [
+            97,
+            159
+          ],
+          "restore_mirror": false,
+          "size": [
+            97,
+            159
+          ],
+          "url": "media/hq/55/55ee192534497295f49e0c4c64e672cef2e9e1ad41f0f2de147626bf8b9a88ae.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "55ee192534497295f49e0c4c64e672cef2e9e1ad41f0f2de147626bf8b9a88ae",
+          "crop": [
+            0,
+            0,
+            97,
+            159
+          ],
+          "canvas": [
+            97,
+            159
+          ],
+          "restore_mirror": false,
+          "size": [
+            97,
+            159
+          ],
+          "url": "media/hq/55/55ee192534497295f49e0c4c64e672cef2e9e1ad41f0f2de147626bf8b9a88ae.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "02eb440b4e6555049bc26d2b4778d55ac9a2f6ad799b84c58b42c3e300dcbcdf",
+          "crop": [
+            0,
+            0,
+            97,
+            159
+          ],
+          "canvas": [
+            97,
+            159
+          ],
+          "restore_mirror": false,
+          "size": [
+            97,
+            159
+          ],
+          "bundle": "packs/8e/8e416afbff1ddbc2747622f26a357b83e7d6788d5de53ff16340a39f5df4e0e2.swp",
+          "offset": 34100,
+          "length": 3080
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "02eb440b4e6555049bc26d2b4778d55ac9a2f6ad799b84c58b42c3e300dcbcdf": {
+        "bundle": "packs/8e/8e416afbff1ddbc2747622f26a357b83e7d6788d5de53ff16340a39f5df4e0e2.swp",
+        "offset": 34100,
+        "length": 3080
+      }
+    },
+    "bundles": {
+      "packs/8e/8e416afbff1ddbc2747622f26a357b83e7d6788d5de53ff16340a39f5df4e0e2.swp": {
+        "sha256": "8e416afbff1ddbc2747622f26a357b83e7d6788d5de53ff16340a39f5df4e0e2",
+        "bytes": 4049273
+      }
+    }
+  }
+}
