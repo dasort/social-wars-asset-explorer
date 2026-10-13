@@ -70,11 +70,11 @@ async function run() {
   if(!/^[A-Za-z0-9][A-Za-z0-9-]*\/[A-Za-z0-9_.-]+$/.test(repo)){$('status').textContent='Ingresá propietario/repositorio, por ejemplo dasort/sw-prueba-releases.';return;}
   busy=true;playing=false;$('run').disabled=true;$('local').disabled=true;$('save').disabled=true;$('log').textContent='';
   const onPages=location.protocol==='https:'&&location.hostname.endsWith('.github.io');
-  report={version:'1.0',date:new Date().toISOString(),page:location.href,user_agent:navigator.userAgent,repository:repo,on_github_pages:onPages,automatic_success:false,attempts:[],qualification:'pending',expected:config};
+  report={version:'1.1',date:new Date().toISOString(),page:location.href,user_agent:navigator.userAgent,repository:repo,on_github_pages:onPages,automatic_success:false,attempts:[],qualification:'pending',expected:config};
   $('status').textContent='Comprobando acceso desde el navegador…';
   try {
     const direct='https://github.com/'+repo+'/releases/download/'+encodeURIComponent(config.tag)+'/'+config.asset_name;
-    const routes=[{name:'Enlace directo de Releases',url:direct}];
+    const routes=[{name:'Archivo raw del repositorio',url:'https://raw.githubusercontent.com/'+repo+'/567467062340fd3130179f20e8df2705293080eb/sw-prueba.json'},{name:'Enlace directo de Releases',url:direct}];
     let success=false;
     for(let routeIndex=0;routeIndex<routes.length;routeIndex++) {
       const route=routes[routeIndex];log('Probando: '+route.name);
@@ -82,9 +82,9 @@ async function run() {
         const fetched=await request(route.url,route.accept);
         const checks=await validate(fetched.bytes);
         report.attempts.push({route:route.name,url:route.url,ok:true,milliseconds:fetched.milliseconds,final_url:fetched.final_url,content_type:fetched.content_type,checks});
-        report.automatic_success=true;success=true;log('Carga, integridad, '+checks.logical_frames+' frames y exportación PNG: correctos.');break;
+        report.automatic_success=true;report.successful_source=route.name;success=true;log('Carga, integridad, '+checks.logical_frames+' frames y exportación PNG: correctos.');break;
       } catch(error) {report.attempts.push({route:route.name,url:route.url,ok:false,error:String(error)});log('No funcionó: '+String(error));}
-      if(routeIndex===0) {
+      if(route.name==='Enlace directo de Releases') {
         try {
           const metadata=await request('https://api.github.com/repos/'+repo+'/releases/tags/'+encodeURIComponent(config.tag));
           const release=JSON.parse(new TextDecoder().decode(metadata.bytes));
