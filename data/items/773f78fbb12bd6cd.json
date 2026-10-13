@@ -1,0 +1,131 @@
+{
+  "id": "773f78fbb12bd6cd",
+  "key": "10046_destroyed_building_4.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_10046_destroyed_building_4",
+      "clave": "DefineSprite_4_10046_destroyed_building_4",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "fc7f68ddcf9ed3c2de78c9e03a256c7892ebe71993ca9e91a4e49dde7efefe14",
+          "crop": [
+            0,
+            0,
+            432,
+            336
+          ],
+          "canvas": [
+            432,
+            337
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            171
+          ],
+          "url": "media/hq/fc/fc7f68ddcf9ed3c2de78c9e03a256c7892ebe71993ca9e91a4e49dde7efefe14.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "341df2abf98035007831df82c68694c76edec988730ef03530a0d1e1af437419",
+          "crop": [
+            0,
+            0,
+            432,
+            336
+          ],
+          "canvas": [
+            432,
+            337
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            171
+          ],
+          "bundle": "packs/6f/6f2008a8de9d85dc03ec4d0de23fb2b6300b3ac63e84cf1aa1dfba74232c2f23.swp",
+          "offset": 1001596,
+          "length": 11628
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "fc7f68ddcf9ed3c2de78c9e03a256c7892ebe71993ca9e91a4e49dde7efefe14",
+          "crop": [
+            0,
+            0,
+            432,
+            336
+          ],
+          "canvas": [
+            432,
+            337
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            171
+          ],
+          "url": "media/hq/fc/fc7f68ddcf9ed3c2de78c9e03a256c7892ebe71993ca9e91a4e49dde7efefe14.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "fc7f68ddcf9ed3c2de78c9e03a256c7892ebe71993ca9e91a4e49dde7efefe14",
+          "crop": [
+            0,
+            0,
+            432,
+            336
+          ],
+          "canvas": [
+            432,
+            337
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            171
+          ],
+          "url": "media/hq/fc/fc7f68ddcf9ed3c2de78c9e03a256c7892ebe71993ca9e91a4e49dde7efefe14.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "341df2abf98035007831df82c68694c76edec988730ef03530a0d1e1af437419": {
+        "bundle": "packs/6f/6f2008a8de9d85dc03ec4d0de23fb2b6300b3ac63e84cf1aa1dfba74232c2f23.swp",
+        "offset": 1001596,
+        "length": 11628
+      }
+    },
+    "bundles": {
+      "packs/6f/6f2008a8de9d85dc03ec4d0de23fb2b6300b3ac63e84cf1aa1dfba74232c2f23.swp": {
+        "sha256": "6f2008a8de9d85dc03ec4d0de23fb2b6300b3ac63e84cf1aa1dfba74232c2f23",
+        "bytes": 4048291
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "705e3bfb0b745ffe",
+  "key": "209_crusader_priest_academy.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_209_crusader_priest_academy",
+      "clave": "DefineSprite_5_209_crusader_priest_academy",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e",
+          "crop": [
+            0,
+            0,
+            432,
+            350
+          ],
+          "canvas": [
+            432,
+            350
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            178
+          ],
+          "url": "media/hq/a5/a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "8fe53c392f72a89b739147ead2eb7eb8d831da50fc944a9b40f3673fa708cfb0",
+          "crop": [
+            0,
+            0,
+            432,
+            350
+          ],
+          "canvas": [
+            432,
+            350
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            178
+          ],
+          "bundle": "packs/06/069c1c73503c2929b7f26114425177fe3ad09d0014920fa571c6324499204782.swp",
+          "offset": 2243096,
+          "length": 12108
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e",
+          "crop": [
+            0,
+            0,
+            432,
+            350
+          ],
+          "canvas": [
+            432,
+            350
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            178
+          ],
+          "url": "media/hq/a5/a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e",
+          "crop": [
+            0,
+            0,
+            432,
+            350
+          ],
+          "canvas": [
+            432,
+            350
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            178
+          ],
+          "url": "media/hq/a5/a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e",
+          "crop": [
+            0,
+            0,
+            432,
+            350
+          ],
+          "canvas": [
+            432,
+            350
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            178
+          ],
+          "url": "media/hq/a5/a5fa24ee615ca6c3fd5b3c06215b239db1f185ec50fe49c6dc444f0781e2c47e.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "8fe53c392f72a89b739147ead2eb7eb8d831da50fc944a9b40f3673fa708cfb0": {
+        "bundle": "packs/06/069c1c73503c2929b7f26114425177fe3ad09d0014920fa571c6324499204782.swp",
+        "offset": 2243096,
+        "length": 12108
+      }
+    },
+    "bundles": {
+      "packs/06/069c1c73503c2929b7f26114425177fe3ad09d0014920fa571c6324499204782.swp": {
+        "sha256": "069c1c73503c2929b7f26114425177fe3ad09d0014920fa571c6324499204782",
+        "bytes": 4053667
+      }
+    }
+  }
+}
