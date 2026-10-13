@@ -62,3 +62,13 @@ body.inspector-open{overflow:hidden}.detail{position:fixed;inset:0;z-index:10;di
 .debug-status[hidden]{display:none}
 .support-link{font-size:12px;padding:8px 12px;gap:7px}.support-link svg{width:17px;height:17px}
 @media(min-width:901px){.controls{flex-wrap:nowrap}.filter-row{flex:1 1 0;width:auto;min-width:0}.filter-row .filters{flex-wrap:nowrap;overflow-x:auto}.control-right{flex:0 0 auto;flex-wrap:nowrap}.preview-control select{width:290px}.sort-control select{width:100px}.filter{padding:7px 7px}}
+
+/* Progressive loading: overlay stays out of pointer hit testing and layout. */
+.card-art,.sprite-thumb,.stage{position:relative}
+.card-art>canvas{width:100%;height:100%;object-fit:contain;display:block}
+.sprite-thumb>canvas{position:absolute;inset:4px;width:calc(100% - 8px);height:calc(100% - 8px);object-fit:contain}
+.load-indicator{position:absolute;left:8px;bottom:8px;width:16px;height:16px;box-sizing:border-box;border:2px solid #ffffff45;border-top-color:#fff;border-radius:50%;animation:sw-loading .8s linear infinite;pointer-events:none;z-index:8;filter:drop-shadow(0 1px 2px #000);}
+.load-indicator[hidden]{display:none!important}
+.load-indicator.load-error{animation:none;border:0;background:#763727d9;color:#fff;text-align:center;font:bold 13px/16px sans-serif}
+@keyframes sw-loading{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.load-indicator{animation-duration:2s}}

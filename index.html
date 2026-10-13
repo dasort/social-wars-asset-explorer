@@ -7,9 +7,9 @@
   <meta name="description" content="Coleccion visual independiente de recursos originales de Social Wars.">
   <title>Social Wars : Asset Explorer</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css?v=0.5.0">
-  <script src="media-loader.js?v=0.5.0" defer></script>
-  <script src="app.js?v=0.5.0" defer></script>
+  <link rel="stylesheet" href="styles.css?v=0.5.1">
+  <script src="media-loader.js?v=0.5.1" defer></script>
+  <script src="app.js?v=0.5.1" defer></script>
 </head>
 <body>
 <div class="site">
@@ -39,10 +39,10 @@
             <option value="view2">Estático · Vista 2 · Diagonal trasera</option>
             <option value="view3">Estático · Vista 3 · Lateral</option>
             <option value="view4">Estático · Vista 4 · Diagonal delantera</option>
-            <option value="static" selected>Estático · Vista 5 · Frente (predeterminada)</option>
+            <option value="static">Estático · Vista 5 · Frente</option>
             <option value="rotate">Estático giratorio</option>
             <option value="idle">Animado · Quieto</option>
-            <option value="walk">Animado · Andando</option>
+            <option value="walk" selected>Animado · Andando (predeterminada)</option>
             <option value="attack">Animado · Ataque</option>
             <option value="icon">Ícono</option>
           </select>
@@ -59,7 +59,7 @@
     <div id="asset-grid" class="asset-grid" aria-label="Grilla de recursos"></div>
     <div class="pagination"><button id="load-more" class="load-more" type="button" hidden>Mostrar más</button></div>
   </main>
-  <footer class="footer">v0.5.0 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
+  <footer class="footer">v0.5.1 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
 </div>
 
 <div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title" hidden>
