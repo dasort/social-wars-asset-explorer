@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Social Wars · Prueba de Releases</title><link rel="stylesheet" href="styles.css">
+<main><h1>Social Wars · Prueba de Releases</h1>
+<p>Comprueba si el navegador puede cargar fotogramas desde GitHub Releases sin descargas manuales ni servicios intermediarios.</p>
+<label>Repositorio público <input id="repo" placeholder="dasort/nombre-del-repositorio" autocomplete="off"></label>
+<button id="run">Probar carga automática</button><button id="save" disabled>Descargar resultados</button>
+<p id="status" role="status">Pendiente de prueba.</p><pre id="log"></pre>
+<section><h2>Red Bazooka Jeep</h2><label>Estado <select id="state" disabled></select></label>
+<div class="stage"><img id="image" alt="Frame de la prueba" hidden></div>
+<div class="controls"><button id="prev" disabled aria-label="Frame anterior">◀</button><button id="play" disabled aria-label="Reproducir o pausar"><svg viewBox="0 0 24 24" width="18" height="18"><path id="playpath" d="M7 4 20 12 7 20Z" fill="currentColor"/></svg></button><button id="next" disabled aria-label="Frame siguiente">▶</button><output id="counter"></output><button id="png" disabled>Descargar PNG</button></div>
+<p>La tecla Espacio pausa o reanuda. El frame visible también es una imagen que permite usar el menú contextual del navegador.</p></section>
+<details><summary>Control manual del reproductor</summary><p>Permite abrir sw-prueba.json desde tu equipo para comprobar el reproductor. Este control NO demuestra que Releases funcione como alojamiento.</p><input id="local" type="file" accept=".json"></details>
+</main><script type="module" src="app.js"></script></html>
