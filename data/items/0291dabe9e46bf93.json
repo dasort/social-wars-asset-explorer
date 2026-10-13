@@ -1,0 +1,142 @@
+{
+  "id": "0291dabe9e46bf93",
+  "key": "0102_blue_leaf_flowers_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_0102_blue_leaf_flowers_m",
+      "clave": "DefineSprite_4_0102_blue_leaf_flowers_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "674e7afcf8c6eb90c946a7ac937e442c7b0f6b4dd420691208f984e2f4dd7979",
+          "crop": [
+            0,
+            0,
+            109,
+            61
+          ],
+          "canvas": [
+            110,
+            61
+          ],
+          "restore_mirror": false,
+          "size": [
+            109,
+            61
+          ],
+          "url": "media/hq/67/674e7afcf8c6eb90c946a7ac937e442c7b0f6b4dd420691208f984e2f4dd7979.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "387c4bd0cca3c6313f400e26c6771778fd3c56e8e2c75a45d39d054f959a0db2",
+          "crop": [
+            1,
+            0,
+            110,
+            61
+          ],
+          "canvas": [
+            110,
+            61
+          ],
+          "restore_mirror": false,
+          "size": [
+            109,
+            61
+          ],
+          "bundle": "packs/62/625d14a3eceeb9e965ba2c7bf032e0b53b28ae8e5026508c9448fbf6f91cd7ff.swp",
+          "offset": 785690,
+          "length": 3398
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "674e7afcf8c6eb90c946a7ac937e442c7b0f6b4dd420691208f984e2f4dd7979",
+          "crop": [
+            0,
+            0,
+            109,
+            61
+          ],
+          "canvas": [
+            110,
+            61
+          ],
+          "restore_mirror": false,
+          "size": [
+            109,
+            61
+          ],
+          "url": "media/hq/67/674e7afcf8c6eb90c946a7ac937e442c7b0f6b4dd420691208f984e2f4dd7979.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "992cab55fb095ea67ab555d136355c35a16959bbee6fa3bcf70f2ced5f1d863b",
+          "crop": [
+            0,
+            0,
+            109,
+            61
+          ],
+          "canvas": [
+            110,
+            61
+          ],
+          "restore_mirror": false,
+          "size": [
+            109,
+            61
+          ],
+          "bundle": "packs/cd/cda205e653ca362ed2d4478e2df40e5713282e7c32f6ef30da11b18bfd742856.swp",
+          "offset": 2343162,
+          "length": 3864
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "992cab55fb095ea67ab555d136355c35a16959bbee6fa3bcf70f2ced5f1d863b": {
+        "bundle": "packs/cd/cda205e653ca362ed2d4478e2df40e5713282e7c32f6ef30da11b18bfd742856.swp",
+        "offset": 2343162,
+        "length": 3864
+      },
+      "387c4bd0cca3c6313f400e26c6771778fd3c56e8e2c75a45d39d054f959a0db2": {
+        "bundle": "packs/62/625d14a3eceeb9e965ba2c7bf032e0b53b28ae8e5026508c9448fbf6f91cd7ff.swp",
+        "offset": 785690,
+        "length": 3398
+      }
+    },
+    "bundles": {
+      "packs/cd/cda205e653ca362ed2d4478e2df40e5713282e7c32f6ef30da11b18bfd742856.swp": {
+        "sha256": "cda205e653ca362ed2d4478e2df40e5713282e7c32f6ef30da11b18bfd742856",
+        "bytes": 4046132
+      },
+      "packs/62/625d14a3eceeb9e965ba2c7bf032e0b53b28ae8e5026508c9448fbf6f91cd7ff.swp": {
+        "sha256": "625d14a3eceeb9e965ba2c7bf032e0b53b28ae8e5026508c9448fbf6f91cd7ff",
+        "bytes": 4045827
+      }
+    }
+  }
+}

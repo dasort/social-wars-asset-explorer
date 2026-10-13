@@ -1,0 +1,159 @@
+{
+  "id": "0172e2f5e87e3844",
+  "key": "210_crusader_bot_factory.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_210_crusader_bot_factory",
+      "clave": "DefineSprite_5_210_crusader_bot_factory",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8",
+          "crop": [
+            0,
+            0,
+            432,
+            359
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "url": "media/hq/6d/6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "e09545d6e22cb688d02e790abf8d23217dd53e4b333a9bd95a75014f915f6222",
+          "crop": [
+            0,
+            0,
+            432,
+            359
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "bundle": "packs/92/92e2015c3d8ecd1226ccf10f51ec9fa950bf824105474ffffd616fd6f018cacc.swp",
+          "offset": 3349236,
+          "length": 14064
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8",
+          "crop": [
+            0,
+            0,
+            432,
+            359
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "url": "media/hq/6d/6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8",
+          "crop": [
+            0,
+            0,
+            432,
+            359
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "url": "media/hq/6d/6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8",
+          "crop": [
+            0,
+            0,
+            432,
+            359
+          ],
+          "canvas": [
+            432,
+            360
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            183
+          ],
+          "url": "media/hq/6d/6dfa020203428ea0149d8e8eb002c7138ecc8350ab22e342a64fcd5558dd1cc8.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "e09545d6e22cb688d02e790abf8d23217dd53e4b333a9bd95a75014f915f6222": {
+        "bundle": "packs/92/92e2015c3d8ecd1226ccf10f51ec9fa950bf824105474ffffd616fd6f018cacc.swp",
+        "offset": 3349236,
+        "length": 14064
+      }
+    },
+    "bundles": {
+      "packs/92/92e2015c3d8ecd1226ccf10f51ec9fa950bf824105474ffffd616fd6f018cacc.swp": {
+        "sha256": "92e2015c3d8ecd1226ccf10f51ec9fa950bf824105474ffffd616fd6f018cacc",
+        "bytes": 4048685
+      }
+    }
+  }
+}
