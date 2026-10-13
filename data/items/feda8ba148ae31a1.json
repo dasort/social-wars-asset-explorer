@@ -1,0 +1,142 @@
+{
+  "id": "feda8ba148ae31a1",
+  "key": "0001_house_1_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_0001_house_1_m",
+      "clave": "DefineSprite_4_0001_house_1_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "7846aaded8f9b0a955d84df519f33453f99d5e7d246613b8e46c6692f370c9a8",
+          "crop": [
+            0,
+            0,
+            216,
+            143
+          ],
+          "canvas": [
+            216,
+            144
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            143
+          ],
+          "url": "media/hq/78/7846aaded8f9b0a955d84df519f33453f99d5e7d246613b8e46c6692f370c9a8.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "e8d05b5ebc3a796d368add74f14c27b2f7f5760ec47e5977910c9637d4ab77e3",
+          "crop": [
+            0,
+            0,
+            216,
+            143
+          ],
+          "canvas": [
+            216,
+            144
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            143
+          ],
+          "bundle": "packs/d9/d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6.swp",
+          "offset": 3645828,
+          "length": 4944
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "7846aaded8f9b0a955d84df519f33453f99d5e7d246613b8e46c6692f370c9a8",
+          "crop": [
+            0,
+            0,
+            216,
+            143
+          ],
+          "canvas": [
+            216,
+            144
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            143
+          ],
+          "url": "media/hq/78/7846aaded8f9b0a955d84df519f33453f99d5e7d246613b8e46c6692f370c9a8.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "628d66b54102162f4f68444905bd4d4eb4fe71e4b1ac3a42a258b4e09384cb07",
+          "crop": [
+            0,
+            0,
+            216,
+            143
+          ],
+          "canvas": [
+            216,
+            144
+          ],
+          "restore_mirror": false,
+          "size": [
+            216,
+            143
+          ],
+          "bundle": "packs/8b/8b7b32e51b1a39339e89506af5058f54ba352a6d5cb844f5982ef20c20803ab4.swp",
+          "offset": 1535544,
+          "length": 5600
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "628d66b54102162f4f68444905bd4d4eb4fe71e4b1ac3a42a258b4e09384cb07": {
+        "bundle": "packs/8b/8b7b32e51b1a39339e89506af5058f54ba352a6d5cb844f5982ef20c20803ab4.swp",
+        "offset": 1535544,
+        "length": 5600
+      },
+      "e8d05b5ebc3a796d368add74f14c27b2f7f5760ec47e5977910c9637d4ab77e3": {
+        "bundle": "packs/d9/d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6.swp",
+        "offset": 3645828,
+        "length": 4944
+      }
+    },
+    "bundles": {
+      "packs/8b/8b7b32e51b1a39339e89506af5058f54ba352a6d5cb844f5982ef20c20803ab4.swp": {
+        "sha256": "8b7b32e51b1a39339e89506af5058f54ba352a6d5cb844f5982ef20c20803ab4",
+        "bytes": 4056465
+      },
+      "packs/d9/d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6.swp": {
+        "sha256": "d9bb4de92c589725dacae45ec4f6c12d8ab3ed99078aeb278bdaf84ea95635d6",
+        "bytes": 4044378
+      }
+    }
+  }
+}
