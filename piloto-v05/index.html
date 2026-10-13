@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1c1e20">
+  <meta name="description" content="Coleccion visual independiente de recursos originales de Social Wars.">
+  <title>Social Wars : Asset Explorer</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css?v=0.5.0">
+  <script src="media-loader.js?v=0.5.0" defer></script>
+  <script src="app.js?v=0.5.0" defer></script>
+</head>
+<body>
+<div class="site">
+  <header class="header">
+    <a class="brand" href="./" aria-label="Volver al catalogo">Social Wars <span>Asset Explorer</span></a>
+    <label class="global-search" for="search-input">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.2"/><path d="m15.2 15.2 5.1 5.1"/></svg>
+      <input type="search" id="search-input" placeholder="Buscar por nombre, archivo o ID" aria-label="Buscar recursos" autocomplete="off" spellcheck="false">
+    </label>
+    <div class="collection-stats" aria-label="Contenido y revisión">
+      <span class="png-badge" title="PNG originales registrados en el inventario de la versión 0.02a">Total: 419.371 PNG</span>
+      <span class="curation-note" title="Revisión manual de previews: los 403 recursos incluidos en el revisor local. El catálogo completo contiene 862 recursos.">Todos los recursos revisados individualmente</span>
+    </div>
+    <a id="support-repo" class="support-link" target="_blank" rel="noopener noreferrer" aria-label="Apoyar este proyecto en GitHub" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3-5.6-3-5.6 3 1.1-6.3-4.6-4.5 6.3-.9Z"/></svg>Apoyar en GitHub</a>
+    <a class="source-link" href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors ↗</a>
+  </header>
+  <main class="content" id="catalogo">
+    <div class="controls">
+      <div class="filter-row">
+        <nav id="filters" class="filters" aria-label="Filtrar recursos por categoría"></nav>
+        <label class="complete-filter" title="Filtra recursos con todos sus fotogramas preparados; no garantiza una animación reconocida">
+          <input id="complete-only" type="checkbox"> Secuencias completas <span id="complete-count" class="filter-count"></span>
+        </label>
+      </div>
+      <div class="control-right">
+        <span id="result-count" class="result-count visually-hidden" role="status">Cargando…</span>
+        <label class="preview-control">Vista
+          <select id="preview-mode" aria-label="Modo de preview de la grilla">
+            <option value="view1">Estático · Vista 1 · Atrás</option>
+            <option value="view2">Estático · Vista 2 · Diagonal trasera</option>
+            <option value="view3">Estático · Vista 3 · Lateral</option>
+            <option value="view4">Estático · Vista 4 · Diagonal delantera</option>
+            <option value="static" selected>Estático · Vista 5 · Frente (predeterminada)</option>
+            <option value="rotate">Estático giratorio</option>
+            <option value="idle">Animado · Quieto</option>
+            <option value="walk">Animado · Andando</option>
+            <option value="icon">Ícono</option>
+          </select>
+        </label>
+        <label class="sort-control">Ordenar
+          <select id="sort-select" aria-label="Ordenar recursos"><option value="id">ID</option><option value="name">Nombre</option><option value="size">Cantidad de PNG</option></select>
+        </label>
+        <button id="sort-direction" class="icon-button sort-direction" type="button" aria-label="Orden ascendente" title="Orden ascendente"></button>
+        <label class="size-control" title="Ancho de miniaturas">Tamaño
+          <input id="size-input" type="range" min="130" max="270" step="10" value="180" aria-label="Tamaño de tarjetas">
+        </label>
+        <button id="export-covers" class="export-covers" type="button" hidden>Exportar portadas</button>
+      </div>
+    </div>
+    <div id="asset-grid" class="asset-grid" aria-label="Grilla de recursos"></div>
+    <div class="pagination"><button id="load-more" class="load-more" type="button" hidden>Mostrar más</button></div>
+  </main>
+  <footer class="footer">v0.5.0 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
+</div>
+
+<div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title" hidden>
+  <div class="detail-top">
+    <button id="detail-back" class="back-link" type="button"><span aria-hidden="true">←</span> Volver</button>
+    <div class="detail-ident"><h1 id="detail-title">:</h1><span id="detail-file">:</span></div>
+    <div class="detail-actions">
+      <button id="copy-link" type="button" class="flat-button">Copiar enlace</button>
+      <a id="source-swf" class="flat-button" href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Ver en GitHub ↗</a>
+    </div>
+  </div>
+  <div class="detail-main">
+    <section class="viewer" aria-label="Imagen o fotograma seleccionado">
+      <div class="stage" id="stage">
+        <div class="stage-checker" aria-hidden="true"></div>
+        <img id="stage-image" alt="Vista del recurso" draggable="false" hidden>
+        <canvas id="stage-canvas" width="600" height="500" aria-label="Fotograma de galería" hidden></canvas>
+        <span id="stage-placeholder">No hay vista previa</span>
+        <div class="stage-downloads" aria-label="Descargar recurso">
+          <button id="download-swf" class="flat-button" type="button" title="Descargar un ZIP con el SWF original, sin salir de esta página" hidden>SWF (ZIP)</button>
+          <button id="download-frame" class="flat-button" type="button" title="Descargar el fotograma actual como PNG, con la resolución disponible" disabled>PNG</button>
+        </div>
+      </div>
+      <div id="preview-buttons" class="viewer-controls" hidden></div>
+      <div class="viewer-controls" id="viewer-controls" hidden>
+        <button id="previous" class="icon-button" type="button" aria-label="Fotograma anterior">‹</button>
+        <button id="play" class="icon-button play" type="button" aria-label="Recorrer fotogramas preparados">▶</button>
+        <button id="next" class="icon-button" type="button" aria-label="Fotograma siguiente">›</button>
+        <span id="frame-count" class="frame-count">:</span>
+        <input id="frame-range" type="range" min="0" max="0" value="0" aria-label="Fotograma">
+        <label class="fps">FPS <select id="fps" aria-label="Velocidad"><option value="6">6</option><option value="12" selected>12</option><option value="18">18</option><option value="24">24</option><option value="30">30</option></select></label>
+        <button id="mark-cover" class="mark-cover" type="button" title="Usar este fotograma como miniatura en este navegador; luego exportar la selección">Usar de portada</button>
+      </div>
+      <div class="viewer-caption">
+        <span id="active-group">Miniatura</span><span id="detail-meta">:</span>
+      </div>
+      <div id="preview-warning" class="preview-warning" hidden></div>
+    </section>
+    <aside class="sequences" aria-label="Lista de imágenes y sprites">
+      <div class="sequences-header"><strong>Imágenes y sprites</strong><span id="sequence-count">:</span></div>
+      <div class="sequences-tools">
+        <input id="sprite-search" type="search" placeholder="Filtrar sprites" autocomplete="off" aria-label="Buscar sprites">
+        <label title="Filtra grupos con varios fotogramas en el original, aunque solo haya una muestra preparada"><input id="animated-only" type="checkbox"> Varios frames originales</label>
+      </div>
+      <div class="state-options"><label>Estado <select id="state-select" aria-label="Filtrar por etiqueta del SWF"><option value="all">Todos</option></select></label><span id="state-note"></span></div>
+      <div class="sprite-options">
+        <label>Columnas <select id="sprite-columns" aria-label="Columnas de tarjetas de sprites"><option value="2">2</option><option value="3">3</option><option value="4" selected>4</option></select></label>
+        <span id="gallery-summary" role="status"></span>
+      </div>
+      <div id="sprite-grid" class="sprite-grid" tabindex="0" aria-label="Desplazar sprites independientemente"></div>
+      <div class="detail-source"><span>Galería completa a 220 px. Varios fotogramas pueden ser direcciones o estados.</span></div>
+    </aside>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+</body>
+</html>

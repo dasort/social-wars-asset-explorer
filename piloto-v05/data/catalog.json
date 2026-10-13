@@ -1,0 +1,539 @@
+{
+  "version": "0.5.0",
+  "items": [
+    {
+      "id": "5f9f3d02bc6ff603",
+      "nombre": "Red Bazooka Jeep",
+      "archivo": "1006_red_bazooka_jeep_m.swf",
+      "categoria": "Unidades",
+      "miniatura": "media/hq/f4/f499f27077d4ccc20ed9bc2a7b002a0a72cb0415f06e185c4c3243d88a3f7a2e.webp",
+      "portadaFuente": "ffdec_5",
+      "portadaGrupo": "DefineSprite_190_1006_red_bazooka_jeep_m",
+      "portadaFotograma": 5,
+      "icono": null,
+      "vistasEstaticas": {
+        "grupo": "DefineSprite_190_1006_red_bazooka_jeep_m",
+        "fotogramas": [
+          {
+            "numero": 1,
+            "url": "media/views/5f9f3d02bc6ff603/8bafb42d69180b6f_c4cc614ff4bc7499_f1_w220_q75.webp"
+          },
+          {
+            "numero": 2,
+            "url": "media/views/5f9f3d02bc6ff603/8bafb42d69180b6f_c4cc614ff4bc7499_f2_w220_q75.webp"
+          },
+          {
+            "numero": 3,
+            "url": "media/views/5f9f3d02bc6ff603/8bafb42d69180b6f_c4cc614ff4bc7499_f3_w220_q75.webp"
+          },
+          {
+            "numero": 4,
+            "url": "media/views/5f9f3d02bc6ff603/8bafb42d69180b6f_c4cc614ff4bc7499_f4_w220_q75.webp"
+          },
+          {
+            "numero": 5,
+            "url": "media/views/5f9f3d02bc6ff603/8bafb42d69180b6f_c4cc614ff4bc7499_f5_w220_q75.webp"
+          }
+        ],
+        "giroCompatible": true,
+        "criterio": "cinco_primeros_del_simbolo_principal",
+        "semanticaVerificada": false
+      },
+      "carpeta": "1006_red_bazooka_jeep_m.swf",
+      "imagenes": 57,
+      "grupos": 4,
+      "gruposMultiframe": 4,
+      "pesoPng": 2356734,
+      "detalle": "data/items/5f9f3d02bc6ff603.json",
+      "preparacion": "completo",
+      "clip": null,
+      "previews": {
+        "quieto": {
+          "fotogramas": [
+            {
+              "numero": 5,
+              "asset": "ef5a1af77481956029b575446da71d1890be85c0cfa47a99a8a761d1af4d9ec3",
+              "crop": [
+                45,
+                34,
+                156,
+                219
+              ],
+              "canvas": [
+                238,
+                224
+              ],
+              "restore_mirror": false,
+              "size": [
+                111,
+                185
+              ],
+              "url": "media/hq/ef/ef5a1af77481956029b575446da71d1890be85c0cfa47a99a8a761d1af4d9ec3.webp"
+            }
+          ],
+          "fps": 30,
+          "grupo": "DefineSprite_190_1006_red_bazooka_jeep_m",
+          "status": "confirmado"
+        },
+        "andando": {
+          "fotogramas": [
+            {
+              "numero": 1,
+              "asset": "70cb3bb5ce2016b6b52301d5eef880cc1719f920c549ae886045e4d8023f2bd9",
+              "crop": [
+                0,
+                0,
+                96,
+                172
+              ],
+              "canvas": [
+                96,
+                172
+              ],
+              "restore_mirror": false,
+              "size": [
+                96,
+                172
+              ],
+              "url": "media/hq/70/70cb3bb5ce2016b6b52301d5eef880cc1719f920c549ae886045e4d8023f2bd9.webp"
+            },
+            {
+              "numero": 2,
+              "asset": "70cb3bb5ce2016b6b52301d5eef880cc1719f920c549ae886045e4d8023f2bd9",
+              "crop": [
+                0,
+                0,
+                96,
+                172
+              ],
+              "canvas": [
+                96,
+                172
+              ],
+              "restore_mirror": false,
+              "size": [
+                96,
+                172
+              ],
+              "url": "media/hq/70/70cb3bb5ce2016b6b52301d5eef880cc1719f920c549ae886045e4d8023f2bd9.webp"
+            },
+            {
+              "numero": 3,
+              "asset": "70cb3bb5ce2016b6b52301d5eef880cc1719f920c549ae886045e4d8023f2bd9",
+              "crop": [
+                0,
+                0,
+                96,
+                172
+              ],
+              "canvas": [
+                96,
+                172
+              ],
+              "restore_mirror": false,
+              "size": [
+                96,
+                172
+              ],
+              "url": "media/hq/70/70cb3bb5ce2016b6b52301d5eef880cc1719f920c549ae886045e4d8023f2bd9.webp"
+            },
+            {
+              "numero": 4,
+              "asset": "078dc0942df70eae0badca9a031792d39665925f5d72abb614fce0c223e1b70e",
+              "crop": [
+                0,
+                0,
+                96,
+                172
+              ],
+              "canvas": [
+                96,
+                172
+              ],
+              "restore_mirror": false,
+              "size": [
+                96,
+                172
+              ],
+              "url": "media/hq/07/078dc0942df70eae0badca9a031792d39665925f5d72abb614fce0c223e1b70e.webp"
+            },
+            {
+              "numero": 5,
+              "asset": "078dc0942df70eae0badca9a031792d39665925f5d72abb614fce0c223e1b70e",
+              "crop": [
+                0,
+                0,
+                96,
+                172
+              ],
+              "canvas": [
+                96,
+                172
+              ],
+              "restore_mirror": false,
+              "size": [
+                96,
+                172
+              ],
+              "url": "media/hq/07/078dc0942df70eae0badca9a031792d39665925f5d72abb614fce0c223e1b70e.webp"
+            },
+            {
+              "numero": 6,
+              "asset": "078dc0942df70eae0badca9a031792d39665925f5d72abb614fce0c223e1b70e",
+              "crop": [
+                0,
+                0,
+                96,
+                172
+              ],
+              "canvas": [
+                96,
+                172
+              ],
+              "restore_mirror": false,
+              "size": [
+                96,
+                172
+              ],
+              "url": "media/hq/07/078dc0942df70eae0badca9a031792d39665925f5d72abb614fce0c223e1b70e.webp"
+            }
+          ],
+          "fps": 30,
+          "grupo": "DefineSprite_93",
+          "status": "confirmado"
+        },
+        "atacando": {
+          "fotogramas": [
+            {
+              "numero": 1,
+              "asset": "193cef21e6d63dcbc2707e38f821513241b4e0c8a147069f840644cfc8a99a16",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/19/193cef21e6d63dcbc2707e38f821513241b4e0c8a147069f840644cfc8a99a16.webp"
+            },
+            {
+              "numero": 2,
+              "asset": "dee3c56bf053b902376a718ed2a2d55a874f602d3ff694948a0268c34120667a",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/de/dee3c56bf053b902376a718ed2a2d55a874f602d3ff694948a0268c34120667a.webp"
+            },
+            {
+              "numero": 3,
+              "asset": "dee3c56bf053b902376a718ed2a2d55a874f602d3ff694948a0268c34120667a",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/de/dee3c56bf053b902376a718ed2a2d55a874f602d3ff694948a0268c34120667a.webp"
+            },
+            {
+              "numero": 4,
+              "asset": "1004eb0ec289f4762ad3e0cd22258021dcc9fd6d38a92aa6759fb85f6c69c91b",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/10/1004eb0ec289f4762ad3e0cd22258021dcc9fd6d38a92aa6759fb85f6c69c91b.webp"
+            },
+            {
+              "numero": 5,
+              "asset": "5efa0b93dc4fe698e450888f45550301662ef2e22526019eee6677eb44969a63",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/5e/5efa0b93dc4fe698e450888f45550301662ef2e22526019eee6677eb44969a63.webp"
+            },
+            {
+              "numero": 6,
+              "asset": "a9e143145cd3aab26f2d7b04c3b9f4671ddc7573198724b7dd718b209fba51e4",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/a9/a9e143145cd3aab26f2d7b04c3b9f4671ddc7573198724b7dd718b209fba51e4.webp"
+            },
+            {
+              "numero": 7,
+              "asset": "4858f4f126f9b38ea04cfc8917ecdbd3844a7ba45c0deab560fb48be91e7e9fa",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/48/4858f4f126f9b38ea04cfc8917ecdbd3844a7ba45c0deab560fb48be91e7e9fa.webp"
+            },
+            {
+              "numero": 8,
+              "asset": "9ace707b16b54edc20996d1ef2d98c715318b3be1f48c196957ee1068e1ed50f",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/9a/9ace707b16b54edc20996d1ef2d98c715318b3be1f48c196957ee1068e1ed50f.webp"
+            },
+            {
+              "numero": 9,
+              "asset": "a4e6f230b995b36000be11465c083a1fcad7e6a70693a4aa2f02e9c80f4f3831",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/a4/a4e6f230b995b36000be11465c083a1fcad7e6a70693a4aa2f02e9c80f4f3831.webp"
+            },
+            {
+              "numero": 10,
+              "asset": "a4e6f230b995b36000be11465c083a1fcad7e6a70693a4aa2f02e9c80f4f3831",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/a4/a4e6f230b995b36000be11465c083a1fcad7e6a70693a4aa2f02e9c80f4f3831.webp"
+            },
+            {
+              "numero": 11,
+              "asset": "8db1931ff04fd73c2255e64ef6ef6a6b4b0216cdc25502aaf08ece804331d13c",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/8d/8db1931ff04fd73c2255e64ef6ef6a6b4b0216cdc25502aaf08ece804331d13c.webp"
+            },
+            {
+              "numero": 12,
+              "asset": "8db1931ff04fd73c2255e64ef6ef6a6b4b0216cdc25502aaf08ece804331d13c",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/8d/8db1931ff04fd73c2255e64ef6ef6a6b4b0216cdc25502aaf08ece804331d13c.webp"
+            },
+            {
+              "numero": 13,
+              "asset": "8db1931ff04fd73c2255e64ef6ef6a6b4b0216cdc25502aaf08ece804331d13c",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/8d/8db1931ff04fd73c2255e64ef6ef6a6b4b0216cdc25502aaf08ece804331d13c.webp"
+            },
+            {
+              "numero": 14,
+              "asset": "222251bf5d0949187fa771310a38a8525304f87f316001cd3f18cdde157ba133",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/22/222251bf5d0949187fa771310a38a8525304f87f316001cd3f18cdde157ba133.webp"
+            },
+            {
+              "numero": 15,
+              "asset": "222251bf5d0949187fa771310a38a8525304f87f316001cd3f18cdde157ba133",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/22/222251bf5d0949187fa771310a38a8525304f87f316001cd3f18cdde157ba133.webp"
+            },
+            {
+              "numero": 16,
+              "asset": "222251bf5d0949187fa771310a38a8525304f87f316001cd3f18cdde157ba133",
+              "crop": [
+                0,
+                0,
+                104,
+                184
+              ],
+              "canvas": [
+                104,
+                184
+              ],
+              "restore_mirror": false,
+              "size": [
+                104,
+                184
+              ],
+              "url": "media/hq/22/222251bf5d0949187fa771310a38a8525304f87f316001cd3f18cdde157ba133.webp"
+            }
+          ],
+          "fps": 30,
+          "grupo": "DefineSprite_180__1006_red_bazooka_jeep_m_fla.arquero1atacandofrente_12",
+          "status": "confirmado"
+        }
+      },
+      "swf": null,
+      "swfGithub": "https://github.com/AcidCaos/socialwarriors/blob/0.02a/assets/sprites/1006_red_bazooka_jeep_m.swf",
+      "swfDescarga": "https://raw.githubusercontent.com/AcidCaos/socialwarriors/0.02a/assets/sprites/1006_red_bazooka_jeep_m.swf"
+    }
+  ],
+  "aviso": "Archivo visual independiente; clasificación orientativa."
+}
