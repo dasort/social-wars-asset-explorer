@@ -1,0 +1,153 @@
+{
+  "id": "daa57b42fcf99a94",
+  "key": "0076_hangar_2_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_0076_hangar_2_m",
+      "clave": "DefineSprite_5_0076_hangar_2_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "890a242066c1fd48efb5f34fd73de2a5d4659878827809640437a398f1e9ed48",
+          "crop": [
+            6,
+            6,
+            654,
+            467
+          ],
+          "canvas": [
+            660,
+            473
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            157
+          ],
+          "url": "media/hq/89/890a242066c1fd48efb5f34fd73de2a5d4659878827809640437a398f1e9ed48.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "3ac29644ecd1afd26288db86998b9b08e9cc7ea13eceb3d8b01fe4abfa4e05c7",
+          "crop": [
+            6,
+            6,
+            654,
+            467
+          ],
+          "canvas": [
+            660,
+            473
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            157
+          ],
+          "bundle": "packs/d5/d59f6acfc808dba7beefe0c7cd13558e76b2dd84433f0c6cca21b6199c199955.swp",
+          "offset": 931792,
+          "length": 10794
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "2f596a37619d4331d6b77f239b890e18b7efb7e18378d0d4ca19b0269195f8ac",
+          "crop": [
+            0,
+            0,
+            26,
+            26
+          ],
+          "canvas": [
+            26,
+            26
+          ],
+          "restore_mirror": false,
+          "size": [
+            26,
+            26
+          ],
+          "bundle": "packs/1c/1cda7d92f909a96c9e504dc423a4f79fbc0df600c3a2278e29bfc78e3c0d9154.swp",
+          "offset": 584850,
+          "length": 428
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "3900c201a200db5aa07a4ec2d01f0ab26f09ebffde6ad6e18afb8913b7dab145",
+          "crop": [
+            0,
+            0,
+            648,
+            461
+          ],
+          "canvas": [
+            648,
+            461
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            157
+          ],
+          "bundle": "packs/1a/1afff88665d6c298536be3e3bdaa628f117d2e64f2627658279bdff56583ccf4.swp",
+          "offset": 780144,
+          "length": 10770
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "3900c201a200db5aa07a4ec2d01f0ab26f09ebffde6ad6e18afb8913b7dab145": {
+        "bundle": "packs/1a/1afff88665d6c298536be3e3bdaa628f117d2e64f2627658279bdff56583ccf4.swp",
+        "offset": 780144,
+        "length": 10770
+      },
+      "2f596a37619d4331d6b77f239b890e18b7efb7e18378d0d4ca19b0269195f8ac": {
+        "bundle": "packs/1c/1cda7d92f909a96c9e504dc423a4f79fbc0df600c3a2278e29bfc78e3c0d9154.swp",
+        "offset": 584850,
+        "length": 428
+      },
+      "3ac29644ecd1afd26288db86998b9b08e9cc7ea13eceb3d8b01fe4abfa4e05c7": {
+        "bundle": "packs/d5/d59f6acfc808dba7beefe0c7cd13558e76b2dd84433f0c6cca21b6199c199955.swp",
+        "offset": 931792,
+        "length": 10794
+      }
+    },
+    "bundles": {
+      "packs/1a/1afff88665d6c298536be3e3bdaa628f117d2e64f2627658279bdff56583ccf4.swp": {
+        "sha256": "1afff88665d6c298536be3e3bdaa628f117d2e64f2627658279bdff56583ccf4",
+        "bytes": 4044829
+      },
+      "packs/1c/1cda7d92f909a96c9e504dc423a4f79fbc0df600c3a2278e29bfc78e3c0d9154.swp": {
+        "sha256": "1cda7d92f909a96c9e504dc423a4f79fbc0df600c3a2278e29bfc78e3c0d9154",
+        "bytes": 4043586
+      },
+      "packs/d5/d59f6acfc808dba7beefe0c7cd13558e76b2dd84433f0c6cca21b6199c199955.swp": {
+        "sha256": "d59f6acfc808dba7beefe0c7cd13558e76b2dd84433f0c6cca21b6199c199955",
+        "bytes": 4059025
+      }
+    }
+  }
+}

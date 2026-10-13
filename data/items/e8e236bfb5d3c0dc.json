@@ -1,0 +1,131 @@
+{
+  "id": "e8e236bfb5d3c0dc",
+  "key": "0153_robo_statue_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_0153_robo_statue_m",
+      "clave": "DefineSprite_4_0153_robo_statue_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d3f09823f581c4de43a608e5300b26ae2bc00dc144242465809b7e05eb747373",
+          "crop": [
+            0,
+            0,
+            216,
+            288
+          ],
+          "canvas": [
+            216,
+            289
+          ],
+          "restore_mirror": false,
+          "size": [
+            165,
+            220
+          ],
+          "url": "media/hq/d3/d3f09823f581c4de43a608e5300b26ae2bc00dc144242465809b7e05eb747373.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "76833bf53ad2d413dae8b864a85db7a168ec605904ec07f48d8b99013b83866c",
+          "crop": [
+            0,
+            0,
+            216,
+            288
+          ],
+          "canvas": [
+            216,
+            289
+          ],
+          "restore_mirror": false,
+          "size": [
+            165,
+            220
+          ],
+          "bundle": "packs/4f/4f4a18adb4f015de204492d2205cf7eca452033524253df13ad30e11a635f730.swp",
+          "offset": 1895076,
+          "length": 10022
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d3f09823f581c4de43a608e5300b26ae2bc00dc144242465809b7e05eb747373",
+          "crop": [
+            0,
+            0,
+            216,
+            288
+          ],
+          "canvas": [
+            216,
+            289
+          ],
+          "restore_mirror": false,
+          "size": [
+            165,
+            220
+          ],
+          "url": "media/hq/d3/d3f09823f581c4de43a608e5300b26ae2bc00dc144242465809b7e05eb747373.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d3f09823f581c4de43a608e5300b26ae2bc00dc144242465809b7e05eb747373",
+          "crop": [
+            0,
+            0,
+            216,
+            288
+          ],
+          "canvas": [
+            216,
+            289
+          ],
+          "restore_mirror": false,
+          "size": [
+            165,
+            220
+          ],
+          "url": "media/hq/d3/d3f09823f581c4de43a608e5300b26ae2bc00dc144242465809b7e05eb747373.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "76833bf53ad2d413dae8b864a85db7a168ec605904ec07f48d8b99013b83866c": {
+        "bundle": "packs/4f/4f4a18adb4f015de204492d2205cf7eca452033524253df13ad30e11a635f730.swp",
+        "offset": 1895076,
+        "length": 10022
+      }
+    },
+    "bundles": {
+      "packs/4f/4f4a18adb4f015de204492d2205cf7eca452033524253df13ad30e11a635f730.swp": {
+        "sha256": "4f4a18adb4f015de204492d2205cf7eca452033524253df13ad30e11a635f730",
+        "bytes": 4051441
+      }
+    }
+  }
+}

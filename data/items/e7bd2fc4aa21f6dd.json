@@ -1,0 +1,159 @@
+{
+  "id": "e7bd2fc4aa21f6dd",
+  "key": "215_viking_copter_II_hangar.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_5_215_viking_copter_II_hangar",
+      "clave": "DefineSprite_5_215_viking_copter_II_hangar",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be",
+          "crop": [
+            0,
+            0,
+            432,
+            419
+          ],
+          "canvas": [
+            432,
+            419
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            213
+          ],
+          "url": "media/hq/6a/6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "89cb6983d5c258480b84b2f46a49e78b8d3019b463f5d18889fee67335b00057",
+          "crop": [
+            0,
+            0,
+            432,
+            419
+          ],
+          "canvas": [
+            432,
+            419
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            213
+          ],
+          "bundle": "packs/3d/3d4b60d867b09f3c4eba1948c185d9a3b7de560fd0d2e573c6365ef4c85012da.swp",
+          "offset": 2083114,
+          "length": 16850
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_4",
+      "clave": "DefineSprite_4",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be",
+          "crop": [
+            0,
+            0,
+            432,
+            419
+          ],
+          "canvas": [
+            432,
+            419
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            213
+          ],
+          "url": "media/hq/6a/6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be",
+          "crop": [
+            0,
+            0,
+            432,
+            419
+          ],
+          "canvas": [
+            432,
+            419
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            213
+          ],
+          "url": "media/hq/6a/6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be",
+          "crop": [
+            0,
+            0,
+            432,
+            419
+          ],
+          "canvas": [
+            432,
+            419
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            213
+          ],
+          "url": "media/hq/6a/6a80a7cee9b17953f724992d9ed3f90754a45f64f62bae5d1d31d133a31e76be.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "89cb6983d5c258480b84b2f46a49e78b8d3019b463f5d18889fee67335b00057": {
+        "bundle": "packs/3d/3d4b60d867b09f3c4eba1948c185d9a3b7de560fd0d2e573c6365ef4c85012da.swp",
+        "offset": 2083114,
+        "length": 16850
+      }
+    },
+    "bundles": {
+      "packs/3d/3d4b60d867b09f3c4eba1948c185d9a3b7de560fd0d2e573c6365ef4c85012da.swp": {
+        "sha256": "3d4b60d867b09f3c4eba1948c185d9a3b7de560fd0d2e573c6365ef4c85012da",
+        "bytes": 4057977
+      }
+    }
+  }
+}
