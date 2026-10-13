@@ -1,0 +1,131 @@
+{
+  "id": "ff96841f5f3e1042",
+  "key": "0181_orc_robot_factory_m.swf",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "DefineSprite_4_0181_orc_robot_factory_m",
+      "clave": "DefineSprite_4_0181_orc_robot_factory_m",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "7f997b32712c82cc7d5b4e106c370360a2e103d58680e851a5b77185ec9cb9e0",
+          "crop": [
+            0,
+            0,
+            434,
+            401
+          ],
+          "canvas": [
+            434,
+            401
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            203
+          ],
+          "url": "media/hq/7f/7f997b32712c82cc7d5b4e106c370360a2e103d58680e851a5b77185ec9cb9e0.webp"
+        },
+        {
+          "numero": 2,
+          "asset": "060e9b52d6ae7e7ba65aa683a698bfb66389bb2829e20f169579ff0e6bced1c3",
+          "crop": [
+            0,
+            0,
+            434,
+            401
+          ],
+          "canvas": [
+            434,
+            401
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            203
+          ],
+          "bundle": "packs/5e/5ea2870cc614f8e458232e37a0bccb660a86949a2012c313c9afc80dd0c61469.swp",
+          "offset": 125150,
+          "length": 15520
+        }
+      ]
+    },
+    {
+      "nombre": "DefineSprite_3",
+      "clave": "DefineSprite_3",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "7f997b32712c82cc7d5b4e106c370360a2e103d58680e851a5b77185ec9cb9e0",
+          "crop": [
+            0,
+            0,
+            434,
+            401
+          ],
+          "canvas": [
+            434,
+            401
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            203
+          ],
+          "url": "media/hq/7f/7f997b32712c82cc7d5b4e106c370360a2e103d58680e851a5b77185ec9cb9e0.webp"
+        }
+      ]
+    },
+    {
+      "nombre": "images/1.png",
+      "clave": "images/1.png",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "7f997b32712c82cc7d5b4e106c370360a2e103d58680e851a5b77185ec9cb9e0",
+          "crop": [
+            0,
+            0,
+            434,
+            401
+          ],
+          "canvas": [
+            434,
+            401
+          ],
+          "restore_mirror": false,
+          "size": [
+            220,
+            203
+          ],
+          "url": "media/hq/7f/7f997b32712c82cc7d5b4e106c370360a2e103d58680e851a5b77185ec9cb9e0.webp"
+        }
+      ]
+    }
+  ],
+  "previews": {},
+  "estados": [],
+  "media": {
+    "base": "https://raw.githubusercontent.com/dasort/sw-prueba-releases/sw-assets-6614d195a7c4/",
+    "assets": {
+      "060e9b52d6ae7e7ba65aa683a698bfb66389bb2829e20f169579ff0e6bced1c3": {
+        "bundle": "packs/5e/5ea2870cc614f8e458232e37a0bccb660a86949a2012c313c9afc80dd0c61469.swp",
+        "offset": 125150,
+        "length": 15520
+      }
+    },
+    "bundles": {
+      "packs/5e/5ea2870cc614f8e458232e37a0bccb660a86949a2012c313c9afc80dd0c61469.swp": {
+        "sha256": "5ea2870cc614f8e458232e37a0bccb660a86949a2012c313c9afc80dd0c61469",
+        "bytes": 4047803
+      }
+    }
+  }
+}
