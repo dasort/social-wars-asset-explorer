@@ -1,1 +1,100 @@
-{"id":"ui-172a6d3b615cafd9","key":"flash/Basesec_1.5.4.swf#sprites/2371","completo":true,"groups":[{"nombre":"Composición · IconAssaultObjectivMC","clave":"sprites/2371","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"83dc921868c1123f7667a5758d0121c19981c3e7e53488f0edf7fa4f401fde9d","size":[66,67],"offset":850412,"length":8830,"pack":{"url":"media/optimized/b5/b57e86b64bf6248b4241247289ace6cfcfb3aa805d02d2c9da295d86ccb6e866.swp","bytes":1944411,"sha256":"b57e86b64bf6248b4241247289ace6cfcfb3aa805d02d2c9da295d86ccb6e866"}}],"labels":[],"ui":true,"character":2371,"isComposition":true},{"clave":"piece/2371/1/2370","nombre":"Pieza 2370","nombreOriginal":"Pieza 2370","tipoPieza":"shape","character":2370,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"83dc921868c1123f7667a5758d0121c19981c3e7e53488f0edf7fa4f401fde9d","size":[66,67],"offset":850412,"length":8830,"pack":{"url":"media/optimized/b5/b57e86b64bf6248b4241247289ace6cfcfb3aa805d02d2c9da295d86ccb6e866.swp","bytes":1944411,"sha256":"b57e86b64bf6248b4241247289ace6cfcfb3aa805d02d2c9da295d86ccb6e866"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"bitmap/2369","nombre":"Imagen 2369","character":2369,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"93dfe8ac4dd5ab9d1363a1dedd14873bfe04c6fedce593e2c9ba9d0b5bead1ca","size":[77,78],"offset":1240030,"length":11700,"pack":{"url":"media/optimized/61/61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523.swp","bytes":1870834,"sha256":"61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523"}}],"ui":true,"tipoPieza":"bitmap"}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-172a6d3b615cafd9",
+  "key": "flash/Basesec_1.5.4.swf#sprites/2371",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · IconAssaultObjectivMC",
+      "clave": "sprites/2371",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "83dc921868c1123f7667a5758d0121c19981c3e7e53488f0edf7fa4f401fde9d",
+          "size": [
+            66,
+            67
+          ],
+          "offset": 850412,
+          "length": 8830,
+          "pack": {
+            "url": "media/optimized/a5/a5e282bee9bc5e3965fe1185df819380f7b1698c68a8bcd0e7b6244e9ab3cffa.swp",
+            "bytes": 1944503,
+            "sha256": "a5e282bee9bc5e3965fe1185df819380f7b1698c68a8bcd0e7b6244e9ab3cffa"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 2371,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/2371/1/2370",
+      "nombre": "Pieza 2370",
+      "nombreOriginal": "Pieza 2370",
+      "tipoPieza": "shape",
+      "character": 2370,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "83dc921868c1123f7667a5758d0121c19981c3e7e53488f0edf7fa4f401fde9d",
+          "size": [
+            66,
+            67
+          ],
+          "offset": 850412,
+          "length": 8830,
+          "pack": {
+            "url": "media/optimized/a5/a5e282bee9bc5e3965fe1185df819380f7b1698c68a8bcd0e7b6244e9ab3cffa.swp",
+            "bytes": 1944503,
+            "sha256": "a5e282bee9bc5e3965fe1185df819380f7b1698c68a8bcd0e7b6244e9ab3cffa"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "bitmap/2369",
+      "nombre": "Imagen 2369",
+      "character": 2369,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "93dfe8ac4dd5ab9d1363a1dedd14873bfe04c6fedce593e2c9ba9d0b5bead1ca",
+          "size": [
+            77,
+            78
+          ],
+          "offset": 1240030,
+          "length": 11700,
+          "pack": {
+            "url": "media/optimized/13/1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02.swp",
+            "bytes": 1870926,
+            "sha256": "1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

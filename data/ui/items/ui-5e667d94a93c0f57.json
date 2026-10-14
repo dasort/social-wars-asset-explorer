@@ -1,1 +1,39 @@
-{"id":"ui-5e667d94a93c0f57","key":"flash/Basesec_1.5.4.swf#images/3101","completo":true,"groups":[{"nombre":"Imagen 3101","clave":"images/3101","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"af5fffbc6085f7a6dd5fea82f8a5bad9633ca44d2d82fc0b967d41b2d1f81da7","size":[25,36],"offset":1935764,"length":1294,"pack":{"url":"media/optimized/81/818cd3d8039734df6e4d61d761d1d9e424d7eae1802f9a8454649b9f0ab36f21.swp","bytes":1962148,"sha256":"818cd3d8039734df6e4d61d761d1d9e424d7eae1802f9a8454649b9f0ab36f21"}}],"labels":[],"ui":true,"character":3101}],"ui":true,"nota":"Imagen interna a resolución original. Las referencias idénticas comparten un único archivo.","referencias":["3101"],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-5e667d94a93c0f57",
+  "key": "flash/Basesec_1.5.4.swf#images/3101",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Imagen 3101",
+      "clave": "images/3101",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "af5fffbc6085f7a6dd5fea82f8a5bad9633ca44d2d82fc0b967d41b2d1f81da7",
+          "size": [
+            25,
+            36
+          ],
+          "offset": 1935764,
+          "length": 1294,
+          "pack": {
+            "url": "media/optimized/be/bef3f2b37aa59f6bb4b93356179cf7fe07dd4873615da3c3c072974db56c45e3.swp",
+            "bytes": 1962240,
+            "sha256": "bef3f2b37aa59f6bb4b93356179cf7fe07dd4873615da3c3c072974db56c45e3"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3101
+    }
+  ],
+  "ui": true,
+  "nota": "Imagen interna a resolución original. Las referencias idénticas comparten un único archivo.",
+  "referencias": [
+    "3101"
+  ],
+  "calidad": "original_sin_perdida"
+}

@@ -1,1 +1,251 @@
-{"id":"ui-7f210475941a0a38","ui":true,"groups":[{"clave":"sprites/61","nombre":"Composición · ManaMC","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"6b1f1ddbce2ab496d49c79f68f87ff9927a7fdce9f64219c4780040cc3614477","size":[53,53],"offset":1372120,"length":2942,"pack":{"url":"media/optimized/ff/ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0.swp","bytes":2014632,"sha256":"ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0"}}],"labels":[],"ui":true,"character":61,"isComposition":true},{"clave":"piece/61/3/45","nombre":"Pieza 45","nombreOriginal":"Pieza 45","tipoPieza":"shape","character":45,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"8f97a5c1e9f6158931ea82e44490a2114ad6b1992d77d413b781326c31a89f0a","size":[53,53],"offset":1081886,"length":2518,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/61/4/47","nombre":"Pieza 47","nombreOriginal":"Pieza 47","tipoPieza":"sprite","character":47,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/6/48","nombre":"Pieza 48","nombreOriginal":"Pieza 48","tipoPieza":"sprite","character":48,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/8/50","nombre":"Pieza 50","nombreOriginal":"Pieza 50","tipoPieza":"sprite","character":50,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/10/52","nombre":"Pieza 52","nombreOriginal":"Pieza 52","tipoPieza":"sprite","character":52,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/12/54","nombre":"Pieza 54","nombreOriginal":"Pieza 54","tipoPieza":"sprite","character":54,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/14/56","nombre":"Pieza 56","nombreOriginal":"Pieza 56","tipoPieza":"sprite","character":56,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/16/58","nombre":"Pieza 58","nombreOriginal":"Pieza 58","tipoPieza":"sprite","character":58,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/18/48","nombre":"Pieza 48","nombreOriginal":"Pieza 48","tipoPieza":"sprite","character":48,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/61/20/60","nombre":"Pieza 60","nombreOriginal":"Pieza 60","tipoPieza":"sprite","character":60,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."}],"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","calidad":"original_sin_perdida"}
+{
+  "id": "ui-7f210475941a0a38",
+  "ui": true,
+  "groups": [
+    {
+      "clave": "sprites/61",
+      "nombre": "Composición · ManaMC",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6b1f1ddbce2ab496d49c79f68f87ff9927a7fdce9f64219c4780040cc3614477",
+          "size": [
+            53,
+            53
+          ],
+          "offset": 1372120,
+          "length": 2942,
+          "pack": {
+            "url": "media/optimized/21/217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf.swp",
+            "bytes": 2014724,
+            "sha256": "217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 61,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/61/3/45",
+      "nombre": "Pieza 45",
+      "nombreOriginal": "Pieza 45",
+      "tipoPieza": "shape",
+      "character": 45,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8f97a5c1e9f6158931ea82e44490a2114ad6b1992d77d413b781326c31a89f0a",
+          "size": [
+            53,
+            53
+          ],
+          "offset": 1081886,
+          "length": 2518,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/61/4/47",
+      "nombre": "Pieza 47",
+      "nombreOriginal": "Pieza 47",
+      "tipoPieza": "sprite",
+      "character": 47,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/6/48",
+      "nombre": "Pieza 48",
+      "nombreOriginal": "Pieza 48",
+      "tipoPieza": "sprite",
+      "character": 48,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/8/50",
+      "nombre": "Pieza 50",
+      "nombreOriginal": "Pieza 50",
+      "tipoPieza": "sprite",
+      "character": 50,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/10/52",
+      "nombre": "Pieza 52",
+      "nombreOriginal": "Pieza 52",
+      "tipoPieza": "sprite",
+      "character": 52,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/12/54",
+      "nombre": "Pieza 54",
+      "nombreOriginal": "Pieza 54",
+      "tipoPieza": "sprite",
+      "character": 54,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/14/56",
+      "nombre": "Pieza 56",
+      "nombreOriginal": "Pieza 56",
+      "tipoPieza": "sprite",
+      "character": 56,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/16/58",
+      "nombre": "Pieza 58",
+      "nombreOriginal": "Pieza 58",
+      "tipoPieza": "sprite",
+      "character": 58,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/18/48",
+      "nombre": "Pieza 48",
+      "nombreOriginal": "Pieza 48",
+      "tipoPieza": "sprite",
+      "character": 48,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/61/20/60",
+      "nombre": "Pieza 60",
+      "nombreOriginal": "Pieza 60",
+      "tipoPieza": "sprite",
+      "character": 60,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    }
+  ],
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "calidad": "original_sin_perdida"
+}

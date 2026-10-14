@@ -1,1 +1,39 @@
-{"id":"ui-b193bfac823b4dd7","key":"flash/Basesec_1.5.4.swf#images/1047","completo":true,"groups":[{"nombre":"Imagen 1047","clave":"images/1047","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"a33bddf23e5544584c517ad5f393b6fc6dfc0f060b557e138cfc10203fab34aa","size":[733,596],"offset":0,"length":100250,"pack":{"url":"media/optimized/61/61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523.swp","bytes":1870834,"sha256":"61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523"}}],"labels":[],"ui":true,"character":1047}],"ui":true,"nota":"Imagen interna a resolución original. Las referencias idénticas comparten un único archivo.","referencias":["1047"],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-b193bfac823b4dd7",
+  "key": "flash/Basesec_1.5.4.swf#images/1047",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Imagen 1047",
+      "clave": "images/1047",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "a33bddf23e5544584c517ad5f393b6fc6dfc0f060b557e138cfc10203fab34aa",
+          "size": [
+            733,
+            596
+          ],
+          "offset": 0,
+          "length": 100250,
+          "pack": {
+            "url": "media/optimized/13/1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02.swp",
+            "bytes": 1870926,
+            "sha256": "1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 1047
+    }
+  ],
+  "ui": true,
+  "nota": "Imagen interna a resolución original. Las referencias idénticas comparten un único archivo.",
+  "referencias": [
+    "1047"
+  ],
+  "calidad": "original_sin_perdida"
+}

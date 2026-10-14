@@ -1,1 +1,34 @@
-{"id":"ui-6d8983d4bec1d1a9","key":"flash/SWLoader.swf#sprites/62","completo":true,"groups":[{"nombre":"62","clave":"sprites/62","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"f77d12b0bf46f0de685bf7ad49f07d7c0f94c2ad80790a4d190dd34a571c5390","size":[15,11],"offset":1838698,"length":342,"pack":{"url":"media/optimized/86/86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86.swp","bytes":1847133,"sha256":"86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86"}}]}],"ui":true,"nota":"Composición del SWF sin ejecutar el juego. Textos, cifras y contenido dinámico pueden ser ejemplos o quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-6d8983d4bec1d1a9",
+  "key": "flash/SWLoader.swf#sprites/62",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "62",
+      "clave": "sprites/62",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f77d12b0bf46f0de685bf7ad49f07d7c0f94c2ad80790a4d190dd34a571c5390",
+          "size": [
+            15,
+            11
+          ],
+          "offset": 1838698,
+          "length": 342,
+          "pack": {
+            "url": "media/optimized/18/186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd.swp",
+            "bytes": 1847225,
+            "sha256": "186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd"
+          }
+        }
+      ]
+    }
+  ],
+  "ui": true,
+  "nota": "Composición del SWF sin ejecutar el juego. Textos, cifras y contenido dinámico pueden ser ejemplos o quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

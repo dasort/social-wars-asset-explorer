@@ -1,1 +1,81 @@
-{"id":"ui-a34e59d52ff03ea7","ui":true,"groups":[{"clave":"sprites/133","nombre":"Composición · MassCollectButtB","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"8d5d9372fcb25cf57f80cdea28d1754a1b746a9ee4395848ba8b565be09e2291","size":[52,46],"offset":1975200,"length":2630,"pack":{"url":"media/optimized/45/45e1443a3aacb13dedde5aa0604ddeff2316fd528ce2db4c91be707e52cf7032.swp","bytes":2010382,"sha256":"45e1443a3aacb13dedde5aa0604ddeff2316fd528ce2db4c91be707e52cf7032"}}],"labels":[],"ui":true,"character":133,"isComposition":true},{"clave":"piece/133/1/132","nombre":"Pieza 132","nombreOriginal":"Pieza 132","tipoPieza":"button","character":132,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"bitmap/129","nombre":"Imagen 129","character":129,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"28da78fb4ee8dd9f758cce6d4093647e519444d8e3ca13559592a8d1511116e4","size":[47,41],"offset":650782,"length":1344,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"}],"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","calidad":"original_sin_perdida"}
+{
+  "id": "ui-a34e59d52ff03ea7",
+  "ui": true,
+  "groups": [
+    {
+      "clave": "sprites/133",
+      "nombre": "Composición · MassCollectButtB",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8d5d9372fcb25cf57f80cdea28d1754a1b746a9ee4395848ba8b565be09e2291",
+          "size": [
+            52,
+            46
+          ],
+          "offset": 1975200,
+          "length": 2630,
+          "pack": {
+            "url": "media/optimized/15/152f28f443822aab474e20c017cc59f25064657d728812571113b122351481a6.swp",
+            "bytes": 2010474,
+            "sha256": "152f28f443822aab474e20c017cc59f25064657d728812571113b122351481a6"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 133,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/133/1/132",
+      "nombre": "Pieza 132",
+      "nombreOriginal": "Pieza 132",
+      "tipoPieza": "button",
+      "character": 132,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "bitmap/129",
+      "nombre": "Imagen 129",
+      "character": 129,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "28da78fb4ee8dd9f758cce6d4093647e519444d8e3ca13559592a8d1511116e4",
+          "size": [
+            47,
+            41
+          ],
+          "offset": 650782,
+          "length": 1344,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "calidad": "original_sin_perdida"
+}

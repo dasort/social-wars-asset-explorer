@@ -1,1 +1,107 @@
-{"id":"ui-c05f09ab1bbcb9e4","ui":true,"groups":[{"clave":"sprites/136","nombre":"Composición · GiftCounter_","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"9df0630fc1a6917e48f900d9696b1974e51a1b1f7015de3fec988d21bbf55bd3","size":[30,20],"offset":1771440,"length":276,"pack":{"url":"media/optimized/45/45e1443a3aacb13dedde5aa0604ddeff2316fd528ce2db4c91be707e52cf7032.swp","bytes":2010382,"sha256":"45e1443a3aacb13dedde5aa0604ddeff2316fd528ce2db4c91be707e52cf7032"}}],"labels":[],"ui":true,"character":136,"isComposition":true},{"clave":"piece/136/1/134","nombre":"Pieza 134","nombreOriginal":"Pieza 134","tipoPieza":"shape","character":134,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"29b7e66fd01597742d1963ad905d699a8a032526fc587d9e8db1c1b0cbba6ffa","size":[61,61],"offset":763624,"length":494,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/136/2/135","nombre":"count","nombreOriginal":"count","tipoPieza":"text","character":135,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"4dcf489ecc291682fc57397c8c4741a176224e8aaa6498584b5a0716d4f37e76","size":[30,20],"offset":1219090,"length":92,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""}],"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","calidad":"original_sin_perdida"}
+{
+  "id": "ui-c05f09ab1bbcb9e4",
+  "ui": true,
+  "groups": [
+    {
+      "clave": "sprites/136",
+      "nombre": "Composición · GiftCounter_",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "9df0630fc1a6917e48f900d9696b1974e51a1b1f7015de3fec988d21bbf55bd3",
+          "size": [
+            30,
+            20
+          ],
+          "offset": 1771440,
+          "length": 276,
+          "pack": {
+            "url": "media/optimized/15/152f28f443822aab474e20c017cc59f25064657d728812571113b122351481a6.swp",
+            "bytes": 2010474,
+            "sha256": "152f28f443822aab474e20c017cc59f25064657d728812571113b122351481a6"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 136,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/136/1/134",
+      "nombre": "Pieza 134",
+      "nombreOriginal": "Pieza 134",
+      "tipoPieza": "shape",
+      "character": 134,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "29b7e66fd01597742d1963ad905d699a8a032526fc587d9e8db1c1b0cbba6ffa",
+          "size": [
+            61,
+            61
+          ],
+          "offset": 763624,
+          "length": 494,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/136/2/135",
+      "nombre": "count",
+      "nombreOriginal": "count",
+      "tipoPieza": "text",
+      "character": 135,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "4dcf489ecc291682fc57397c8c4741a176224e8aaa6498584b5a0716d4f37e76",
+          "size": [
+            30,
+            20
+          ],
+          "offset": 1219090,
+          "length": 92,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "calidad": "original_sin_perdida"
+}

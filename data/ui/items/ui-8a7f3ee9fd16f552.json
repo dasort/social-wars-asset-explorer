@@ -1,1 +1,130 @@
-{"id":"ui-8a7f3ee9fd16f552","key":"flash/Basesec_1.5.4.swf#sprites/3574","completo":true,"groups":[{"nombre":"Composición · InfoButtonBuilding","clave":"sprites/3574","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"9a808b00bb43465d238099714779c08890b91e10890d592d017468eddd1d5895","size":[182,80],"offset":250200,"length":3792,"pack":{"url":"media/optimized/b9/b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034.swp","bytes":1897277,"sha256":"b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034"}}],"labels":[],"ui":true,"character":3574,"isComposition":true},{"clave":"piece/3574/1/706","nombre":"Pieza 706","nombreOriginal":"Pieza 706","tipoPieza":"sprite","character":706,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/3574/3/3572","nombre":"txDes","nombreOriginal":"txDes","tipoPieza":"text","character":3572,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"bb98c0272ddc0715b371a88a7e432eb529b1985614e8c4c7bdb1ad9e88dd7f54","size":[229,31],"offset":956004,"length":1178,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/3574/4/3573","nombre":"txBuilds","nombreOriginal":"txBuilds","tipoPieza":"text","character":3573,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"e9c10d1719959bf519fd8efa7d8cb629d8c65f43099f48f805c0b4d2539c8d01","size":[152,31],"offset":1173018,"length":946,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-8a7f3ee9fd16f552",
+  "key": "flash/Basesec_1.5.4.swf#sprites/3574",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · InfoButtonBuilding",
+      "clave": "sprites/3574",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "9a808b00bb43465d238099714779c08890b91e10890d592d017468eddd1d5895",
+          "size": [
+            182,
+            80
+          ],
+          "offset": 250200,
+          "length": 3792,
+          "pack": {
+            "url": "media/optimized/95/95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c.swp",
+            "bytes": 1897369,
+            "sha256": "95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3574,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3574/1/706",
+      "nombre": "Pieza 706",
+      "nombreOriginal": "Pieza 706",
+      "tipoPieza": "sprite",
+      "character": 706,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/3574/3/3572",
+      "nombre": "txDes",
+      "nombreOriginal": "txDes",
+      "tipoPieza": "text",
+      "character": 3572,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bb98c0272ddc0715b371a88a7e432eb529b1985614e8c4c7bdb1ad9e88dd7f54",
+          "size": [
+            229,
+            31
+          ],
+          "offset": 956004,
+          "length": 1178,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3574/4/3573",
+      "nombre": "txBuilds",
+      "nombreOriginal": "txBuilds",
+      "tipoPieza": "text",
+      "character": 3573,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "e9c10d1719959bf519fd8efa7d8cb629d8c65f43099f48f805c0b4d2539c8d01",
+          "size": [
+            152,
+            31
+          ],
+          "offset": 1173018,
+          "length": 946,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

@@ -1,1 +1,58 @@
-{"id":"ui-2626941c727b58e5","key":"flash/Basesec_1.5.4.swf#sprites/1195","completo":true,"groups":[{"nombre":"Composición · DailyButtonMC","clave":"sprites/1195","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"4d22faf1187c5aa9517c81aba433b661f5932b0ba93892d1841c3bc726ab1a49","size":[121,104],"offset":1133728,"length":5486,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"ui":true,"character":1195,"isComposition":true},{"clave":"piece/1195/1/1194","nombre":"Pieza 1194","nombreOriginal":"Pieza 1194","tipoPieza":"sprite","character":1194,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-2626941c727b58e5",
+  "key": "flash/Basesec_1.5.4.swf#sprites/1195",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · DailyButtonMC",
+      "clave": "sprites/1195",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "4d22faf1187c5aa9517c81aba433b661f5932b0ba93892d1841c3bc726ab1a49",
+          "size": [
+            121,
+            104
+          ],
+          "offset": 1133728,
+          "length": 5486,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 1195,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/1195/1/1194",
+      "nombre": "Pieza 1194",
+      "nombreOriginal": "Pieza 1194",
+      "tipoPieza": "sprite",
+      "character": 1194,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

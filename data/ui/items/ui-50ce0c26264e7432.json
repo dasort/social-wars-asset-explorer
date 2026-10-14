@@ -1,1 +1,110 @@
-{"id":"ui-50ce0c26264e7432","key":"flash/Basesec_1.5.4.swf#sprites/3218","completo":true,"groups":[{"nombre":"Composición · TooltipSimbolosAtaqueMC","clave":"sprites/3218","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"dfdf0712102afdc83e87417b1479cc7fe7b468c31f5213e255e9c02e29384614","size":[107,38],"offset":576364,"length":974,"pack":{"url":"media/optimized/ef/ef3d8a3bff667b3f7335d8bc857eb80bb8f2ee613a7076f6fbc52badc24c63c9.swp","bytes":1994212,"sha256":"ef3d8a3bff667b3f7335d8bc857eb80bb8f2ee613a7076f6fbc52badc24c63c9"}}],"labels":[],"ui":true,"character":3218,"isComposition":true},{"clave":"piece/3218/1/3216","nombre":"Pieza 3216","nombreOriginal":"Pieza 3216","tipoPieza":"shape","character":3216,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"76454ddc18e3780a265805793727c060f09c9c393ff43671ebba58af31c14d69","size":[99,38],"offset":1184888,"length":360,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/3218/2/3217","nombre":"tx","nombreOriginal":"tx","tipoPieza":"text","character":3217,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"cfe353db32723811c71275f74d51588280ac183fcff0a84ffc960fd1d2fc29e3","size":[107,18],"offset":1092820,"length":652,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-50ce0c26264e7432",
+  "key": "flash/Basesec_1.5.4.swf#sprites/3218",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · TooltipSimbolosAtaqueMC",
+      "clave": "sprites/3218",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "dfdf0712102afdc83e87417b1479cc7fe7b468c31f5213e255e9c02e29384614",
+          "size": [
+            107,
+            38
+          ],
+          "offset": 576364,
+          "length": 974,
+          "pack": {
+            "url": "media/optimized/89/89fd60f28bf6e61599a8b151be1b42426e5d964984265304b03a327ae6946dce.swp",
+            "bytes": 1994304,
+            "sha256": "89fd60f28bf6e61599a8b151be1b42426e5d964984265304b03a327ae6946dce"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3218,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3218/1/3216",
+      "nombre": "Pieza 3216",
+      "nombreOriginal": "Pieza 3216",
+      "tipoPieza": "shape",
+      "character": 3216,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "76454ddc18e3780a265805793727c060f09c9c393ff43671ebba58af31c14d69",
+          "size": [
+            99,
+            38
+          ],
+          "offset": 1184888,
+          "length": 360,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3218/2/3217",
+      "nombre": "tx",
+      "nombreOriginal": "tx",
+      "tipoPieza": "text",
+      "character": 3217,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "cfe353db32723811c71275f74d51588280ac183fcff0a84ffc960fd1d2fc29e3",
+          "size": [
+            107,
+            18
+          ],
+          "offset": 1092820,
+          "length": 652,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

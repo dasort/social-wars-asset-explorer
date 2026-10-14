@@ -1,1 +1,610 @@
-{"id":"ui-d56ec91965806eb6","key":"flash/Basesec_1.5.4.swf#sprites/3506","completo":true,"groups":[{"nombre":"Composición · Elemento del inventario de edificios","clave":"sprites/3506","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"bd450deec3e93682f589950382fa34012816ee2a7c9c4a6ba72ce36b56f3b1c4","size":[100,148],"offset":1897086,"length":3430,"pack":{"url":"media/optimized/ef/ef3d8a3bff667b3f7335d8bc857eb80bb8f2ee613a7076f6fbc52badc24c63c9.swp","bytes":1994212,"sha256":"ef3d8a3bff667b3f7335d8bc857eb80bb8f2ee613a7076f6fbc52badc24c63c9"}}],"labels":[],"ui":true,"character":3506,"isComposition":true},{"clave":"piece/3506/1/3503","nombre":"Pieza 3503","nombreOriginal":"Pieza 3503","tipoPieza":"shape","character":3503,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"4fc488bebd0c982249649175ec6012183f9174ccf96500c0942b64f59befb420","size":[78,78],"offset":1964156,"length":72,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/3506/2/3504","nombre":"itemName","nombreOriginal":"itemName","tipoPieza":"text","character":3504,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"57295bbc7025bd1df9e6156a021f4ed03ccff9a633279fa80a2b5ef0c92f8b71","size":[94,18],"offset":962832,"length":414,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/3506/3/48","nombre":"itemImage","nombreOriginal":"itemImage","tipoPieza":"sprite","character":48,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/3506/5/1217","nombre":"btnAsk","nombreOriginal":"btnAsk","tipoPieza":"sprite","character":1217,"total":3,"completo":true,"fotogramas":[{"numero":1,"asset":"f86ee4d44747aac40da4c803188bc3649224b5978a79f3992ace0a328489b11e","size":[103,36],"offset":1139214,"length":1678,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}},{"numero":2,"asset":"c653c6906fb9e1648c8ceffa2e717b4ca4d8edd831a5609d1f4b4f0e1c1f4340","size":[103,36],"offset":1140892,"length":1666,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}},{"numero":3,"asset":"406416b79a6dad3de72cd944968a7ecf88b5b104fd1707850ab40593a8a96a15","size":[103,36],"offset":1142558,"length":1212,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":"ui-26b27e99119b1568","ui":true,"nota":""},{"clave":"piece/3506/9/819","nombre":"btnBuy","nombreOriginal":"btnBuy","tipoPieza":"sprite","character":819,"total":3,"completo":true,"fotogramas":[{"numero":1,"asset":"73ad9a68e3e3e8166168eb9bf70d7f25d4658c8c766f325c158175ad81e69891","size":[105,38],"offset":893908,"length":2490,"pack":{"url":"media/optimized/86/86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86.swp","bytes":1847133,"sha256":"86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86"}},{"numero":2,"asset":"1a397f778c01e0adfa69144350c2a981ce89efd94e679e977d865fe7d674347e","size":[105,38],"offset":896398,"length":2382,"pack":{"url":"media/optimized/86/86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86.swp","bytes":1847133,"sha256":"86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86"}},{"numero":3,"asset":"833c39a59753a7655a98e93a86a32a18df0cb4879d315b6b87b3deceb809124d","size":[105,38],"offset":898780,"length":1726,"pack":{"url":"media/optimized/86/86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86.swp","bytes":1847133,"sha256":"86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":"ui-ce39d2de8f37c8c2","ui":true,"nota":""},{"clave":"piece/3506/16/3505","nombre":"itemQty","nombreOriginal":"itemQty","tipoPieza":"text","character":3505,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"ae38eb6c4bcd6d047c6a6afcb59b566ce3eea9425d805a8e63c6cad90117ae04","size":[59,21],"offset":1218698,"length":392,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"bitmap/23","nombre":"Imagen 23","character":23,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"62f8b1c3e83538a03857cea119422c0dff5cf120f6b8bbc3ebeb0ecebc7a6392","size":[141,128],"offset":44982,"length":3292,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/25","nombre":"Imagen 25","character":25,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"f9aed555026a3887e28a1c8a565adc7b62e2e13eda12310bb667e46b51cac655","size":[83,133],"offset":48274,"length":13900,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/27","nombre":"Imagen 27","character":27,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"04299c226116e5a41cc64aef0f205c33942827491f6b8b4ada5ddd7eb381f527","size":[130,123],"offset":62174,"length":17016,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/29","nombre":"Imagen 29","character":29,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"0419f940b6ee34855fb435ddea536376ca79f2027afccf9a0c2cb61bf12b8f54","size":[183,122],"offset":79190,"length":2876,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/31","nombre":"Imagen 31","character":31,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"19a28c03c5cffcd2c41ec1fbb8eff982567045c0757d3e643aeeafdfdac0eb38","size":[50,77],"offset":82066,"length":4102,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/33","nombre":"Imagen 33","character":33,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"377a31659044a1532f93341d59502a52669e603c34ba11d8d588f30bdaaea2f8","size":[54,52],"offset":86168,"length":2274,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/37","nombre":"Imagen 37","character":37,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"721567055fda06146c2084462646e56215ad04d43575c1e392fdad1b8141bb60","size":[29,43],"offset":88442,"length":898,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/39","nombre":"Imagen 39","character":39,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"3c587254d3c21fd85d2fa53790864908b8226147946eabbb7d87ca144d9cfea9","size":[52,64],"offset":89340,"length":1444,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/43","nombre":"Imagen 43","character":43,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"520d15f047b683412dbdbfd8f38de55d41a10a6ff1ce811a3994f3787c0a7998","size":[31,47],"offset":90784,"length":2738,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/68","nombre":"Imagen 68","character":68,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"f4d21967d727c5344aa839ed4febdb5a69244ecb9d95e444230b215f84d64e6c","size":[99,32],"offset":94734,"length":612,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/813","nombre":"Imagen 813","character":813,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"39bf829a57ec10fc91aeb62e15d3478ce7d6781664f8564d8481b9204f64517f","size":[99,32],"offset":1781608,"length":784,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/816","nombre":"Imagen 816","character":816,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"31c07738824eaf818ea49d1f5e920c1470d1336851cd27c81e29aaf43a228fcf","size":[99,32],"offset":1782392,"length":788,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-d56ec91965806eb6",
+  "key": "flash/Basesec_1.5.4.swf#sprites/3506",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · Elemento del inventario de edificios",
+      "clave": "sprites/3506",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bd450deec3e93682f589950382fa34012816ee2a7c9c4a6ba72ce36b56f3b1c4",
+          "size": [
+            100,
+            148
+          ],
+          "offset": 1897086,
+          "length": 3430,
+          "pack": {
+            "url": "media/optimized/89/89fd60f28bf6e61599a8b151be1b42426e5d964984265304b03a327ae6946dce.swp",
+            "bytes": 1994304,
+            "sha256": "89fd60f28bf6e61599a8b151be1b42426e5d964984265304b03a327ae6946dce"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3506,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3506/1/3503",
+      "nombre": "Pieza 3503",
+      "nombreOriginal": "Pieza 3503",
+      "tipoPieza": "shape",
+      "character": 3503,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "4fc488bebd0c982249649175ec6012183f9174ccf96500c0942b64f59befb420",
+          "size": [
+            78,
+            78
+          ],
+          "offset": 1964156,
+          "length": 72,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3506/2/3504",
+      "nombre": "itemName",
+      "nombreOriginal": "itemName",
+      "tipoPieza": "text",
+      "character": 3504,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "57295bbc7025bd1df9e6156a021f4ed03ccff9a633279fa80a2b5ef0c92f8b71",
+          "size": [
+            94,
+            18
+          ],
+          "offset": 962832,
+          "length": 414,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3506/3/48",
+      "nombre": "itemImage",
+      "nombreOriginal": "itemImage",
+      "tipoPieza": "sprite",
+      "character": 48,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/3506/5/1217",
+      "nombre": "btnAsk",
+      "nombreOriginal": "btnAsk",
+      "tipoPieza": "sprite",
+      "character": 1217,
+      "total": 3,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f86ee4d44747aac40da4c803188bc3649224b5978a79f3992ace0a328489b11e",
+          "size": [
+            103,
+            36
+          ],
+          "offset": 1139214,
+          "length": 1678,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        },
+        {
+          "numero": 2,
+          "asset": "c653c6906fb9e1648c8ceffa2e717b4ca4d8edd831a5609d1f4b4f0e1c1f4340",
+          "size": [
+            103,
+            36
+          ],
+          "offset": 1140892,
+          "length": 1666,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        },
+        {
+          "numero": 3,
+          "asset": "406416b79a6dad3de72cd944968a7ecf88b5b104fd1707850ab40593a8a96a15",
+          "size": [
+            103,
+            36
+          ],
+          "offset": 1142558,
+          "length": 1212,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": "ui-26b27e99119b1568",
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3506/9/819",
+      "nombre": "btnBuy",
+      "nombreOriginal": "btnBuy",
+      "tipoPieza": "sprite",
+      "character": 819,
+      "total": 3,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "73ad9a68e3e3e8166168eb9bf70d7f25d4658c8c766f325c158175ad81e69891",
+          "size": [
+            105,
+            38
+          ],
+          "offset": 893908,
+          "length": 2490,
+          "pack": {
+            "url": "media/optimized/18/186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd.swp",
+            "bytes": 1847225,
+            "sha256": "186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd"
+          }
+        },
+        {
+          "numero": 2,
+          "asset": "1a397f778c01e0adfa69144350c2a981ce89efd94e679e977d865fe7d674347e",
+          "size": [
+            105,
+            38
+          ],
+          "offset": 896398,
+          "length": 2382,
+          "pack": {
+            "url": "media/optimized/18/186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd.swp",
+            "bytes": 1847225,
+            "sha256": "186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd"
+          }
+        },
+        {
+          "numero": 3,
+          "asset": "833c39a59753a7655a98e93a86a32a18df0cb4879d315b6b87b3deceb809124d",
+          "size": [
+            105,
+            38
+          ],
+          "offset": 898780,
+          "length": 1726,
+          "pack": {
+            "url": "media/optimized/18/186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd.swp",
+            "bytes": 1847225,
+            "sha256": "186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": "ui-ce39d2de8f37c8c2",
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3506/16/3505",
+      "nombre": "itemQty",
+      "nombreOriginal": "itemQty",
+      "tipoPieza": "text",
+      "character": 3505,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ae38eb6c4bcd6d047c6a6afcb59b566ce3eea9425d805a8e63c6cad90117ae04",
+          "size": [
+            59,
+            21
+          ],
+          "offset": 1218698,
+          "length": 392,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "bitmap/23",
+      "nombre": "Imagen 23",
+      "character": 23,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "62f8b1c3e83538a03857cea119422c0dff5cf120f6b8bbc3ebeb0ecebc7a6392",
+          "size": [
+            141,
+            128
+          ],
+          "offset": 44982,
+          "length": 3292,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/25",
+      "nombre": "Imagen 25",
+      "character": 25,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f9aed555026a3887e28a1c8a565adc7b62e2e13eda12310bb667e46b51cac655",
+          "size": [
+            83,
+            133
+          ],
+          "offset": 48274,
+          "length": 13900,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/27",
+      "nombre": "Imagen 27",
+      "character": 27,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "04299c226116e5a41cc64aef0f205c33942827491f6b8b4ada5ddd7eb381f527",
+          "size": [
+            130,
+            123
+          ],
+          "offset": 62174,
+          "length": 17016,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/29",
+      "nombre": "Imagen 29",
+      "character": 29,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "0419f940b6ee34855fb435ddea536376ca79f2027afccf9a0c2cb61bf12b8f54",
+          "size": [
+            183,
+            122
+          ],
+          "offset": 79190,
+          "length": 2876,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/31",
+      "nombre": "Imagen 31",
+      "character": 31,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "19a28c03c5cffcd2c41ec1fbb8eff982567045c0757d3e643aeeafdfdac0eb38",
+          "size": [
+            50,
+            77
+          ],
+          "offset": 82066,
+          "length": 4102,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/33",
+      "nombre": "Imagen 33",
+      "character": 33,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "377a31659044a1532f93341d59502a52669e603c34ba11d8d588f30bdaaea2f8",
+          "size": [
+            54,
+            52
+          ],
+          "offset": 86168,
+          "length": 2274,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/37",
+      "nombre": "Imagen 37",
+      "character": 37,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "721567055fda06146c2084462646e56215ad04d43575c1e392fdad1b8141bb60",
+          "size": [
+            29,
+            43
+          ],
+          "offset": 88442,
+          "length": 898,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/39",
+      "nombre": "Imagen 39",
+      "character": 39,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "3c587254d3c21fd85d2fa53790864908b8226147946eabbb7d87ca144d9cfea9",
+          "size": [
+            52,
+            64
+          ],
+          "offset": 89340,
+          "length": 1444,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/43",
+      "nombre": "Imagen 43",
+      "character": 43,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "520d15f047b683412dbdbfd8f38de55d41a10a6ff1ce811a3994f3787c0a7998",
+          "size": [
+            31,
+            47
+          ],
+          "offset": 90784,
+          "length": 2738,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/68",
+      "nombre": "Imagen 68",
+      "character": 68,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f4d21967d727c5344aa839ed4febdb5a69244ecb9d95e444230b215f84d64e6c",
+          "size": [
+            99,
+            32
+          ],
+          "offset": 94734,
+          "length": 612,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/813",
+      "nombre": "Imagen 813",
+      "character": 813,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "39bf829a57ec10fc91aeb62e15d3478ce7d6781664f8564d8481b9204f64517f",
+          "size": [
+            99,
+            32
+          ],
+          "offset": 1781608,
+          "length": 784,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/816",
+      "nombre": "Imagen 816",
+      "character": 816,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "31c07738824eaf818ea49d1f5e920c1470d1336851cd27c81e29aaf43a228fcf",
+          "size": [
+            99,
+            32
+          ],
+          "offset": 1782392,
+          "length": 788,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

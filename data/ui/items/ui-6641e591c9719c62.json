@@ -1,1 +1,608 @@
-{"id":"ui-6641e591c9719c62","key":"flash/Basesec_1.5.4.swf#sprites/1279","completo":true,"groups":[{"nombre":"Composición · Elegir alianza","clave":"sprites/1279","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"9809e9c6ab4b18b57fcccd95abb5475c1804bf1a323a35ecbba294855d59ef4a","size":[672,445],"offset":1486180,"length":165542,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"ui":true,"character":1279,"isComposition":true},{"clave":"piece/1279/1/1266","nombre":"Pieza 1266","nombreOriginal":"Pieza 1266","tipoPieza":"shape","character":1266,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"1d43eea586e3bb66b47c8d0aafe6336551ee3afad25b6977929ab73226c96346","size":[608,387],"offset":1042650,"length":39068,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/1279/2/1270","nombre":"join","nombreOriginal":"join","tipoPieza":"sprite","character":1270,"total":2,"completo":true,"fotogramas":[{"numero":1,"asset":"030538e6ecec827f28115dce4bdacc35b8253ff8bba3f181eb77d0e434d78c7a","size":[236,199],"offset":1264174,"length":54072,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}},{"numero":2,"asset":"a4465e2709c3fa3260e324d49557bfee73ffe861f4f7a91c2e3789ff8d89fe71","size":[236,199],"offset":1318246,"length":53654,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":"ui-fbe10a15c1acff70","ui":true,"nota":""},{"clave":"piece/1279/4/1274","nombre":"create","nombreOriginal":"create","tipoPieza":"sprite","character":1274,"total":2,"completo":true,"fotogramas":[{"numero":1,"asset":"3bead8db06cac88694ac39d5b2497c76a05b24f3b6da65fb573cfd5b216773d1","size":[236,199],"offset":1371900,"length":57036,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}},{"numero":2,"asset":"92126f57eff3b91bab4e4915a20dc145e5569bf89e731c2f0376f9571a692b7b","size":[236,199],"offset":1428936,"length":57244,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":"ui-e8be656ca16b0d0e","ui":true,"nota":""},{"clave":"piece/1279/6/1275","nombre":"joinTF","nombreOriginal":"joinTF","tipoPieza":"text","character":1275,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"f8e752dff6a29e6bd71fdcdf51d67c5dd87022e405fd76310704aeb287da266c","size":[224,47],"offset":1138932,"length":2172,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/1279/7/1276","nombre":"createTF","nombreOriginal":"createTF","tipoPieza":"text","character":1276,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"dff3b5855c3a8fa46d628f395f4d5920588d0aaf8fa78cc0935e3dc686866d0f","size":[227,49],"offset":1003774,"length":2376,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/1279/8/1277","nombre":"join2TF","nombreOriginal":"join2TF","tipoPieza":"text","character":1277,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"8dbc009d61caf30a4b4c3434cef27a29989481ccc358d46f01fe8ff798b6a703","size":[223,39],"offset":1222564,"length":606,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/1279/9/1278","nombre":"create2TF","nombreOriginal":"create2TF","tipoPieza":"text","character":1278,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"7560956f5fe6c9fe41c558a1658ecce586e07c66a990f4e198a901850e6ed4ae","size":[227,39],"offset":862002,"length":940,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/1279/10/517","nombre":"Pieza 517","nombreOriginal":"Pieza 517","tipoPieza":"sprite","character":517,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/1279/15/518","nombre":"Título","nombreOriginal":"popupTitle","tipoPieza":"text","character":518,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"2a7fe153e8d80b23411053c6308565db7342b10342a595f0eff28ee74557c5b2","size":[476,54],"offset":1199622,"length":1856,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/1279/16/431","nombre":"Cerrar","nombreOriginal":"closeButt","tipoPieza":"button","character":431,"total":3,"completo":true,"fotogramas":[{"numero":1,"asset":"1332c86573d14f8f5c951a33425a541d5f1abd743d7e3020d3604d01791ac954","size":[53,53],"offset":81752,"length":1442,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}},{"numero":2,"asset":"e360084e3c3a92b0756250968e0af05c51a9fc3e699f2c6aebaae082010e688d","size":[53,53],"offset":83194,"length":2240,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}},{"numero":3,"asset":"1332c86573d14f8f5c951a33425a541d5f1abd743d7e3020d3604d01791ac954","size":[53,53],"offset":81752,"length":1442,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}}],"labels":[{"name":"up","from":1,"to":1},{"name":"over","from":2,"to":2},{"name":"down","from":3,"to":3}],"parentRanges":[[1,1]],"relatedItem":"ui-4f05d2b79d200e75","ui":true,"nota":""},{"clave":"piece/1279/18/1080","nombre":"helpBtn","nombreOriginal":"helpBtn","tipoPieza":"button","character":1080,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"bitmap/5","nombre":"Imagen 5","character":5,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"4a750165bc837aab6ba50f2c607a62fce00ebe08cb6986de2d73f5bd19f15353","size":[484,467],"offset":0,"length":40906,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/8","nombre":"Imagen 8","character":8,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"e29f5beb039e901c83f101245acad74ec529b73d8f713abe2345f9d6681706f1","size":[45,45],"offset":40906,"length":706,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/439","nombre":"Imagen 439","character":439,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"3295413c16c154d71fb90357aec7769532d86bb39ec7291ed76e9273da58bc42","size":[374,67],"offset":1120498,"length":2242,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/1267","nombre":"Imagen 1267","character":1267,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"db625a01af0e49e777f1f4974a0903e201bb486db63ce9341cda3da69881efe2","size":[223,187],"offset":233036,"length":50580,"pack":{"url":"media/optimized/61/61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523.swp","bytes":1870834,"sha256":"61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/1271","nombre":"Imagen 1271","character":1271,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"66bb9e2ef7131241961f2ea8be5b5a8a2aaccf5a975cea2530f7ef3c8d97af35","size":[223,187],"offset":283616,"length":54062,"pack":{"url":"media/optimized/61/61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523.swp","bytes":1870834,"sha256":"61620033e806bc3f15a932f1fa7df95a5db5620d1885e552cd61bf6b42bf2523"}}],"ui":true,"tipoPieza":"bitmap"}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-6641e591c9719c62",
+  "key": "flash/Basesec_1.5.4.swf#sprites/1279",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · Elegir alianza",
+      "clave": "sprites/1279",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "9809e9c6ab4b18b57fcccd95abb5475c1804bf1a323a35ecbba294855d59ef4a",
+          "size": [
+            672,
+            445
+          ],
+          "offset": 1486180,
+          "length": 165542,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 1279,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/1279/1/1266",
+      "nombre": "Pieza 1266",
+      "nombreOriginal": "Pieza 1266",
+      "tipoPieza": "shape",
+      "character": 1266,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1d43eea586e3bb66b47c8d0aafe6336551ee3afad25b6977929ab73226c96346",
+          "size": [
+            608,
+            387
+          ],
+          "offset": 1042650,
+          "length": 39068,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/2/1270",
+      "nombre": "join",
+      "nombreOriginal": "join",
+      "tipoPieza": "sprite",
+      "character": 1270,
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "030538e6ecec827f28115dce4bdacc35b8253ff8bba3f181eb77d0e434d78c7a",
+          "size": [
+            236,
+            199
+          ],
+          "offset": 1264174,
+          "length": 54072,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        },
+        {
+          "numero": 2,
+          "asset": "a4465e2709c3fa3260e324d49557bfee73ffe861f4f7a91c2e3789ff8d89fe71",
+          "size": [
+            236,
+            199
+          ],
+          "offset": 1318246,
+          "length": 53654,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": "ui-fbe10a15c1acff70",
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/4/1274",
+      "nombre": "create",
+      "nombreOriginal": "create",
+      "tipoPieza": "sprite",
+      "character": 1274,
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "3bead8db06cac88694ac39d5b2497c76a05b24f3b6da65fb573cfd5b216773d1",
+          "size": [
+            236,
+            199
+          ],
+          "offset": 1371900,
+          "length": 57036,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        },
+        {
+          "numero": 2,
+          "asset": "92126f57eff3b91bab4e4915a20dc145e5569bf89e731c2f0376f9571a692b7b",
+          "size": [
+            236,
+            199
+          ],
+          "offset": 1428936,
+          "length": 57244,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": "ui-e8be656ca16b0d0e",
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/6/1275",
+      "nombre": "joinTF",
+      "nombreOriginal": "joinTF",
+      "tipoPieza": "text",
+      "character": 1275,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f8e752dff6a29e6bd71fdcdf51d67c5dd87022e405fd76310704aeb287da266c",
+          "size": [
+            224,
+            47
+          ],
+          "offset": 1138932,
+          "length": 2172,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/7/1276",
+      "nombre": "createTF",
+      "nombreOriginal": "createTF",
+      "tipoPieza": "text",
+      "character": 1276,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "dff3b5855c3a8fa46d628f395f4d5920588d0aaf8fa78cc0935e3dc686866d0f",
+          "size": [
+            227,
+            49
+          ],
+          "offset": 1003774,
+          "length": 2376,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/8/1277",
+      "nombre": "join2TF",
+      "nombreOriginal": "join2TF",
+      "tipoPieza": "text",
+      "character": 1277,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8dbc009d61caf30a4b4c3434cef27a29989481ccc358d46f01fe8ff798b6a703",
+          "size": [
+            223,
+            39
+          ],
+          "offset": 1222564,
+          "length": 606,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/9/1278",
+      "nombre": "create2TF",
+      "nombreOriginal": "create2TF",
+      "tipoPieza": "text",
+      "character": 1278,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "7560956f5fe6c9fe41c558a1658ecce586e07c66a990f4e198a901850e6ed4ae",
+          "size": [
+            227,
+            39
+          ],
+          "offset": 862002,
+          "length": 940,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/10/517",
+      "nombre": "Pieza 517",
+      "nombreOriginal": "Pieza 517",
+      "tipoPieza": "sprite",
+      "character": 517,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/1279/15/518",
+      "nombre": "Título",
+      "nombreOriginal": "popupTitle",
+      "tipoPieza": "text",
+      "character": 518,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "2a7fe153e8d80b23411053c6308565db7342b10342a595f0eff28ee74557c5b2",
+          "size": [
+            476,
+            54
+          ],
+          "offset": 1199622,
+          "length": 1856,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/16/431",
+      "nombre": "Cerrar",
+      "nombreOriginal": "closeButt",
+      "tipoPieza": "button",
+      "character": 431,
+      "total": 3,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1332c86573d14f8f5c951a33425a541d5f1abd743d7e3020d3604d01791ac954",
+          "size": [
+            53,
+            53
+          ],
+          "offset": 81752,
+          "length": 1442,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        },
+        {
+          "numero": 2,
+          "asset": "e360084e3c3a92b0756250968e0af05c51a9fc3e699f2c6aebaae082010e688d",
+          "size": [
+            53,
+            53
+          ],
+          "offset": 83194,
+          "length": 2240,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        },
+        {
+          "numero": 3,
+          "asset": "1332c86573d14f8f5c951a33425a541d5f1abd743d7e3020d3604d01791ac954",
+          "size": [
+            53,
+            53
+          ],
+          "offset": 81752,
+          "length": 1442,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        }
+      ],
+      "labels": [
+        {
+          "name": "up",
+          "from": 1,
+          "to": 1
+        },
+        {
+          "name": "over",
+          "from": 2,
+          "to": 2
+        },
+        {
+          "name": "down",
+          "from": 3,
+          "to": 3
+        }
+      ],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": "ui-4f05d2b79d200e75",
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1279/18/1080",
+      "nombre": "helpBtn",
+      "nombreOriginal": "helpBtn",
+      "tipoPieza": "button",
+      "character": 1080,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "bitmap/5",
+      "nombre": "Imagen 5",
+      "character": 5,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "4a750165bc837aab6ba50f2c607a62fce00ebe08cb6986de2d73f5bd19f15353",
+          "size": [
+            484,
+            467
+          ],
+          "offset": 0,
+          "length": 40906,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/8",
+      "nombre": "Imagen 8",
+      "character": 8,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "e29f5beb039e901c83f101245acad74ec529b73d8f713abe2345f9d6681706f1",
+          "size": [
+            45,
+            45
+          ],
+          "offset": 40906,
+          "length": 706,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/439",
+      "nombre": "Imagen 439",
+      "character": 439,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "3295413c16c154d71fb90357aec7769532d86bb39ec7291ed76e9273da58bc42",
+          "size": [
+            374,
+            67
+          ],
+          "offset": 1120498,
+          "length": 2242,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/1267",
+      "nombre": "Imagen 1267",
+      "character": 1267,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "db625a01af0e49e777f1f4974a0903e201bb486db63ce9341cda3da69881efe2",
+          "size": [
+            223,
+            187
+          ],
+          "offset": 233036,
+          "length": 50580,
+          "pack": {
+            "url": "media/optimized/13/1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02.swp",
+            "bytes": 1870926,
+            "sha256": "1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/1271",
+      "nombre": "Imagen 1271",
+      "character": 1271,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "66bb9e2ef7131241961f2ea8be5b5a8a2aaccf5a975cea2530f7ef3c8d97af35",
+          "size": [
+            223,
+            187
+          ],
+          "offset": 283616,
+          "length": 54062,
+          "pack": {
+            "url": "media/optimized/13/1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02.swp",
+            "bytes": 1870926,
+            "sha256": "1372783e2f31499948d4dfdb76550cff05fc81534f05dff394f598e2227c8e02"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

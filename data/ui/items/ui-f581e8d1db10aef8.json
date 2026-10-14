@@ -1,1 +1,81 @@
-{"id":"ui-f581e8d1db10aef8","ui":true,"groups":[{"clave":"sprites/198","nombre":"Composición · SpaceWarsAssets_fla.sprite4202_36","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"e7569b4d5c1d8b3dc75fbf47382707c7cd3dc7a4ac0d680200ee1870f9267cf5","size":[47,58],"offset":125868,"length":2448,"pack":{"url":"media/optimized/ff/ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0.swp","bytes":2014632,"sha256":"ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0"}}],"labels":[],"ui":true,"character":198,"isComposition":true},{"clave":"piece/198/1/197","nombre":"Pieza 197","nombreOriginal":"Pieza 197","tipoPieza":"button","character":197,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"bitmap/194","nombre":"Imagen 194","character":194,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"1a1bce5419cc3484d4f607e4e4bc521c2fcc8a6721af5e582f0027dc5882ba6b","size":[42,52],"offset":723616,"length":1282,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"}],"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","calidad":"original_sin_perdida"}
+{
+  "id": "ui-f581e8d1db10aef8",
+  "ui": true,
+  "groups": [
+    {
+      "clave": "sprites/198",
+      "nombre": "Composición · SpaceWarsAssets_fla.sprite4202_36",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "e7569b4d5c1d8b3dc75fbf47382707c7cd3dc7a4ac0d680200ee1870f9267cf5",
+          "size": [
+            47,
+            58
+          ],
+          "offset": 125868,
+          "length": 2448,
+          "pack": {
+            "url": "media/optimized/21/217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf.swp",
+            "bytes": 2014724,
+            "sha256": "217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 198,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/198/1/197",
+      "nombre": "Pieza 197",
+      "nombreOriginal": "Pieza 197",
+      "tipoPieza": "button",
+      "character": 197,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "bitmap/194",
+      "nombre": "Imagen 194",
+      "character": 194,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1a1bce5419cc3484d4f607e4e4bc521c2fcc8a6721af5e582f0027dc5882ba6b",
+          "size": [
+            42,
+            52
+          ],
+          "offset": 723616,
+          "length": 1282,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "calidad": "original_sin_perdida"
+}

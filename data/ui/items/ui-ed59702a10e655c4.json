@@ -1,1 +1,104 @@
-{"id":"ui-ed59702a10e655c4","key":"flash/Basesec_1.5.4.swf#sprites/3872","completo":true,"groups":[{"nombre":"Composición · SoulMixerButtonMC","clave":"sprites/3872","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"e5f2cb725b075052fe2116ed3546371b14c768664d5782aa70150bad34089ac4","size":[138,115],"offset":1178952,"length":18490,"pack":{"url":"media/optimized/b9/b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034.swp","bytes":1897277,"sha256":"b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034"}}],"labels":[],"ui":true,"character":3872,"isComposition":true},{"clave":"piece/3872/1/3871","nombre":"Pieza 3871","nombreOriginal":"Pieza 3871","tipoPieza":"sprite","character":3871,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/3872/3/3807","nombre":"text","nombreOriginal":"text","tipoPieza":"sprite","character":3807,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"bitmap/3869","nombre":"Imagen 3869","character":3869,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"1a8abe6eac3a07cf7ae7192a995900333dca4809af984180ab2f6dd90c4c7f98","size":[128,101],"offset":497616,"length":18374,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"ui":true,"tipoPieza":"bitmap"}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-ed59702a10e655c4",
+  "key": "flash/Basesec_1.5.4.swf#sprites/3872",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · SoulMixerButtonMC",
+      "clave": "sprites/3872",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "e5f2cb725b075052fe2116ed3546371b14c768664d5782aa70150bad34089ac4",
+          "size": [
+            138,
+            115
+          ],
+          "offset": 1178952,
+          "length": 18490,
+          "pack": {
+            "url": "media/optimized/95/95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c.swp",
+            "bytes": 1897369,
+            "sha256": "95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3872,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3872/1/3871",
+      "nombre": "Pieza 3871",
+      "nombreOriginal": "Pieza 3871",
+      "tipoPieza": "sprite",
+      "character": 3871,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/3872/3/3807",
+      "nombre": "text",
+      "nombreOriginal": "text",
+      "tipoPieza": "sprite",
+      "character": 3807,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "bitmap/3869",
+      "nombre": "Imagen 3869",
+      "character": 3869,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "1a8abe6eac3a07cf7ae7192a995900333dca4809af984180ab2f6dd90c4c7f98",
+          "size": [
+            128,
+            101
+          ],
+          "offset": 497616,
+          "length": 18374,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

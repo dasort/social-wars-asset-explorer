@@ -1,1 +1,78 @@
-{"id":"ui-fb6d536b1f135232","key":"flash/Basesec_1.5.4.swf#sprites/3587","completo":true,"groups":[{"nombre":"Composición · TooltipMultilineMC","clave":"sprites/3587","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"5e18ac3aeb24ada818d698ecb53015845ed4105ad1264fe1abbda9ab03818d56","size":[255,32],"offset":323706,"length":182,"pack":{"url":"media/optimized/b9/b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034.swp","bytes":1897277,"sha256":"b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034"}}],"labels":[],"ui":true,"character":3587,"isComposition":true},{"clave":"piece/3587/1/3585","nombre":"mcBg","nombreOriginal":"mcBg","tipoPieza":"sprite","character":3585,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/3587/3/3586","nombre":"tx","nombreOriginal":"tx","tipoPieza":"text","character":3586,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-fb6d536b1f135232",
+  "key": "flash/Basesec_1.5.4.swf#sprites/3587",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · TooltipMultilineMC",
+      "clave": "sprites/3587",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "5e18ac3aeb24ada818d698ecb53015845ed4105ad1264fe1abbda9ab03818d56",
+          "size": [
+            255,
+            32
+          ],
+          "offset": 323706,
+          "length": 182,
+          "pack": {
+            "url": "media/optimized/95/95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c.swp",
+            "bytes": 1897369,
+            "sha256": "95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3587,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3587/1/3585",
+      "nombre": "mcBg",
+      "nombreOriginal": "mcBg",
+      "tipoPieza": "sprite",
+      "character": 3585,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/3587/3/3586",
+      "nombre": "tx",
+      "nombreOriginal": "tx",
+      "tipoPieza": "text",
+      "character": 3586,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

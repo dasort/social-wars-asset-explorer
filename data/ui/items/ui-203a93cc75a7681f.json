@@ -1,1 +1,34 @@
-{"id":"ui-203a93cc75a7681f","key":"flash/SWLoader.swf#sprites/78","completo":true,"groups":[{"nombre":"AnimatedBgdMC_AnimatedBgdMC","clave":"sprites/78","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"c9f5889cd70c92ae11fd40015485b57927a340be9ef844b782a093b0c3bb86bb","size":[800,640],"offset":1591752,"length":106022,"pack":{"url":"media/optimized/d9/d910145d9e4716fddf767ef07882d3789411ed96fcccbf8505700ac779739415.swp","bytes":1992489,"sha256":"d910145d9e4716fddf767ef07882d3789411ed96fcccbf8505700ac779739415"}}]}],"ui":true,"nota":"Composición del SWF sin ejecutar el juego. Textos, cifras y contenido dinámico pueden ser ejemplos o quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-203a93cc75a7681f",
+  "key": "flash/SWLoader.swf#sprites/78",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "AnimatedBgdMC_AnimatedBgdMC",
+      "clave": "sprites/78",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "c9f5889cd70c92ae11fd40015485b57927a340be9ef844b782a093b0c3bb86bb",
+          "size": [
+            800,
+            640
+          ],
+          "offset": 1591752,
+          "length": 106022,
+          "pack": {
+            "url": "media/optimized/df/df3786b6716e43b711ad5409ea80df5d1c5150ba03bbed3a72bdc29fb2a7fe27.swp",
+            "bytes": 1992581,
+            "sha256": "df3786b6716e43b711ad5409ea80df5d1c5150ba03bbed3a72bdc29fb2a7fe27"
+          }
+        }
+      ]
+    }
+  ],
+  "ui": true,
+  "nota": "Composición del SWF sin ejecutar el juego. Textos, cifras y contenido dinámico pueden ser ejemplos o quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

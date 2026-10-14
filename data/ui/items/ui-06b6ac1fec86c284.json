@@ -1,1 +1,55 @@
-{"id":"ui-06b6ac1fec86c284","ui":true,"groups":[{"clave":"sprites/402","nombre":"Composición · GreenTickMC","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"bbf33f2e5963e34ca5a7c1e8bc39fe294e04e04eba4160de12c684fc1849138a","size":[106,118],"offset":121716,"length":3296,"pack":{"url":"media/optimized/ff/ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0.swp","bytes":2014632,"sha256":"ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0"}}],"labels":[],"ui":true,"character":402,"isComposition":true},{"clave":"piece/402/1/401","nombre":"Pieza 401","nombreOriginal":"Pieza 401","tipoPieza":"sprite","character":401,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."}],"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","calidad":"original_sin_perdida"}
+{
+  "id": "ui-06b6ac1fec86c284",
+  "ui": true,
+  "groups": [
+    {
+      "clave": "sprites/402",
+      "nombre": "Composición · GreenTickMC",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "bbf33f2e5963e34ca5a7c1e8bc39fe294e04e04eba4160de12c684fc1849138a",
+          "size": [
+            106,
+            118
+          ],
+          "offset": 121716,
+          "length": 3296,
+          "pack": {
+            "url": "media/optimized/21/217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf.swp",
+            "bytes": 2014724,
+            "sha256": "217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 402,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/402/1/401",
+      "nombre": "Pieza 401",
+      "nombreOriginal": "Pieza 401",
+      "tipoPieza": "sprite",
+      "character": 401,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    }
+  ],
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "calidad": "original_sin_perdida"
+}

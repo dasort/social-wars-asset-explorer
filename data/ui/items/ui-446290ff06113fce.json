@@ -1,1 +1,94 @@
-{"id":"ui-446290ff06113fce","key":"flash/Basesec_1.5.4.swf#sprites/3765","completo":true,"groups":[{"nombre":"Composición · InfoButtonStore14MC","clave":"sprites/3765","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"37b85624a9406cd4474108d3080d70fa1048c58e2ef8ff8a50ab3c75db43b4f9","size":[151,148],"offset":899692,"length":2840,"pack":{"url":"media/optimized/b9/b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034.swp","bytes":1897277,"sha256":"b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034"}}],"labels":[],"ui":true,"character":3765,"isComposition":true},{"clave":"piece/3765/1/3763","nombre":"Pieza 3763","nombreOriginal":"Pieza 3763","tipoPieza":"sprite","character":3763,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/3765/3/3764","nombre":"txDesc","nombreOriginal":"txDesc","tipoPieza":"text","character":3764,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"9933dc3c9307254f6add6e7b5d76bdc44f346aa909c3b766fc7e10d12a2dbaa3","size":[125,104],"offset":855268,"length":1376,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-446290ff06113fce",
+  "key": "flash/Basesec_1.5.4.swf#sprites/3765",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · InfoButtonStore14MC",
+      "clave": "sprites/3765",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "37b85624a9406cd4474108d3080d70fa1048c58e2ef8ff8a50ab3c75db43b4f9",
+          "size": [
+            151,
+            148
+          ],
+          "offset": 899692,
+          "length": 2840,
+          "pack": {
+            "url": "media/optimized/95/95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c.swp",
+            "bytes": 1897369,
+            "sha256": "95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3765,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3765/1/3763",
+      "nombre": "Pieza 3763",
+      "nombreOriginal": "Pieza 3763",
+      "tipoPieza": "sprite",
+      "character": 3763,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/3765/3/3764",
+      "nombre": "txDesc",
+      "nombreOriginal": "txDesc",
+      "tipoPieza": "text",
+      "character": 3764,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "9933dc3c9307254f6add6e7b5d76bdc44f346aa909c3b766fc7e10d12a2dbaa3",
+          "size": [
+            125,
+            104
+          ],
+          "offset": 855268,
+          "length": 1376,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

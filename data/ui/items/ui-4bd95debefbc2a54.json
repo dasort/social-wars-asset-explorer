@@ -1,1 +1,114 @@
-{"id":"ui-4bd95debefbc2a54","key":"flash/Basesec_1.5.4.swf#sprites/826","completo":true,"groups":[{"nombre":"Composición · ToolTipMC","clave":"sprites/826","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"6a1c35bc4851fc95d63b7c32645ea6d75c0ad0d1f9d6eda584ffd6d844ae3f51","size":[133,24],"offset":1314364,"length":1020,"pack":{"url":"media/optimized/86/86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86.swp","bytes":1847133,"sha256":"86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86"}}],"labels":[],"ui":true,"character":826,"isComposition":true},{"clave":"piece/826/1/822","nombre":"triangle","nombreOriginal":"triangle","tipoPieza":"sprite","character":822,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/826/3/824","nombre":"theRect","nombreOriginal":"theRect","tipoPieza":"sprite","character":824,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/826/7/825","nombre":"itemName","nombreOriginal":"itemName","tipoPieza":"text","character":825,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"f47d41386d6565fd57fd062dc2f68cea579a9c1f7ba8e3439854675e168e77a1","size":[104,19],"offset":1355034,"length":406,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-4bd95debefbc2a54",
+  "key": "flash/Basesec_1.5.4.swf#sprites/826",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · ToolTipMC",
+      "clave": "sprites/826",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6a1c35bc4851fc95d63b7c32645ea6d75c0ad0d1f9d6eda584ffd6d844ae3f51",
+          "size": [
+            133,
+            24
+          ],
+          "offset": 1314364,
+          "length": 1020,
+          "pack": {
+            "url": "media/optimized/18/186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd.swp",
+            "bytes": 1847225,
+            "sha256": "186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 826,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/826/1/822",
+      "nombre": "triangle",
+      "nombreOriginal": "triangle",
+      "tipoPieza": "sprite",
+      "character": 822,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/826/3/824",
+      "nombre": "theRect",
+      "nombreOriginal": "theRect",
+      "tipoPieza": "sprite",
+      "character": 824,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/826/7/825",
+      "nombre": "itemName",
+      "nombreOriginal": "itemName",
+      "tipoPieza": "text",
+      "character": 825,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "f47d41386d6565fd57fd062dc2f68cea579a9c1f7ba8e3439854675e168e77a1",
+          "size": [
+            104,
+            19
+          ],
+          "offset": 1355034,
+          "length": 406,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

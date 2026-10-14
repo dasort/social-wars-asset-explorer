@@ -1,1 +1,114 @@
-{"id":"ui-d5a82da74c5181c9","key":"flash/Basesec_1.5.4.swf#sprites/2958","completo":true,"groups":[{"nombre":"Composición · BarraVidaMC","clave":"sprites/2958","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"d448dfb88ed68729c8a41d8c71576ab524d6301f9f1f0e68db3e3fac3890a2bd","size":[81,8],"offset":1769038,"length":140,"pack":{"url":"media/optimized/b5/b57e86b64bf6248b4241247289ace6cfcfb3aa805d02d2c9da295d86ccb6e866.swp","bytes":1944411,"sha256":"b57e86b64bf6248b4241247289ace6cfcfb3aa805d02d2c9da295d86ccb6e866"}}],"labels":[],"ui":true,"character":2958,"isComposition":true},{"clave":"piece/2958/1/2955","nombre":"barraVerde","nombreOriginal":"barraVerde","tipoPieza":"sprite","character":2955,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/2958/3/2956","nombre":"barraRoja","nombreOriginal":"barraRoja","tipoPieza":"sprite","character":2956,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/2958/5/2957","nombre":"Pieza 2957","nombreOriginal":"Pieza 2957","tipoPieza":"shape","character":2957,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"be2d20c3eb59834a23ee7541c0d4dbbc49af24771722f9702c85b80d16ef38f3","size":[81,8],"offset":1672632,"length":84,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-d5a82da74c5181c9",
+  "key": "flash/Basesec_1.5.4.swf#sprites/2958",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · BarraVidaMC",
+      "clave": "sprites/2958",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d448dfb88ed68729c8a41d8c71576ab524d6301f9f1f0e68db3e3fac3890a2bd",
+          "size": [
+            81,
+            8
+          ],
+          "offset": 1769038,
+          "length": 140,
+          "pack": {
+            "url": "media/optimized/a5/a5e282bee9bc5e3965fe1185df819380f7b1698c68a8bcd0e7b6244e9ab3cffa.swp",
+            "bytes": 1944503,
+            "sha256": "a5e282bee9bc5e3965fe1185df819380f7b1698c68a8bcd0e7b6244e9ab3cffa"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 2958,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/2958/1/2955",
+      "nombre": "barraVerde",
+      "nombreOriginal": "barraVerde",
+      "tipoPieza": "sprite",
+      "character": 2955,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/2958/3/2956",
+      "nombre": "barraRoja",
+      "nombreOriginal": "barraRoja",
+      "tipoPieza": "sprite",
+      "character": 2956,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/2958/5/2957",
+      "nombre": "Pieza 2957",
+      "nombreOriginal": "Pieza 2957",
+      "tipoPieza": "shape",
+      "character": 2957,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "be2d20c3eb59834a23ee7541c0d4dbbc49af24771722f9702c85b80d16ef38f3",
+          "size": [
+            81,
+            8
+          ],
+          "offset": 1672632,
+          "length": 84,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

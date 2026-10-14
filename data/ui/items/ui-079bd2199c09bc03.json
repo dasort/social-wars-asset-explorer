@@ -1,1 +1,129 @@
-{"id":"ui-079bd2199c09bc03","key":"flash/Basesec_1.5.4.swf#sprites/1345","completo":true,"groups":[{"nombre":"Composición · MondayBonusButtonAsset","clave":"sprites/1345","total":2,"completo":true,"fotogramas":[{"numero":1,"asset":"98ab96c43eb1b0b4b52876e71f7d09d6b66b480bed1a15eaa61769e3aded54e9","size":[163,155],"offset":1721344,"length":7660,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}},{"numero":2,"asset":"85f77153bc908fe040529306f94ca99268a2da700326498ff0cff9fb43b4b23c","size":[163,155],"offset":1729004,"length":5852,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"ui":true,"character":1345,"isComposition":true},{"clave":"piece/1345/1/1319","nombre":"Pieza 1319","nombreOriginal":"Pieza 1319","tipoPieza":"sprite","character":1319,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/1345/69/1320","nombre":"Pieza 1320","nombreOriginal":"Pieza 1320","tipoPieza":"shape","character":1320,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"0e78f35580633cfc52ca4024ec75d6856d34a4ef6ff4e4acf6626fe90378c80a","size":[60,71],"offset":1805686,"length":1592,"pack":{"url":"media/optimized/b9/b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de.swp","bytes":2020212,"sha256":"b9951ee9cb44ac075006c6435ddc30e0cffdd02d5290c3f7798157d0ff10a0de"}}],"labels":[],"parentRanges":[[1,2]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/1345/1/1344","nombre":"Pieza 1344","nombreOriginal":"Pieza 1344","tipoPieza":"sprite","character":1344,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[2,2]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-079bd2199c09bc03",
+  "key": "flash/Basesec_1.5.4.swf#sprites/1345",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · MondayBonusButtonAsset",
+      "clave": "sprites/1345",
+      "total": 2,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "98ab96c43eb1b0b4b52876e71f7d09d6b66b480bed1a15eaa61769e3aded54e9",
+          "size": [
+            163,
+            155
+          ],
+          "offset": 1721344,
+          "length": 7660,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        },
+        {
+          "numero": 2,
+          "asset": "85f77153bc908fe040529306f94ca99268a2da700326498ff0cff9fb43b4b23c",
+          "size": [
+            163,
+            155
+          ],
+          "offset": 1729004,
+          "length": 5852,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 1345,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/1345/1/1319",
+      "nombre": "Pieza 1319",
+      "nombreOriginal": "Pieza 1319",
+      "tipoPieza": "sprite",
+      "character": 1319,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/1345/69/1320",
+      "nombre": "Pieza 1320",
+      "nombreOriginal": "Pieza 1320",
+      "tipoPieza": "shape",
+      "character": 1320,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "0e78f35580633cfc52ca4024ec75d6856d34a4ef6ff4e4acf6626fe90378c80a",
+          "size": [
+            60,
+            71
+          ],
+          "offset": 1805686,
+          "length": 1592,
+          "pack": {
+            "url": "media/optimized/c8/c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682.swp",
+            "bytes": 2020304,
+            "sha256": "c895d94644c98b20a680afd286165a464b4e1ea6a7058b35443984a644faa682"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/1345/1/1344",
+      "nombre": "Pieza 1344",
+      "nombreOriginal": "Pieza 1344",
+      "tipoPieza": "sprite",
+      "character": 1344,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          2,
+          2
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

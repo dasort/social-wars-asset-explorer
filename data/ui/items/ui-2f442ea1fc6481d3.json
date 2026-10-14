@@ -1,1 +1,248 @@
-{"id":"ui-2f442ea1fc6481d3","key":"flash/Basesec_1.5.4.swf#sprites/3636","completo":true,"groups":[{"nombre":"Composición · NoGiftsIcon","clave":"sprites/3636","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"27b19d94a13b1686802565edc4da61c65638bbbf3984d793a3099ea3687ea5b9","size":[540,203],"offset":355436,"length":20982,"pack":{"url":"media/optimized/b9/b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034.swp","bytes":1897277,"sha256":"b9d0b3746b3d8f4a08503ec800d59891a8b48c69fb4e46288b97d07c43981034"}}],"labels":[],"ui":true,"character":3636,"isComposition":true},{"clave":"piece/3636/1/3628","nombre":"Pieza 3628","nombreOriginal":"Pieza 3628","tipoPieza":"sprite","character":3628,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/3636/4/3630","nombre":"Pieza 3630","nombreOriginal":"Pieza 3630","tipoPieza":"shape","character":3630,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"edb4957946746e3877f7f4bf259a1cf3d45b98dc0463db3a618c2260498d910d","size":[477,152],"offset":607038,"length":5224,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/3636/5/3632","nombre":"Pieza 3632","nombreOriginal":"Pieza 3632","tipoPieza":"sprite","character":3632,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"piece/3636/7/3633","nombre":"txtTitle","nombreOriginal":"txtTitle","tipoPieza":"text","character":3633,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"2483bc3883c001787ecfd640be8d5a7500abef81316eec2cfc38c4b195d3438e","size":[202,38],"offset":1370604,"length":1652,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/3636/8/3634","nombre":"txtDesc","nombreOriginal":"txtDesc","tipoPieza":"text","character":3634,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"517408237b5b97d2a3ffcb267c579e8fbc47e1389366ea3e0b16cf1b3ad10336","size":[259,103],"offset":1244630,"length":4868,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"piece/3636/9/3635","nombre":"txtSend","nombreOriginal":"txtSend","tipoPieza":"text","character":3635,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"75574bf10fb927dfb68a79f21720639d6dc1bf41d32f22948b145c38abf02d86","size":[193,38],"offset":1272528,"length":1124,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""},{"clave":"bitmap/3629","nombre":"Imagen 3629","character":3629,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"25c043ccd0e5d732934440a8096a3127bdab37195764d0c7aebc0a4502299d25","size":[129,130],"offset":410522,"length":4128,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"ui":true,"tipoPieza":"bitmap"}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-2f442ea1fc6481d3",
+  "key": "flash/Basesec_1.5.4.swf#sprites/3636",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · NoGiftsIcon",
+      "clave": "sprites/3636",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "27b19d94a13b1686802565edc4da61c65638bbbf3984d793a3099ea3687ea5b9",
+          "size": [
+            540,
+            203
+          ],
+          "offset": 355436,
+          "length": 20982,
+          "pack": {
+            "url": "media/optimized/95/95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c.swp",
+            "bytes": 1897369,
+            "sha256": "95112ea74c78ce888f721b15db18bb8b6a2b54e73941cc11a3efaca6247e1e8c"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3636,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3636/1/3628",
+      "nombre": "Pieza 3628",
+      "nombreOriginal": "Pieza 3628",
+      "tipoPieza": "sprite",
+      "character": 3628,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/3636/4/3630",
+      "nombre": "Pieza 3630",
+      "nombreOriginal": "Pieza 3630",
+      "tipoPieza": "shape",
+      "character": 3630,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "edb4957946746e3877f7f4bf259a1cf3d45b98dc0463db3a618c2260498d910d",
+          "size": [
+            477,
+            152
+          ],
+          "offset": 607038,
+          "length": 5224,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3636/5/3632",
+      "nombre": "Pieza 3632",
+      "nombreOriginal": "Pieza 3632",
+      "tipoPieza": "sprite",
+      "character": 3632,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "piece/3636/7/3633",
+      "nombre": "txtTitle",
+      "nombreOriginal": "txtTitle",
+      "tipoPieza": "text",
+      "character": 3633,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "2483bc3883c001787ecfd640be8d5a7500abef81316eec2cfc38c4b195d3438e",
+          "size": [
+            202,
+            38
+          ],
+          "offset": 1370604,
+          "length": 1652,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3636/8/3634",
+      "nombre": "txtDesc",
+      "nombreOriginal": "txtDesc",
+      "tipoPieza": "text",
+      "character": 3634,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "517408237b5b97d2a3ffcb267c579e8fbc47e1389366ea3e0b16cf1b3ad10336",
+          "size": [
+            259,
+            103
+          ],
+          "offset": 1244630,
+          "length": 4868,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "piece/3636/9/3635",
+      "nombre": "txtSend",
+      "nombreOriginal": "txtSend",
+      "tipoPieza": "text",
+      "character": 3635,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "75574bf10fb927dfb68a79f21720639d6dc1bf41d32f22948b145c38abf02d86",
+          "size": [
+            193,
+            38
+          ],
+          "offset": 1272528,
+          "length": 1124,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    },
+    {
+      "clave": "bitmap/3629",
+      "nombre": "Imagen 3629",
+      "character": 3629,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "25c043ccd0e5d732934440a8096a3127bdab37195764d0c7aebc0a4502299d25",
+          "size": [
+            129,
+            130
+          ],
+          "offset": 410522,
+          "length": 4128,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

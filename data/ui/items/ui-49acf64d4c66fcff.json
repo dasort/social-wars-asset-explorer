@@ -1,1 +1,107 @@
-{"id":"ui-49acf64d4c66fcff","ui":true,"groups":[{"clave":"sprites/3896","nombre":"Composición · HireFriendMC","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"0b74f6999473e86eb013b27603eb16616bc5a75875db78798cb8472f0c8a2edb","size":[83,83],"offset":1470468,"length":410,"pack":{"url":"media/optimized/ff/ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0.swp","bytes":2014632,"sha256":"ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0"}}],"labels":[],"ui":true,"character":3896,"isComposition":true},{"clave":"piece/3896/1/3497","nombre":"mcMarco","nombreOriginal":"mcMarco","tipoPieza":"sprite","character":3497,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"bitmap/3493","nombre":"Imagen 3493","character":3493,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"66bac485fc2fe2844f6657b02c9d3f44477e98ed5917d004bfa44fba498f5f1f","size":[90,90],"offset":367796,"length":9486,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"ui":true,"tipoPieza":"bitmap"},{"clave":"bitmap/3495","nombre":"Imagen 3495","character":3495,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"fdf15150860df5549aea93cc8fa5c91054c05a1ba87559707f095f4cf7dd6911","size":[90,90],"offset":377282,"length":10982,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"ui":true,"tipoPieza":"bitmap"}],"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","calidad":"original_sin_perdida"}
+{
+  "id": "ui-49acf64d4c66fcff",
+  "ui": true,
+  "groups": [
+    {
+      "clave": "sprites/3896",
+      "nombre": "Composición · HireFriendMC",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "0b74f6999473e86eb013b27603eb16616bc5a75875db78798cb8472f0c8a2edb",
+          "size": [
+            83,
+            83
+          ],
+          "offset": 1470468,
+          "length": 410,
+          "pack": {
+            "url": "media/optimized/21/217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf.swp",
+            "bytes": 2014724,
+            "sha256": "217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 3896,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/3896/1/3497",
+      "nombre": "mcMarco",
+      "nombreOriginal": "mcMarco",
+      "tipoPieza": "sprite",
+      "character": 3497,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "bitmap/3493",
+      "nombre": "Imagen 3493",
+      "character": 3493,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "66bac485fc2fe2844f6657b02c9d3f44477e98ed5917d004bfa44fba498f5f1f",
+          "size": [
+            90,
+            90
+          ],
+          "offset": 367796,
+          "length": 9486,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    },
+    {
+      "clave": "bitmap/3495",
+      "nombre": "Imagen 3495",
+      "character": 3495,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "fdf15150860df5549aea93cc8fa5c91054c05a1ba87559707f095f4cf7dd6911",
+          "size": [
+            90,
+            90
+          ],
+          "offset": 377282,
+          "length": 10982,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "calidad": "original_sin_perdida"
+}

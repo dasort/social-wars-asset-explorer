@@ -1,1 +1,74 @@
-{"id":"ui-5bf909537e53f17f","key":"flash/Basesec_1.5.4.swf#sprites/1346","completo":true,"groups":[{"nombre":"Composición · GuiCover","clave":"sprites/1346","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"73b4c1de0e0e4bc8cfc526540dc72802bb5eb5d36a2d26e2cceef9fb7e94cd2a","size":[8,10],"offset":1734856,"length":34,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"ui":true,"character":1346,"isComposition":true},{"clave":"piece/1346/1/85","nombre":"Pieza 85","nombreOriginal":"Pieza 85","tipoPieza":"shape","character":85,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"8e0a782d4140148ed2413634483391cb6b20af9774b08e09b27d8613d8b730e3","size":[236,39],"offset":771476,"length":60,"pack":{"url":"media/optimized/3a/3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920.swp","bytes":1423196,"sha256":"3ab6ddff3b310264f24d97f0c4152dca2c748a7fc53c6362c2573b5706177920"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":""}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-5bf909537e53f17f",
+  "key": "flash/Basesec_1.5.4.swf#sprites/1346",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · GuiCover",
+      "clave": "sprites/1346",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "73b4c1de0e0e4bc8cfc526540dc72802bb5eb5d36a2d26e2cceef9fb7e94cd2a",
+          "size": [
+            8,
+            10
+          ],
+          "offset": 1734856,
+          "length": 34,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 1346,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/1346/1/85",
+      "nombre": "Pieza 85",
+      "nombreOriginal": "Pieza 85",
+      "tipoPieza": "shape",
+      "character": 85,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "8e0a782d4140148ed2413634483391cb6b20af9774b08e09b27d8613d8b730e3",
+          "size": [
+            236,
+            39
+          ],
+          "offset": 771476,
+          "length": 60,
+          "pack": {
+            "url": "media/optimized/fd/fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e.swp",
+            "bytes": 1423288,
+            "sha256": "fd1f02f2175d0c5be7fd2b60870761389786c699a16bc1c93db3034d5ac2665e"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

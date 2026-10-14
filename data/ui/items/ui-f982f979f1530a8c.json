@@ -1,1 +1,84 @@
-{"id":"ui-f982f979f1530a8c","key":"flash/Basesec_1.5.4.swf#sprites/174","completo":true,"groups":[{"nombre":"Composición · CollButtonGraphic","clave":"sprites/174","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"6ed30404329a9dd1cdc8d7f40bcab52630640aa7c0c2ca7c0c41c17b1a2e9e32","size":[50,49],"offset":1734890,"length":4686,"pack":{"url":"media/optimized/47/47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45.swp","bytes":1749294,"sha256":"47a93a0e7d80cd4e4bf38d7c20267e49b7f6abbffd3dd194d090c3eb480dcb45"}}],"labels":[],"ui":true,"character":174,"isComposition":true},{"clave":"piece/174/1/173","nombre":"Pieza 173","nombreOriginal":"Pieza 173","tipoPieza":"button","character":173,"total":0,"completo":true,"fotogramas":[],"labels":[],"parentRanges":[[1,1]],"relatedItem":null,"ui":true,"nota":"Sin imagen estática; el juego completa esta pieza."},{"clave":"bitmap/171","nombre":"Imagen 171","character":171,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"d72ac1bbf52e092302331a469f335d00a879ee68573c50134ffe93de2a40bf58","size":[46,45],"offset":708470,"length":4736,"pack":{"url":"media/optimized/38/38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23.swp","bytes":1921362,"sha256":"38d5aca5c17c8a029f58378e4ca6c963c74f251d990453771e047c83e951db23"}}],"ui":true,"tipoPieza":"bitmap"}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-f982f979f1530a8c",
+  "key": "flash/Basesec_1.5.4.swf#sprites/174",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · CollButtonGraphic",
+      "clave": "sprites/174",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "6ed30404329a9dd1cdc8d7f40bcab52630640aa7c0c2ca7c0c41c17b1a2e9e32",
+          "size": [
+            50,
+            49
+          ],
+          "offset": 1734890,
+          "length": 4686,
+          "pack": {
+            "url": "media/optimized/1b/1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e.swp",
+            "bytes": 1749386,
+            "sha256": "1b43373ecb22888c1a7ed0614024faf61eb3f29f5aaa6f39bed944105419e08e"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 174,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/174/1/173",
+      "nombre": "Pieza 173",
+      "nombreOriginal": "Pieza 173",
+      "tipoPieza": "button",
+      "character": 173,
+      "total": 0,
+      "completo": true,
+      "fotogramas": [],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": null,
+      "ui": true,
+      "nota": "Sin imagen estática; el juego completa esta pieza."
+    },
+    {
+      "clave": "bitmap/171",
+      "nombre": "Imagen 171",
+      "character": 171,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "d72ac1bbf52e092302331a469f335d00a879ee68573c50134ffe93de2a40bf58",
+          "size": [
+            46,
+            45
+          ],
+          "offset": 708470,
+          "length": 4736,
+          "pack": {
+            "url": "media/optimized/4e/4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a.swp",
+            "bytes": 1921454,
+            "sha256": "4e954042f4c4a16a28d5648e10d692587f7a38d29784f87b4b995a44c599870a"
+          }
+        }
+      ],
+      "ui": true,
+      "tipoPieza": "bitmap"
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}

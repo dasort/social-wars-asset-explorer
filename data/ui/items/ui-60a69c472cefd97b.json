@@ -1,1 +1,74 @@
-{"id":"ui-60a69c472cefd97b","key":"flash/Basesec_1.5.4.swf#sprites/971","completo":true,"groups":[{"nombre":"Composición · DCButtonMC","clave":"sprites/971","total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"ae37a9af7f22579c3fabc07e2e2fb474c82dcb54e5acbac3409fd4f13281f437","size":[196,136],"offset":1717082,"length":7232,"pack":{"url":"media/optimized/86/86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86.swp","bytes":1847133,"sha256":"86b6520510beb6e9c44fb888e86fb0ff7d6cddaaf940dcb20641ea73c904ed86"}}],"labels":[],"ui":true,"character":971,"isComposition":true},{"clave":"piece/971/1/970","nombre":"boton_blizzard_SW","nombreOriginal":"boton_blizzard_SW","tipoPieza":"sprite","character":970,"total":1,"completo":true,"fotogramas":[{"numero":1,"asset":"40c644b3457f4a760a5a81cfde8a16cc1d7ba268cd8c197ad09233629d171c24","size":[194,134],"offset":1362876,"length":6988,"pack":{"url":"media/optimized/ff/ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0.swp","bytes":2014632,"sha256":"ffdd589a1dc62482c03dec0365c030d4d35aad189c0ccb1ea359c5a99b9f0dc0"}}],"labels":[],"parentRanges":[[1,1]],"relatedItem":"ui-7e742c4d46e5f591","ui":true,"nota":""}],"ui":true,"nota":"Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.","referencias":[],"calidad":"original_sin_perdida"}
+{
+  "id": "ui-60a69c472cefd97b",
+  "key": "flash/Basesec_1.5.4.swf#sprites/971",
+  "completo": true,
+  "groups": [
+    {
+      "nombre": "Composición · DCButtonMC",
+      "clave": "sprites/971",
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "ae37a9af7f22579c3fabc07e2e2fb474c82dcb54e5acbac3409fd4f13281f437",
+          "size": [
+            196,
+            136
+          ],
+          "offset": 1717082,
+          "length": 7232,
+          "pack": {
+            "url": "media/optimized/18/186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd.swp",
+            "bytes": 1847225,
+            "sha256": "186362b3e672faabd618e3e28f384f68647eb4292ae76e794b33537a3c16cccd"
+          }
+        }
+      ],
+      "labels": [],
+      "ui": true,
+      "character": 971,
+      "isComposition": true
+    },
+    {
+      "clave": "piece/971/1/970",
+      "nombre": "boton_blizzard_SW",
+      "nombreOriginal": "boton_blizzard_SW",
+      "tipoPieza": "sprite",
+      "character": 970,
+      "total": 1,
+      "completo": true,
+      "fotogramas": [
+        {
+          "numero": 1,
+          "asset": "40c644b3457f4a760a5a81cfde8a16cc1d7ba268cd8c197ad09233629d171c24",
+          "size": [
+            194,
+            134
+          ],
+          "offset": 1362876,
+          "length": 6988,
+          "pack": {
+            "url": "media/optimized/21/217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf.swp",
+            "bytes": 2014724,
+            "sha256": "217dac700e31a6e3c2a1a02b7b33f9bbdec9ffa732961b1f763da7b12f7471bf"
+          }
+        }
+      ],
+      "labels": [],
+      "parentRanges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relatedItem": "ui-7e742c4d46e5f591",
+      "ui": true,
+      "nota": ""
+    }
+  ],
+  "ui": true,
+  "nota": "Composición y piezas vinculadas por el SWF. Los textos y contenedores dinámicos pueden quedar vacíos.",
+  "referencias": [],
+  "calidad": "original_sin_perdida"
+}
