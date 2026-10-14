@@ -26,6 +26,7 @@ const el = {
   columns:$('sprite-columns'),gallerySummary:$('gallery-summary'),stateSelect:$('state-select'),stateNote:$('state-note'),
 };
 const state={
+  uiFilter:'components',uiPngs:0,
   sortReversed:false,items:[],filtered:[],category:'Todos',debug:false,shown:0,current:null,
   detailData:null,group:-1,frame:0,timer:null,detailCache:new Map(),
   previousFocus:null,openRequest:0,overrides:{},previewMode:'walk',
@@ -36,6 +37,21 @@ function notify(message){
   clearTimeout(notify.timeout);
   notify.timeout=setTimeout(()=>{el.toast.hidden=true;},2600);
 }
+let unitPreviewOptions=null;
+function renderContext(){
+  if(unitPreviewOptions===null)unitPreviewOptions=el.previewMode.innerHTML;
+  const ui=state.category==='Interfaz';
+  const choices=[['components','Componentes completos'],['Ventanas','Ventanas'],['Botones','Botones'],['Iconos','Íconos'],['Barras y paneles','Barras y paneles'],['pieces','Piezas sueltas'],['Otros componentes','Otros componentes'],['all','Todos los elementos']];
+  el.previewMode.innerHTML=ui?choices.map(([value,label])=>`<option value="${value}">${label}</option>`).join(''):unitPreviewOptions;
+  el.previewMode.value=ui?state.uiFilter:state.previewMode;
+  el.previewMode.setAttribute('aria-label',ui?'Mostrar recursos de interfaz':'Modo de preview de la grilla');
+  $('preview-label').textContent=ui?'Mostrar':'Vista';
+  $('catalog-summary').textContent=`Total: ${number(419371+state.uiPngs)} PNG`;
+  $('catalog-summary').title='PNG originales inventariados y vistas de interfaz añadidas; las piezas compartidas se cuentan una vez.';
+  $('catalog-curation').textContent='403 unidades con previews revisadas';
+  $('catalog-curation').title='Revisión manual de previews de las 403 unidades.';
+}
+function uiStateLabel(name){return ({out:'Normal',over:'Al pasar el cursor',selected:'Seleccionado',up:'Normal',down:'Pulsado',closed:'Cerrado',open:'Abierto',xp:'Experiencia',speed:'Velocidad',range:'Alcance',attack:'Ataque',time:'Tiempo',health:'Salud',cash:'Dinero',gold:'Oro',unit:'Unidad',resources:'Recursos'})[name]||name;}
 function clipAvailable(item){return Array.isArray(item.clip?.urls) && item.clip.urls.length>1;}
 function hasFull(item){return item.preparacion==='completo';}
 function hasAnyDetail(item){return Boolean(item.detalle);}
@@ -44,6 +60,7 @@ function hasManualCover(item){return Boolean(state.overrides[item.id] || item.po
 function viewsFor(item){return item.vistasEstaticas?.fotogramas || [];}
 function viewFor(item,number){return viewsFor(item).find(frame=>frame.numero===number)?.url;}
 function coverFor(item){
+  if(item.ui)return realCoverFor(item);
   if(state.previewMode==='icon')return item.icono || realCoverFor(item);
   if(['idle','walk','attack'].includes(state.previewMode)&&!hasManualCover(item))return item.previews?.[{idle:'quieto',walk:'andando',attack:'atacando'}[state.previewMode]]?.fotogramas?.[0]?.url||realCoverFor(item);
   if(hasManualCover(item))return realCoverFor(item);
@@ -139,6 +156,7 @@ function observeCards(){
   el.grid.querySelectorAll('.asset-card').forEach(card=>state.observer.observe(card));
 }
 function renderFilters(){
+  renderContext();
   const counts=new Map();
   for(const item of state.items)counts.set(item.categoria||'Sin clasificar',(counts.get(item.categoria||'Sin clasificar')||0)+1);
   const order=['Unidades','Edificios','Colecciones','Recursos','Sin clasificar','Terreno'];
@@ -152,6 +170,7 @@ function renderFilters(){
     btn.addEventListener('click',()=>{state.category=category;renderFilters();updateMatches();});
     el.filters.append(btn);
   }
+  el.filters.querySelector('.active')?.scrollIntoView?.({block:'nearest',inline:'nearest'});
   const ready=state.items.filter(hasFull).length;
   el.debugStatus.textContent=`Depuración · ${number(ready)} / ${number(state.items.length)} recursos con secuencias completas`;
   el.debugStatus.hidden=!state.debug;
@@ -178,7 +197,7 @@ function cardFor(item){
   }
   const cap=create('div','card-caption');cap.append(create('span','card-name',item.nombre));
   const sub=create('div','card-sub');
-  sub.append(create('span','',item.categoria||'Sin clasificar'),create('span','',`${number(item.imagenes)} ${item.ui?'frames':'PNG'}`));
+  sub.append(create('span','',item.ui?(item.subtipo||item.tipo):(item.categoria||'Sin clasificar')),create('span','',`${number(item.imagenes)} ${item.ui?'frames':'PNG'}`));
   cap.append(sub);card.append(art,cap);
   card.addEventListener('click',()=>openItem(item,true));
   return card;
@@ -197,6 +216,11 @@ function updateMatches(){
   const words=normalize(el.search.value).trim().split(/\s+/).filter(Boolean);
   state.filtered=state.items.filter(item=>{
     if(state.category!=='Todos' && (item.categoria||'Sin clasificar')!==state.category)return false;
+    if(state.category==='Interfaz'){
+      if(state.uiFilter==='components'&&item.tipo!=='Componente')return false;
+      if(state.uiFilter==='pieces'&&item.tipo==='Componente')return false;
+      if(!['components','pieces','all'].includes(state.uiFilter)&&item.subtipo!==state.uiFilter)return false;
+    }
     const text=normalize(`${item.nombre} ${item.archivo} ${item.carpeta||''} ${item.tipo||''} ${item.origen||''} ${item.busqueda||''}`);
     return words.every(word=>text.includes(word));
   });
@@ -230,14 +254,14 @@ function isViewSample(group){
   return group?.clave===state.current?.vistasEstaticas?.grupo && group.fotogramas.length<=5
     && group.fotogramas.every(frame=>frame.numero>=1&&frame.numero<=5);
 }
-function canPlay(group){return group?.completo===true && group.fotogramas.length>1 && !isViewSample(group);}
+function canPlay(group){return group?.completo===true && (state.current?.ui?framesNow().length>1:group.fotogramas.length>1&&!isViewSample(group));}
 
 let renderEpoch=0,stageLoad=null,stageIdentity=null;
 function clearStage(){renderEpoch++;cancelLoad(stageLoad);stageLoad=null;stageIdentity=null;
   $('download-gif').disabled=true;
   loading($('stage'),'ready');
   el.stage.hidden=true;el.stage.removeAttribute('src');const canvas=$('stage-canvas');canvas.getContext('2d').clearRect(0,0,canvas.width,canvas.height);canvas.hidden=true;
-  el.placeholder.hidden=true;el.downloadFrame.disabled=true;
+  el.placeholder.hidden=true;el.placeholder.textContent='Sin vista preparada';el.downloadFrame.disabled=true;
 }
 function stageSequence(frames,identity,group){
   if(stageIdentity===identity)return;clearStage();stageIdentity=identity;const canvas=$('stage-canvas');canvas.hidden=false;
@@ -257,7 +281,8 @@ function updateFrame(){
   if(f){
     stageSequence(frames,group?.clave+':'+state.group+':'+state.actionFilter+':'+(state.previewGroup?.nombre||''),group);
     const im=stageLoad?.ready[state.frame];if(im){SWMedia.paint($('stage-canvas'),im,f,group);stageLoad.last=state.frame;el.downloadFrame.disabled=false;}
-  }else showStage((state.actionFilter>=0?null:realCoverFor(state.current))||null);
+  }else if(state.current?.ui&&group){clearStage();el.placeholder.textContent=group.nota||'Sin imagen estática; el juego completa esta pieza.';el.placeholder.hidden=false;}
+  else showStage((state.actionFilter>=0?null:realCoverFor(state.current))||null);
   el.controls.hidden=!frames.length;
   el.frameCount.textContent=frames.length?`${number(state.frame+1)} / ${number(frames.length)} preparados`:'Vista previa';
   el.range.max=String(Math.max(0,frames.length-1));el.range.value=String(state.frame);
@@ -301,6 +326,12 @@ function groupShort(name){
 function chooseGroup(index, initialFrame=0, autoplay=false){
   stopPlayback();clearStage();state.previewGroup=null;state.group=index;state.frame=initialFrame;
   const group=groupNow();el.groupLabel.textContent=group?.nombre||'Miniatura';
+  if(state.current?.ui){
+    state.actionFilter=-1;prepareStates();
+    const related=state.items.find(item=>item.id===group?.relatedItem);
+    if(related&&related.id!==state.current.id){const open=create('button','flat-button ui-related-open','Ver piezas');open.type='button';open.addEventListener('click',()=>openItem(related,true));el.groupLabel.append(open);}
+    if(!group?.fotogramas?.length)el.stateNote.textContent=group?.nota||'Esta pieza no tiene una imagen estática.';
+  }
   el.spriteGrid.querySelectorAll('.sprite-cell').forEach(btn=>{
     const selected=Number(btn.dataset.index)===index;
     btn.classList.toggle('selected',selected);btn.setAttribute('aria-pressed',String(selected));
@@ -329,7 +360,7 @@ function renderSprites(){
     if(f){const canvas=create('canvas');canvas.width=220;canvas.height=220;thumb.append(canvas);lazyFrame(canvas,f);}
     const counts=create('small');
     if(state.debug)counts.append(create('span','',`${number(group.fotogramas.length)} en web`),create('span','',`${number(group.total)} ${group.total===1?'original':'originales'}`));
-    else counts.append(create('span','',`${number(group.fotogramas.length)} frames`));
+    else counts.append(create('span','',`${number(group.fotogramas.length)} ${group.fotogramas.length===1?'frame':'frames'}`));
     btn.title=`${group.nombre} · ${number(group.fotogramas.length)} de ${number(group.total)} fotogramas preparados · ${group.completo?'Completo':'Muestra parcial'}`;
     btn.append(thumb,create('strong','',groupShort(group.nombre)),counts);
     btn.addEventListener('click',()=>chooseGroup(index,0,true));
@@ -340,10 +371,14 @@ function renderSprites(){
   if(!count)el.spriteGrid.append(create('p','empty-sprites',selectedState?'No hay grupos preparados vinculados a este estado con los filtros actuales.':groups.length?'No hay grupos con ese filtro.':'Sin vistas de sprites preparadas.'));
   el.groupCount.textContent=`${number(count)} / ${number(groups.length)} grupos`;
   const prepared=groups.reduce((sum,g)=>sum+g.fotogramas.length,0);
-  el.gallerySummary.textContent=`${number(prepared)} imágenes web`;
+  el.gallerySummary.textContent=`${number(prepared)} ${state.current?.ui?'vistas preparadas':'imágenes web'}`;
   el.gallerySummary.title=`${number(prepared)} imágenes preparadas de ${number(groups.reduce((sum,g)=>sum+g.total,0))} fotogramas originales inventariados en los grupos.`;
 }
 function prepareStates(){
+  if(state.current?.ui){
+    const group=groupNow()||state.detailData?.groups?.[0],groups=state.detailData?.groups||[];
+    state.detailData.estados=(group?.labels||[]).map(label=>({etiqueta:uiStateLabel(label.name),desde:label.from,hasta:label.to,gruposPrincipal:[group.clave],grupos:groups.filter(g=>(!group.isComposition||g===group||!g.parentRanges||g.parentRanges.some(r=>r[0]<=label.to&&r[1]>=label.from))&&(!g.buttonStates||g.buttonStates.includes(label.name))).map(g=>g.clave)}));
+  }
   const states=state.detailData?.estados||[];state.actionFilter=-1;
   const all=create('option','','Todos');all.value='all';el.stateSelect.replaceChildren(all);
   states.forEach((item,index)=>{const option=create('option','',item.etiqueta);option.value=String(index);el.stateSelect.append(option);});
@@ -390,6 +425,9 @@ async function openItem(item,updateUrl){
   const request=++state.openRequest;
   el.detail.hidden=false;document.body.classList.add('inspector-open');
   el.title.textContent=item.nombre;el.file.textContent=item.archivo;
+  $('sprite-panel-title').textContent=item.ui?'Composición y piezas':'Imágenes y sprites';
+  el.spriteSearch.placeholder=item.ui?'Filtrar piezas':'Filtrar sprites';
+  if(el.animated.parentElement)el.animated.parentElement.hidden=Boolean(item.ui);
   el.meta.textContent=item.ui?`${item.tipo} · ${item.origen} · resolución original`:`${number(item.imagenes)} PNG originales · ${number(item.grupos)} sprites`;
   $('quality-tip').textContent=item.ui?'La interfaz conserva su resolución original y usa compresión sin pérdida. PNG descarga esa resolución. GIF genera una copia a 220 px; el SWF conserva el original.':'Las imágenes se muestran a 220 px para reducir el peso y acelerar la carga. Al ampliarlas pueden verse pixeladas. Las descargas PNG y GIF usan esa misma resolución; el SWF conserva el archivo original.';
   $('detail-source-note').textContent=item.ui?'Interfaz a resolución original. Las composiciones pueden contener textos de ejemplo o espacios que el juego completa.':'Galería completa a 220 px. Varios fotogramas pueden ser direcciones o estados.';
@@ -408,7 +446,7 @@ async function openItem(item,updateUrl){
   if(!item.detalle)return;
   try{
     let data=state.detailCache.get(item.id);
-    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.5');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
+    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.7');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
     if(request!==state.openRequest||state.current?.id!==item.id)return;
     if(!Array.isArray(data.groups))throw new Error('Formato de galería no válido');
     SWMedia.register(data);state.detailData=data;fillDetails();
@@ -522,7 +560,7 @@ function setupEvents(){
   el.stateSelect.addEventListener('change',()=>{
     state.previewGroup=null;state.actionFilter=el.stateSelect.value==='all'?-1:Number(el.stateSelect.value);
     const selected=state.detailData?.estados?.[state.actionFilter];
-    el.stateNote.textContent=selected?(selected.vacio?'Estado sin símbolos visibles en la auditoría.':`Fotogramas ${selected.desde} a ${selected.hasta} del símbolo principal. Se muestran sus grupos y componentes anidados.`):'Etiquetas del SWF y referencias estructurales; no certifican animaciones.';
+    el.stateNote.textContent=state.current?.ui?(selected?`Estado: ${selected.etiqueta} · fotogramas ${selected.desde} a ${selected.hasta}`:(groupNow()?.nota||state.detailData?.nota||'Estados definidos en el SWF.')):selected?(selected.vacio?'Estado sin símbolos visibles en la auditoría.':`Fotogramas ${selected.desde} a ${selected.hasta} del símbolo principal. Se muestran sus grupos y componentes anidados.`):'Etiquetas del SWF y referencias estructurales; no certifican animaciones.';
     stopPlayback();state.frame=0;renderSprites();updateFrame();
   });
   el.columns.addEventListener('change',()=>{
@@ -545,6 +583,7 @@ function setupEvents(){
     try{localStorage.setItem('sw-grid-size-v04',el.size.value);}catch{}
   });
   el.previewMode.addEventListener('change',()=>{
+    if(state.category==='Interfaz'){state.uiFilter=el.previewMode.value;updateMatches();return;}
     state.previewMode=['static','view1','view2','view3','view4','rotate','icon','idle','walk','attack'].includes(el.previewMode.value)?el.previewMode.value:'static';
     updateMatches();
   });
@@ -580,6 +619,7 @@ function setupEvents(){
 }
 async function start(){
   setupEvents();
+  el.size.value='130';document.documentElement.style.setProperty('--grid-size','130px');
   try{
     const size=Number(localStorage.getItem('sw-grid-size-v04'));
     if(size>=130&&size<=270){el.size.value=String(size);document.documentElement.style.setProperty('--grid-size',size+'px');}
@@ -589,10 +629,10 @@ async function start(){
     if(saved && typeof saved==='object')state.overrides=saved;
   }catch{}
   try{
-    const data=await SWMedia.json('data/catalog.json?v=0.5.5');
+    const data=await SWMedia.json('data/catalog.json?v=0.5.7');
     if(!Array.isArray(data.items))throw new Error('Catálogo inválido');
     let ui=[];
-    try{const supplement=await SWMedia.json('data/ui/catalog.json?v=0.5.5');if(!Array.isArray(supplement.items))throw Error('Catálogo de interfaz inválido');ui=supplement.items;}
+    try{const supplement=await SWMedia.json('data/ui/catalog.json?v=0.5.7');if(!Array.isArray(supplement.items))throw Error('Catálogo de interfaz inválido');ui=supplement.items;state.uiPngs=Number(supplement.pngsInventariados)||0;}
     catch(error){console.warn('Interfaz adicional no disponible',error);}
     const merged=new Map(data.items.map(item=>[item.id,item]));
     for(const item of ui)if(item.ui===true&&item.categoria==='Interfaz'&&!merged.has(item.id))merged.set(item.id,item);

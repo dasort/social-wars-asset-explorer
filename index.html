@@ -7,10 +7,10 @@
   <meta name="description" content="Coleccion visual independiente de recursos originales de Social Wars.">
   <title>Social Wars : Asset Explorer</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css?v=0.5.5">
-  <script src="media-loader.js?v=0.5.5" defer></script>
-  <script src="gif-export.js?v=0.5.5" defer></script>
-  <script src="app.js?v=0.5.5" defer></script>
+  <link rel="stylesheet" href="styles.css?v=0.5.7">
+  <script src="media-loader.js?v=0.5.7" defer></script>
+  <script src="gif-export.js?v=0.5.7" defer></script>
+  <script src="app.js?v=0.5.7" defer></script>
 </head>
 <body>
 <div class="site">
@@ -21,8 +21,8 @@
       <input type="search" id="search-input" placeholder="Buscar por nombre, archivo o ID" aria-label="Buscar recursos" autocomplete="off" spellcheck="false">
     </label>
     <div class="collection-stats" aria-label="Contenido y revisión">
-      <span class="png-badge" title="PNG originales registrados en el inventario de la versión 0.02a">Total: 419.371 PNG</span>
-      <span class="curation-note" title="Revisión manual de previews: los 403 recursos incluidos en el revisor local. El catálogo completo contiene 862 recursos.">403 unidades con previews revisadas</span>
+      <span id="catalog-summary" class="png-badge" title="PNG originales registrados en el inventario de la versión 0.02a">Total: 419.371 PNG</span>
+      <span id="catalog-curation" class="curation-note" title="Revisión manual de previews: los 403 recursos incluidos en el revisor local. El catálogo completo contiene 862 recursos.">403 unidades con previews revisadas</span>
     </div>
     <a id="support-repo" class="support-link" target="_blank" rel="noopener noreferrer" aria-label="Apoyar este proyecto en GitHub" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3-5.6-3-5.6 3 1.1-6.3-4.6-4.5 6.3-.9Z"/></svg>Apoyar en GitHub</a>
     <a class="source-link" href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors ↗</a>
@@ -34,7 +34,7 @@
       </div>
       <div class="control-right">
         <span id="result-count" class="result-count visually-hidden" role="status">Cargando…</span>
-        <label class="preview-control">Vista
+        <label class="preview-control"><span id="preview-label">Vista</span>
           <select id="preview-mode" aria-label="Modo de preview de la grilla">
             <option value="view1">Estático · Vista 1 · Atrás</option>
             <option value="view2">Estático · Vista 2 · Diagonal trasera</option>
@@ -53,14 +53,14 @@
         </label>
         <button id="sort-direction" class="icon-button sort-direction" type="button" aria-label="Orden ascendente" title="Orden ascendente"></button>
         <label class="size-control" title="Ancho de miniaturas">Tamaño
-          <input id="size-input" type="range" min="130" max="270" step="10" value="180" aria-label="Tamaño de tarjetas">
+          <input id="size-input" type="range" min="130" max="270" step="10" value="130" aria-label="Tamaño de tarjetas">
         </label>
       </div>
     </div>
     <div id="asset-grid" class="asset-grid" aria-label="Grilla de recursos"></div>
     <div class="pagination"><button id="load-more" class="load-more" type="button" hidden>Mostrar más</button></div>
   </main>
-  <footer class="footer">v0.5.5 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
+  <footer class="footer">v0.5.7 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
 </div>
 
 <div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title" hidden>
@@ -104,7 +104,7 @@
       <div id="preview-warning" class="preview-warning" hidden></div>
     </section>
     <aside class="sequences" aria-label="Lista de imágenes y sprites">
-      <div class="sequences-header"><strong>Imágenes y sprites</strong><span id="sequence-count">:</span></div>
+      <div class="sequences-header"><strong id="sprite-panel-title">Imágenes y sprites</strong><span id="sequence-count">:</span></div>
       <div class="sequences-tools">
         <input id="sprite-search" type="search" placeholder="Filtrar sprites" autocomplete="off" aria-label="Buscar sprites">
         <label title="Filtra grupos con varios fotogramas en el original, aunque solo haya una muestra preparada"><input id="animated-only" type="checkbox"> Varios frames originales</label>
