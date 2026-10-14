@@ -178,7 +178,7 @@ function cardFor(item){
   }
   const cap=create('div','card-caption');cap.append(create('span','card-name',item.nombre));
   const sub=create('div','card-sub');
-  sub.append(create('span','',item.categoria||'Sin clasificar'),create('span','',`${number(item.imagenes)} PNG`));
+  sub.append(create('span','',item.categoria||'Sin clasificar'),create('span','',`${number(item.imagenes)} ${item.ui?'frames':'PNG'}`));
   cap.append(sub);card.append(art,cap);
   card.addEventListener('click',()=>openItem(item,true));
   return card;
@@ -197,7 +197,7 @@ function updateMatches(){
   const words=normalize(el.search.value).trim().split(/\s+/).filter(Boolean);
   state.filtered=state.items.filter(item=>{
     if(state.category!=='Todos' && (item.categoria||'Sin clasificar')!==state.category)return false;
-    const text=normalize(`${item.nombre} ${item.archivo} ${item.carpeta}`);
+    const text=normalize(`${item.nombre} ${item.archivo} ${item.carpeta||''} ${item.tipo||''} ${item.origen||''} ${item.busqueda||''}`);
     return words.every(word=>text.includes(word));
   });
   if(el.sort.value==='id')state.filtered.sort((a,b)=>itemNumber(a)-itemNumber(b)||a.nombre.localeCompare(b.nombre,'es'));
@@ -348,7 +348,7 @@ function prepareStates(){
   const all=create('option','','Todos');all.value='all';el.stateSelect.replaceChildren(all);
   states.forEach((item,index)=>{const option=create('option','',item.etiqueta);option.value=String(index);el.stateSelect.append(option);});
   el.stateSelect.value='all';el.stateSelect.disabled=!states.length;
-  el.stateNote.textContent=states.length?'Etiquetas del SWF y referencias estructurales; no certifican animaciones.':'Sin etiquetas disponibles en el símbolo principal auditado.';
+  el.stateNote.textContent=state.current?.ui?(state.detailData.nota||'Interfaz original del juego.'):states.length?'Etiquetas del SWF y referencias estructurales; no certifican animaciones.':'Sin etiquetas disponibles en el símbolo principal auditado.';
 }
 function preparePreviews(){
   const buttons=$('preview-buttons');buttons.replaceChildren();
@@ -390,7 +390,9 @@ async function openItem(item,updateUrl){
   const request=++state.openRequest;
   el.detail.hidden=false;document.body.classList.add('inspector-open');
   el.title.textContent=item.nombre;el.file.textContent=item.archivo;
-  el.meta.textContent=`${number(item.imagenes)} PNG originales · ${number(item.grupos)} sprites`;
+  el.meta.textContent=item.ui?`${item.tipo} · ${item.origen} · resolución original`:`${number(item.imagenes)} PNG originales · ${number(item.grupos)} sprites`;
+  $('quality-tip').textContent=item.ui?'La interfaz conserva su resolución original y usa compresión sin pérdida. PNG descarga esa resolución. GIF genera una copia a 220 px; el SWF conserva el original.':'Las imágenes se muestran a 220 px para reducir el peso y acelerar la carga. Al ampliarlas pueden verse pixeladas. Las descargas PNG y GIF usan esa misma resolución; el SWF conserva el archivo original.';
+  $('detail-source-note').textContent=item.ui?'Interfaz a resolución original. Las composiciones pueden contener textos de ejemplo o espacios que el juego completa.':'Galería completa a 220 px. Varios fotogramas pueden ser direcciones o estados.';
   el.groupLabel.textContent=item.portadaFuente==='juego'?'Miniatura original del juego':'Miniatura';
   el.groupCount.textContent=item.detalle?'Cargando…':'Solo miniatura';
   el.spriteGrid.replaceChildren(create('p','empty-sprites',item.detalle?'Cargando galería…':'Este elemento solo tiene miniatura preparada.'));
@@ -406,7 +408,7 @@ async function openItem(item,updateUrl){
   if(!item.detalle)return;
   try{
     let data=state.detailCache.get(item.id);
-    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.4');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
+    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.5');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
     if(request!==state.openRequest||state.current?.id!==item.id)return;
     if(!Array.isArray(data.groups))throw new Error('Formato de galería no válido');
     SWMedia.register(data);state.detailData=data;fillDetails();
@@ -587,9 +589,14 @@ async function start(){
     if(saved && typeof saved==='object')state.overrides=saved;
   }catch{}
   try{
-    const data=await SWMedia.json('data/catalog.json?v=0.5.4');
+    const data=await SWMedia.json('data/catalog.json?v=0.5.5');
     if(!Array.isArray(data.items))throw new Error('Catálogo inválido');
-    state.items=data.items;
+    let ui=[];
+    try{const supplement=await SWMedia.json('data/ui/catalog.json?v=0.5.5');if(!Array.isArray(supplement.items))throw Error('Catálogo de interfaz inválido');ui=supplement.items;}
+    catch(error){console.warn('Interfaz adicional no disponible',error);}
+    const merged=new Map(data.items.map(item=>[item.id,item]));
+    for(const item of ui)if(item.ui===true&&item.categoria==='Interfaz'&&!merged.has(item.id))merged.set(item.id,item);
+    state.items=[...merged.values()];
     if(!state.items.length){showEmpty('Catálogo todavía vacío','Ejecutá generar_explorador.py para generar tus datos.');el.count.textContent='Sin catálogo';return;}
     renderFilters();updateMatches();route();
   }catch(error){

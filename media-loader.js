@@ -102,6 +102,6 @@ window.SWMedia=(()=>{
  }
  async function show(canvas,f,group){const im=await image(f,{priority:0});const scratch=document.createElement('canvas');scratch.width=canvas.width;scratch.height=canvas.height;paint(scratch,im,f,group);return scratch;}
  async function png(f){const im=await image(f,{priority:0}),c=document.createElement('canvas');c.width=im.naturalWidth;c.height=im.naturalHeight;draw(c.getContext('2d'),im,f,0,0,c.width,c.height);return new Promise((resolve,reject)=>c.toBlob(b=>b?resolve(b):reject(Error('PNG vacío')),'image/png'));}
- async function json(url){return JSON.parse(new TextDecoder().decode(await request(url,{priority:0,immutable:/[?&]v=0\.5\.4(?:&|$)/.test(url)})));}
+ async function json(url){return JSON.parse(new TextDecoder().decode(await request(url,{priority:0,immutable:/[?&]v=0\.5\.[45](?:&|$)/.test(url)})));}
  return {register,image,show,paint,png,frames,prepare,json,stats,request};
 })();
