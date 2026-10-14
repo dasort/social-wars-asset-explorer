@@ -67,21 +67,28 @@ function rotationPhaseAt(now,origin=state.rotationOrigin){
 }
 function rotationAvailable(item){return !hasManualCover(item) && item.vistasEstaticas?.giroCompatible===true && viewsFor(item).length===5;}
 // One animation clock and one progressive load per visible card/selected sequence.
-function loading(parent,mode='loading'){
+function loading(parent,mode='loading',loaded=0,total=0){
   let badge=parent.querySelector('.load-indicator');
   if(!badge){badge=create('span','load-indicator');badge.setAttribute('role','status');parent.append(badge);}
   badge.hidden=mode==='ready';badge.classList.toggle('load-error',mode==='error');
   badge.textContent=mode==='error'?'!':'';badge.title=mode==='error'?'No se pudo completar la carga; volvé a seleccionar para reintentar.':'Cargando imágenes…';
   badge.setAttribute('aria-label',badge.title);parent.setAttribute('aria-busy',String(mode==='loading'));
+  if(parent.id==='stage'){
+    let count=parent.querySelector('.load-count');
+    if(!count){count=create('span','load-count');parent.append(count);}
+    count.hidden=mode!=='loading'||!total;
+    count.textContent=total?`${number(loaded)}/${number(total)} frames cargados`:'';
+    if(mode==='loading'&&total)badge.setAttribute('aria-label',count.textContent);
+  }
 }
 function cancelLoad(load){if(!load)return;load.cancelled=true;load.controller.abort();clearTimeout(load.retry);load.ready.length=0;}
 function progressive(parent,frames,priority,onFrame){
-  const load={controller:new AbortController(),ready:[],frames,cancelled:false,last:-1};loading(parent);
-  const start=()=>{if(load.cancelled)return;loading(parent);
-    SWMedia.prepare(frames,(im,i)=>{if(load.cancelled)return;load.ready[i]=im;onFrame(load,i);},{priority,signal:load.controller.signal})
+  const load={controller:new AbortController(),ready:[],loaded:new Set(),frames,cancelled:false,last:-1};loading(parent,'loading',0,frames.length);
+  const start=()=>{if(load.cancelled)return;loading(parent,'loading',load.loaded.size,frames.length);
+    SWMedia.prepare(frames,(im,i)=>{if(load.cancelled)return;load.ready[i]=im;load.loaded.add(i);loading(parent,'loading',load.loaded.size,frames.length);onFrame(load,i);},{priority,signal:load.controller.signal})
     .then(()=>{if(!load.cancelled)loading(parent,'ready');})
     .catch(e=>{if(load.cancelled)return;
-      if(e.retryAt){loading(parent);load.retry=setTimeout(start,Math.max(1000,e.retryAt-Date.now()+500));}
+      if(e.retryAt){loading(parent,'loading',load.loaded.size,frames.length);load.retry=setTimeout(start,Math.max(1000,e.retryAt-Date.now()+500));}
       else if(e.name==='AbortError'&&!load.retried){load.retried=true;load.retry=setTimeout(start,500);}
       else loading(parent,'error');
     });};start();return load;
@@ -227,6 +234,7 @@ function canPlay(group){return group?.completo===true && group.fotogramas.length
 
 let renderEpoch=0,stageLoad=null,stageIdentity=null;
 function clearStage(){renderEpoch++;cancelLoad(stageLoad);stageLoad=null;stageIdentity=null;
+  loading($('stage'),'ready');
   el.stage.hidden=true;el.stage.removeAttribute('src');const canvas=$('stage-canvas');canvas.getContext('2d').clearRect(0,0,canvas.width,canvas.height);canvas.hidden=true;
   el.placeholder.hidden=true;el.downloadFrame.disabled=true;
 }
@@ -396,7 +404,7 @@ async function openItem(item,updateUrl){
   if(!item.detalle)return;
   try{
     let data=state.detailCache.get(item.id);
-    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.2');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
+    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.3');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
     if(request!==state.openRequest||state.current?.id!==item.id)return;
     if(!Array.isArray(data.groups))throw new Error('Formato de galería no válido');
     SWMedia.register(data);state.detailData=data;fillDetails();
@@ -565,7 +573,7 @@ async function start(){
     if(saved && typeof saved==='object')state.overrides=saved;
   }catch{}
   try{
-    const data=await SWMedia.json('data/catalog.json?v=0.5.2');
+    const data=await SWMedia.json('data/catalog.json?v=0.5.3');
     if(!Array.isArray(data.items))throw new Error('Catálogo inválido');
     state.items=data.items;
     if(!state.items.length){showEmpty('Catálogo todavía vacío','Ejecutá generar_explorador.py para generar tus datos.');el.count.textContent='Sin catálogo';return;}
