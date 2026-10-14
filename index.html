@@ -7,9 +7,10 @@
   <meta name="description" content="Coleccion visual independiente de recursos originales de Social Wars.">
   <title>Social Wars : Asset Explorer</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css?v=0.5.3">
-  <script src="media-loader.js?v=0.5.3" defer></script>
-  <script src="app.js?v=0.5.3" defer></script>
+  <link rel="stylesheet" href="styles.css?v=0.5.4">
+  <script src="media-loader.js?v=0.5.4" defer></script>
+  <script src="gif-export.js?v=0.5.4" defer></script>
+  <script src="app.js?v=0.5.4" defer></script>
 </head>
 <body>
 <div class="site">
@@ -59,7 +60,7 @@
     <div id="asset-grid" class="asset-grid" aria-label="Grilla de recursos"></div>
     <div class="pagination"><button id="load-more" class="load-more" type="button" hidden>Mostrar más</button></div>
   </main>
-  <footer class="footer">v0.5.3 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
+  <footer class="footer">v0.5.4 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
 </div>
 
 <div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title" hidden>
@@ -67,6 +68,10 @@
     <button id="detail-back" class="back-link" type="button"><span aria-hidden="true">←</span> Volver</button>
     <div class="detail-ident"><h1 id="detail-title">:</h1><span id="detail-file">:</span></div>
     <div class="detail-actions">
+      <div class="quality-help">
+        <button id="quality-help" type="button" class="flat-button quality-button" aria-label="Por qué las imágenes pueden verse pixeladas" aria-describedby="quality-tip">?</button>
+        <span id="quality-tip" role="tooltip">Las imágenes se muestran a 220 px para reducir el peso y acelerar la carga. Al ampliarlas pueden verse pixeladas. Las descargas PNG y GIF usan esa misma resolución; el SWF conserva el archivo original.</span>
+      </div>
       <button id="copy-link" type="button" class="flat-button">Copiar enlace</button>
       <a id="source-swf" class="flat-button" href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Ver en GitHub ↗</a>
     </div>
@@ -81,6 +86,7 @@
         <div class="stage-downloads" aria-label="Descargar recurso">
           <button id="download-swf" class="flat-button" type="button" title="Descargar un ZIP con el SWF original, sin salir de esta página" hidden>SWF (ZIP)</button>
           <button id="download-frame" class="flat-button" type="button" title="Descargar el fotograma actual como PNG, con la resolución disponible" disabled>PNG</button>
+          <button id="download-gif" class="flat-button" type="button" title="Descargar la secuencia seleccionada como GIF animado a los FPS elegidos" disabled>GIF</button>
         </div>
       </div>
       <div id="preview-buttons" class="viewer-controls" hidden></div>

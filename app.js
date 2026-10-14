@@ -234,6 +234,7 @@ function canPlay(group){return group?.completo===true && group.fotogramas.length
 
 let renderEpoch=0,stageLoad=null,stageIdentity=null;
 function clearStage(){renderEpoch++;cancelLoad(stageLoad);stageLoad=null;stageIdentity=null;
+  $('download-gif').disabled=true;
   loading($('stage'),'ready');
   el.stage.hidden=true;el.stage.removeAttribute('src');const canvas=$('stage-canvas');canvas.getContext('2d').clearRect(0,0,canvas.width,canvas.height);canvas.hidden=true;
   el.placeholder.hidden=true;el.downloadFrame.disabled=true;
@@ -265,7 +266,8 @@ function updateFrame(){
   el.previous.disabled=el.next.disabled=el.range.disabled=!browsable;
   el.play.disabled=!playable;
   el.fps.hidden=!playable;
-  el.warning.hidden=false;
+  el.warning.hidden=!state.debug;
+  $('download-gif').disabled=!!$('download-gif').dataset.busy||frames.length<2;
   if(group){
     const originals=number(group.total),prepared=number(frames.length);
     if(isViewSample(group)){
@@ -393,7 +395,7 @@ async function openItem(item,updateUrl){
   el.groupCount.textContent=item.detalle?'Cargando…':'Solo miniatura';
   el.spriteGrid.replaceChildren(create('p','empty-sprites',item.detalle?'Cargando galería…':'Este elemento solo tiene miniatura preparada.'));
   el.gallerySummary.textContent='';el.stateSelect.disabled=true;el.stateNote.textContent='Cargando etiquetas...';
-  el.controls.hidden=true;el.warning.hidden=false;
+  el.controls.hidden=true;el.warning.hidden=!state.debug;
   el.warning.textContent=item.detalle?'Cargando fotogramas preparados…':'No se preparó el índice de sprites de este recurso.';
   showStage(realCoverFor(item));
   el.swf.hidden=!(item.swf||item.swfDescarga);
@@ -404,7 +406,7 @@ async function openItem(item,updateUrl){
   if(!item.detalle)return;
   try{
     let data=state.detailCache.get(item.id);
-    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.3');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
+    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.4');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
     if(request!==state.openRequest||state.current?.id!==item.id)return;
     if(!Array.isArray(data.groups))throw new Error('Formato de galería no válido');
     SWMedia.register(data);state.detailData=data;fillDetails();
@@ -502,6 +504,16 @@ async function downloadCurrentFrame(){
   catch(error){console.error('Descarga PNG',error);notify('No se pudo descargar el fotograma.');}
   finally{delete button.dataset.busy;button.disabled=!stageLoad?.ready.some(Boolean);button.textContent='PNG';}
 }
+async function downloadCurrentGif(){
+  const button=$('download-gif');if(button.dataset.busy)return;
+  const item=state.current,frames=framesNow();if(!item||frames.length<2)return;
+  const snapshot=JSON.parse(JSON.stringify(frames)),group=JSON.parse(JSON.stringify(groupNow()||{})),fps=Number(el.fps.value)||12;
+  const filename=safeFilename(item.archivo.replace(/\.swf$/i,''))+'_'+safeFilename(group.nombre||group.clave||'animacion')+'_'+fps+'fps.gif';
+  button.dataset.busy='1';button.disabled=true;
+  try{const blob=await SWGIF.exportSequence(snapshot,group,fps,(done,total,phase)=>{button.textContent=`GIF ${done}/${total}`;button.title=`${phase} GIF: ${done}/${total} frames`;});downloadBlob(blob,filename);notify('Descarga del GIF animado solicitada');}
+  catch(error){console.error('Descarga GIF',error);notify('No se pudo completar el GIF. Revisá la conexión y volvé a intentar; no se descargó un archivo parcial.');}
+  finally{delete button.dataset.busy;button.textContent='GIF';button.title='Descargar la secuencia seleccionada como GIF animado a los FPS elegidos';button.disabled=!state.current||framesNow().length<2;}
+}
 function setupEvents(){
   configureProject();
   setPlayIcon(false);
@@ -522,6 +534,8 @@ function setupEvents(){
   el.sortDirection.addEventListener('click',()=>{state.sortReversed=!state.sortReversed;updateMatches();});
   el.swf.addEventListener('click',downloadSwf);
   el.downloadFrame.addEventListener('click',downloadCurrentFrame);
+  $('download-gif').addEventListener('click',downloadCurrentGif);
+  $('quality-help').addEventListener('click',()=>{$('quality-help').parentElement.classList.toggle('is-open');});
   updateSortDirection();
   el.more.addEventListener('click',appendPage);
   el.size.addEventListener('input',()=>{
@@ -549,7 +563,7 @@ function setupEvents(){
   document.addEventListener('keydown',event=>{
     if(event.ctrlKey&&event.altKey&&!event.shiftKey&&!event.repeat&&event.code==='KeyD'&&!['INPUT','TEXTAREA','SELECT'].includes(event.target.tagName)&&!event.target.isContentEditable){
       event.preventDefault();state.debug=!state.debug;document.body.classList.toggle('debug-mode',state.debug);renderFilters();
-      if(state.current&&state.detailData)renderSprites();return;
+      if(state.current&&state.detailData){renderSprites();updateFrame();}return;
     }
     if(event.key==='Escape'&&state.current){closeItem();return;}
     if(state.current&&(event.code==='Space'||event.key===' ')&&!event.repeat){
@@ -573,7 +587,7 @@ async function start(){
     if(saved && typeof saved==='object')state.overrides=saved;
   }catch{}
   try{
-    const data=await SWMedia.json('data/catalog.json?v=0.5.3');
+    const data=await SWMedia.json('data/catalog.json?v=0.5.4');
     if(!Array.isArray(data.items))throw new Error('Catálogo inválido');
     state.items=data.items;
     if(!state.items.length){showEmpty('Catálogo todavía vacío','Ejecutá generar_explorador.py para generar tus datos.');el.count.textContent='Sin catálogo';return;}
