@@ -3,17 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Lucas Bonifacio (dasort)">
+  <meta name="application-name" content="Social Wars Asset Explorer">
   <meta name="theme-color" content="#1c1e20">
   <meta name="description" content="Coleccion visual independiente de recursos originales de Social Wars.">
   <title>Social Wars : Asset Explorer</title>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Social Wars Asset Explorer",
+  "url": "https://dasort.github.io/social-wars-asset-explorer/",
+  "sameAs": "https://github.com/dasort/social-wars-asset-explorer",
+  "creator": {
+    "@type": "Person",
+    "name": "Lucas Bonifacio",
+    "alternateName": "dasort",
+    "url": "https://github.com/dasort"
+  },
+  "inLanguage": [
+    "es",
+    "en",
+    "pt-BR",
+    "tr"
+  ],
+  "about": {
+    "@type": "VideoGame",
+    "name": "Social Wars"
+  },
+  "creditText": "Los recursos originales de Social Wars pertenecen a sus respectivos titulares.",
+  "applicationCategory": "MultimediaApplication"
+}
+  </script>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css?v=0.5.7">
-  <script src="media-loader.js?v=0.5.7" defer></script>
-  <script src="gif-export.js?v=0.5.7" defer></script>
-  <script src="app.js?v=0.5.7" defer></script>
+  <link rel="stylesheet" href="styles.css?v=0.5.9">
+  <script src="site-policy.js?v=0.5.9" defer></script>
+  <script src="translations.js?v=0.5.9" defer></script>
+  <script src="i18n.js?v=0.5.9" defer></script>
+  <script src="media-loader.js?v=0.5.9" defer></script>
+  <script src="gif-export.js?v=0.5.9" defer></script>
+  <script src="app.js?v=0.5.9" defer></script>
 </head>
 <body>
-<div class="site">
+<section id="site-authorization" class="authorization-message" role="alert" hidden>
+  <p>Esta es una copia no autorizada de Social Wars Asset Explorer.</p>
+  <p>El explorador original fue desarrollado por Lucas Bonifacio (dasort).</p>
+  <p>Podés acceder a la versión oficial en:<br><a href="https://dasort.github.io/social-wars-asset-explorer/" translate="no">https://dasort.github.io/social-wars-asset-explorer/</a></p>
+</section>
+<div class="site" hidden>
   <header class="header">
     <a class="brand" href="./" aria-label="Volver al catalogo">Social Wars <span>Asset Explorer</span></a>
     <label class="global-search" for="search-input">
@@ -25,7 +62,10 @@
       <span id="catalog-curation" class="curation-note" title="Revisión manual de previews: los 403 recursos incluidos en el revisor local. El catálogo completo contiene 862 recursos.">403 unidades con previews revisadas</span>
     </div>
     <a id="support-repo" class="support-link" target="_blank" rel="noopener noreferrer" aria-label="Apoyar este proyecto en GitHub" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3-5.6-3-5.6 3 1.1-6.3-4.6-4.5 6.3-.9Z"/></svg>Apoyar en GitHub</a>
+    <div class="header-links">
     <a class="source-link" href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors ↗</a>
+    <div class="language-selector"></div>
+    </div>
   </header>
   <main class="content" id="catalogo">
     <div class="controls">
@@ -36,15 +76,15 @@
         <span id="result-count" class="result-count visually-hidden" role="status">Cargando…</span>
         <label class="preview-control"><span id="preview-label">Vista</span>
           <select id="preview-mode" aria-label="Modo de preview de la grilla">
-            <option value="view1">Estático · Vista 1 · Atrás</option>
-            <option value="view2">Estático · Vista 2 · Diagonal trasera</option>
-            <option value="view3">Estático · Vista 3 · Lateral</option>
-            <option value="view4">Estático · Vista 4 · Diagonal delantera</option>
-            <option value="static">Estático · Vista 5 · Frente</option>
+            <option value="view1">Estático, Vista 1, Atrás</option>
+            <option value="view2">Estático, Vista 2, Diagonal trasera</option>
+            <option value="view3">Estático, Vista 3, Lateral</option>
+            <option value="view4">Estático, Vista 4, Diagonal delantera</option>
+            <option value="static">Estático, Vista 5, Frente</option>
             <option value="rotate">Estático giratorio</option>
-            <option value="idle">Animado · Quieto</option>
-            <option value="walk" selected>Animado · Andando (predeterminada)</option>
-            <option value="attack">Animado · Ataque</option>
+            <option value="idle">Animado, Quieto</option>
+            <option value="walk" selected>Animado, Andando (predeterminada)</option>
+            <option value="attack">Animado, Ataque</option>
             <option value="icon">Ícono</option>
           </select>
         </label>
@@ -60,14 +100,15 @@
     <div id="asset-grid" class="asset-grid" aria-label="Grilla de recursos"></div>
     <div class="pagination"><button id="load-more" class="load-more" type="button" hidden>Mostrar más</button></div>
   </main>
-  <footer class="footer">v0.5.7 · Archivo no oficial · Clasificación orientativa · Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a></footer>
+  <footer class="footer">v0.5.9, Archivo no oficial, Clasificación orientativa, Fuente: <a href="https://github.com/AcidCaos/socialwarriors" target="_blank" rel="noopener noreferrer">Social Warriors</a>. <span>Recursos originales del juego: Social Point y sus respectivos titulares.</span> <span class="footer-author"><span>Desarrollado por Lucas Bonifacio (</span><a href="https://github.com/dasort" target="_blank" rel="noopener noreferrer" translate="no">dasort</a>)</span></footer>
 </div>
 
 <div id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title" hidden>
   <div class="detail-top">
     <button id="detail-back" class="back-link" type="button"><span aria-hidden="true">←</span> Volver</button>
-    <div class="detail-ident"><h1 id="detail-title">:</h1><span id="detail-file">:</span></div>
+    <div class="detail-ident"><h1 id="detail-title" translate="no">:</h1><span id="detail-file" translate="no">:</span></div>
     <div class="detail-actions">
+      <div class="language-selector"></div>
       <div class="quality-help">
         <button id="quality-help" type="button" class="flat-button quality-button" aria-label="Por qué las imágenes pueden verse pixeladas" aria-describedby="quality-tip">?</button>
         <span id="quality-tip" role="tooltip">Las imágenes se muestran a 220 px para reducir el peso y acelerar la carga. Al ampliarlas pueden verse pixeladas. Las descargas PNG y GIF usan esa misma resolución; el SWF conserva el archivo original.</span>

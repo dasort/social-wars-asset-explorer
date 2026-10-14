@@ -1,6 +1,42 @@
 'use strict';
+/**
+ * SWP1 (Super Wuper Pip 1)
+ *
+ * Formato propio que hice para guardar varios fotogramas
+ * en un mismo archivo, en lugar de tener miles de imágenes sueltas.
+ *
+ * Como no encontré nada que me sirviera para lo que necesitaba,
+ * terminé haciendo mi propio formato.
+ *
+ * ¿Y el nombre? Se me ocurrió y quedó.
+ *
+ * Creado por Lucas Bonifacio (dasort).
+ */
+/**
+ * Social Wars Asset Explorer
+ *
+ * Desarrollado por Lucas Bonifacio (dasort).
+ * Proyecto independiente de preservación de recursos
+ * del videojuego Social Wars.
+ *
+ * Repositorio original:
+ * https://github.com/dasort/social-wars-asset-explorer
+ *
+ * Los recursos originales del juego pertenecen
+ * a sus respectivos titulares.
+ */
 // Shared bounded network queue, immutable disk cache, decoded LRU and SWP1 reader.
 window.SWMedia=(()=>{
+ // Bind the cached authorization decision before allocating caches or queues.
+ const authorized=window.SWSite?.authorized===true;
+ if(!authorized){
+  window.SWSite?.showBlocked();
+  if(!window.SWSite){const site=document.querySelector?.('.site');if(site)site.hidden=true;const message=document.getElementById?.('site-authorization');if(message)message.hidden=false;}
+  const deny=()=>{const error=new Error('Entorno no autorizado para Social Wars Asset Explorer.');error.name='UnauthorizedEnvironmentError';throw error;};
+  const reject=async()=>deny();
+  return Object.freeze({register:deny,image:reject,show:reject,paint:deny,png:reject,frames:deny,prepare:reject,json:reject,request:reject,stats:Object.freeze({requests:0,cacheHits:0,bytes:0,rateLimits:0})});
+ }
+
  const MB=1024*1024,DISK=128*MB,RAM=48*MB,PIXELS=64*MB;
  const packed=new Map(),images=new Map(),definitions=new Map(),bundles=new Map();
  const pending=new Map(),queue=[],pauses=new Map();let active=0,nextStart=0,wake=null,disk=null,diskFailed=false,diskChain=Promise.resolve(),diskIndex=null;

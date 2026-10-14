@@ -1,3 +1,16 @@
+/**
+ * Social Wars Asset Explorer
+ *
+ * Desarrollado por Lucas Bonifacio (dasort).
+ * Proyecto independiente de preservación de recursos
+ * del videojuego Social Wars.
+ *
+ * Repositorio original:
+ * https://github.com/dasort/social-wars-asset-explorer
+ *
+ * Los recursos originales del juego pertenecen
+ * a sus respectivos titulares.
+ */
 :root{color-scheme:dark;font-family:"Segoe UI",system-ui,Arial,sans-serif;font-size:14px;--page:#181a1c;--header:#1e2022;--panel:#242629;--art:#282a2d;--edge:#393c40;--text:#f0f0f0;--muted:#a3a8ad;--quiet:#8d9399;--grid-size:130px}
 *{box-sizing:border-box}html,body{margin:0;min-width:290px}body{background:var(--page);color:var(--text)}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}[hidden]{display:none!important}:focus-visible{outline:2px solid #a2c4d6;outline-offset:2px}
 .header{min-height:58px;display:flex;align-items:center;gap:23px;padding:10px 22px;background:var(--header);border-bottom:1px solid var(--edge)}.brand{text-decoration:none;font-size:18px;font-weight:650;white-space:nowrap}.brand span{font-size:12px;font-weight:400;color:#9da3a8;margin-left:10px}.global-search{flex:1 1 390px;max-width:650px;height:35px;display:flex;align-items:center;gap:9px;padding:0 10px;border:1px solid #45494d;border-radius:3px;background:#141618;color:var(--muted)}.global-search:focus-within{border-color:#a0a6ac}.global-search svg{flex:none;width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8}.global-search input{min-width:60px;width:100%;outline:0;border:0;background:transparent;color:var(--text);font-size:13px}.global-search input::placeholder{color:#858a90}.source-link{margin-left:auto;text-decoration:none;font-size:12px;color:#b9bec3;white-space:nowrap}.source-link:hover{color:white}
@@ -80,3 +93,17 @@ body.inspector-open{overflow:hidden}.detail{position:fixed;inset:0;z-index:10;di
 @media(prefers-reduced-motion:reduce){.load-indicator{animation-duration:2s}}
 
 .ui-related-open{margin-left:10px;padding:3px 7px;font-size:11px}.ui-piece-note{font-size:12px;color:var(--muted)}
+
+/* Compact, local-language menu. Text updates keep the existing DOM and playback. */
+.header-links{display:flex;align-items:center;gap:9px;margin-left:auto;flex:none}.header-links .source-link{margin-left:0}.language-selector{position:relative;flex:none}.language-toggle{display:inline-flex;align-items:center;gap:5px;padding:6px 7px;min-height:32px;border:1px solid #4b4f53;border-radius:5px;background:#242629;color:#e5e9ec;font-family:inherit;font-size:12px;cursor:pointer;white-space:nowrap}.language-toggle:hover,.language-menu button:hover,.language-menu button:focus-visible{background:#34383b}.language-toggle img,.language-menu img{width:16px;height:11px;flex:none;image-rendering:auto}.language-menu{position:absolute;top:calc(100% + 5px);right:0;z-index:70;min-width:190px;background:#242629;border:1px solid #575d62;border-radius:5px;box-shadow:0 5px 18px #0008;padding:4px}.language-menu[hidden]{display:none}.language-menu button{display:flex;align-items:center;gap:9px;width:100%;min-height:36px;background:none;color:#e5e9ec;border:0;padding:8px;text-align:left;cursor:pointer;white-space:nowrap;font-family:inherit;font-size:12px}.language-menu [aria-checked=true]{background:#34383b}.language-toggle:focus-visible,.language-menu button:focus-visible{outline:2px solid #b4c4d2;outline-offset:2px}.header .global-search{flex:1 1 220px;min-width:180px}.header .collection-stats{flex-wrap:wrap;min-width:0}.header .curation-note{white-space:normal}.detail-actions{flex-wrap:wrap}.state-options select{max-width:100%}
+@media(max-width:700px){.header-links{margin-left:auto;gap:6px}.language-toggle{min-height:34px}.language-menu button{min-height:40px}.detail-actions .language-toggle{padding:4px 5px;min-height:28px;font-size:10px}.detail-actions .language-menu{max-width:calc(100vw - 20px)}.detail-top{height:auto;min-height:57px;flex:none;padding-top:5px;padding-bottom:5px}.detail-actions{gap:3px}.detail-ident{min-width:0}.sequences-tools label,.state-options{overflow-wrap:anywhere}}
+
+/* Keep the existing layout; only the header language box moves slightly right. */
+.header .language-selector{transform:translateX(5px)}
+.footer-author{display:inline;white-space:normal}
+.authorization-message{max-width:700px;margin:60px auto;padding:20px;color:#e5e9ec;font-size:14px;line-height:1.6;overflow-wrap:anywhere}
+.authorization-message a{color:#b9cde0}
+.site[hidden],.authorization-message[hidden]{display:none!important}
+@media(max-width:700px){.authorization-message{margin:25px auto;padding:16px}.header .language-selector{transform:translateX(4px)}}
+
+.header-links{position:relative;z-index:10}

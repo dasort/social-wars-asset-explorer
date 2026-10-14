@@ -1,4 +1,25 @@
 'use strict';
+/**
+ * Social Wars Asset Explorer
+ *
+ * Desarrollado por Lucas Bonifacio (dasort).
+ * Proyecto independiente de preservación de recursos
+ * del videojuego Social Wars.
+ *
+ * Repositorio original:
+ * https://github.com/dasort/social-wars-asset-explorer
+ *
+ * Los recursos originales del juego pertenecen
+ * a sus respectivos titulares.
+ */
+(() => {
+ const authorized=window.SWSite?.authorized===true;
+ if(!authorized){
+  window.SWSite?.showBlocked();
+  if(!window.SWSite){const site=document.querySelector('.site');if(site)site.hidden=true;const message=document.getElementById('site-authorization');if(message)message.hidden=false;}
+  return;
+ }
+ // BEGIN AUTHORIZED EXPLORER
 // Social Wars Asset Explorer v0.5.0 : navegador, sin framework ni servidor dinamico.
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 96;
@@ -9,6 +30,7 @@ const itemNumber = item => Number((item.archivo || '').match(/^(\d+)/)?.[1] || 9
 const create = (tag, cls='', content) => {
   const el = document.createElement(tag);
   if (cls) el.className = cls;
+  if(cls==='card-name')el.setAttribute('translate','no');
   if (content !== undefined) el.textContent = String(content);
   return el;
 };
@@ -52,6 +74,7 @@ function renderContext(){
   $('catalog-curation').title='Revisión manual de previews de las 403 unidades.';
 }
 function uiStateLabel(name){return ({out:'Normal',over:'Al pasar el cursor',selected:'Seleccionado',up:'Normal',down:'Pulsado',closed:'Cerrado',open:'Abierto',xp:'Experiencia',speed:'Velocidad',range:'Alcance',attack:'Ataque',time:'Tiempo',health:'Salud',cash:'Dinero',gold:'Oro',unit:'Unidad',resources:'Recursos'})[name]||name;}
+function uiLabel(data){return data?.nombre==='Imagenes base'||data?.ui===true&&(data.nombre!==data.nombreOriginal||data.isComposition||/^(Imagen|Pieza) \d/.test(data.nombre));}
 function clipAvailable(item){return Array.isArray(item.clip?.urls) && item.clip.urls.length>1;}
 function hasFull(item){return item.preparacion==='completo';}
 function hasAnyDetail(item){return Boolean(item.detalle);}
@@ -172,7 +195,7 @@ function renderFilters(){
   }
   el.filters.querySelector('.active')?.scrollIntoView?.({block:'nearest',inline:'nearest'});
   const ready=state.items.filter(hasFull).length;
-  el.debugStatus.textContent=`Depuración · ${number(ready)} / ${number(state.items.length)} recursos con secuencias completas`;
+  el.debugStatus.textContent=`Depuración, ${number(ready)} / ${number(state.items.length)} recursos con secuencias completas`;
   el.debugStatus.hidden=!state.debug;
 }
 function showEmpty(message,description){
@@ -182,8 +205,8 @@ function showEmpty(message,description){
 }
 function cardFor(item){
   const card=create('button','asset-card');card.type='button';card.dataset.id=item.id;
-  card.title=`${item.nombre} : ${item.archivo}`;
-  card.setAttribute('aria-label',`Abrir ${item.nombre}`);
+  card.title=`${item.nombre} : ${item.archivo}`;if(uiLabel(item))card.dataset.uiTitleName=item.nombre;
+  card.setAttribute('aria-label',uiLabel(item)?`Abrir interfaz: ${item.nombre}`:`Abrir ${item.nombre}`);
   const art=create('div','card-art');
   const cover=coverFor(item);
   if(state.previewMode==='icon'&&!item.icono)art.title='Sin ícono histórico; se muestra el render del objeto.';
@@ -195,7 +218,7 @@ function cardFor(item){
     const m=create('span','card-motion','▶');m.title='Fotogramas completos preparados';art.append(m);
 
   }
-  const cap=create('div','card-caption');cap.append(create('span','card-name',item.nombre));
+  const cap=create('div','card-caption'),name=create('span','card-name',item.nombre);if(uiLabel(item))name.removeAttribute('translate');cap.append(name);
   const sub=create('div','card-sub');
   sub.append(create('span','',item.ui?(item.subtipo||item.tipo):(item.categoria||'Sin clasificar')),create('span','',`${number(item.imagenes)} ${item.ui?'frames':'PNG'}`));
   cap.append(sub);card.append(art,cap);
@@ -221,7 +244,8 @@ function updateMatches(){
       if(state.uiFilter==='pieces'&&item.tipo==='Componente')return false;
       if(!['components','pieces','all'].includes(state.uiFilter)&&item.subtipo!==state.uiFilter)return false;
     }
-    const text=normalize(`${item.nombre} ${item.archivo} ${item.carpeta||''} ${item.tipo||''} ${item.origen||''} ${item.busqueda||''}`);
+    const localized=uiLabel(item)?(window.SWI18n?.translate(item.nombre)||item.nombre):'';
+    const text=normalize(`${localized} ${item.nombre} ${item.archivo} ${item.carpeta||''} ${item.tipo||''} ${item.origen||''} ${item.busqueda||''}`);
     return words.every(word=>text.includes(word));
   });
   if(el.sort.value==='id')state.filtered.sort((a,b)=>itemNumber(a)-itemNumber(b)||a.nombre.localeCompare(b.nombre,'es'));
@@ -326,6 +350,7 @@ function groupShort(name){
 function chooseGroup(index, initialFrame=0, autoplay=false){
   stopPlayback();clearStage();state.previewGroup=null;state.group=index;state.frame=initialFrame;
   const group=groupNow();el.groupLabel.textContent=group?.nombre||'Miniatura';
+  if(group?.nombre&&!uiLabel(group))el.groupLabel.setAttribute('data-original-text','');else el.groupLabel.removeAttribute('data-original-text');
   if(state.current?.ui){
     state.actionFilter=-1;prepareStates();
     const related=state.items.find(item=>item.id===group?.relatedItem);
@@ -348,12 +373,12 @@ function renderSprites(){
   cancelThumbs();el.spriteGrid.replaceChildren();let count=0;
   const fragment=document.createDocumentFragment();
   groups.forEach((group,index)=>{
-    if(q&&!normalize(group.nombre).includes(q)&&!normalize(groupShort(group.nombre)).includes(q))return;
+    if(q&&!normalize(group.nombre).includes(q)&&!normalize(groupShort(group.nombre)).includes(q)&&!(uiLabel(group)&&normalize(window.SWI18n?.translate(group.nombre)||group.nombre).includes(q)))return;
     if(multiple&&group.total<2)return;
     if(selectedState&&!selectedState.grupos.includes(group.clave)&&!(selectedState.gruposPrincipal.includes(group.clave)&&group.fotogramas.some(f=>f.numero>=selectedState.desde&&f.numero<=selectedState.hasta)))return;
     visibleIndices.push(index);count++;
     const btn=create('button','sprite-cell'+(index===state.group?' selected':''));
-    btn.type='button';btn.dataset.index=String(index);btn.title=group.nombre;
+    btn.type='button';btn.dataset.index=String(index);btn.title=group.nombre;if(uiLabel(group))btn.dataset.uiTitleName=group.nombre;
     btn.setAttribute('aria-pressed',String(index===state.group));
     const thumb=create('div','sprite-thumb');
     const f=group.thumbnail?{...group.thumbnail,pack:state.detailData.thumbnailPack}:group.fotogramas[0];
@@ -361,8 +386,8 @@ function renderSprites(){
     const counts=create('small');
     if(state.debug)counts.append(create('span','',`${number(group.fotogramas.length)} en web`),create('span','',`${number(group.total)} ${group.total===1?'original':'originales'}`));
     else counts.append(create('span','',`${number(group.fotogramas.length)} ${group.fotogramas.length===1?'frame':'frames'}`));
-    btn.title=`${group.nombre} · ${number(group.fotogramas.length)} de ${number(group.total)} fotogramas preparados · ${group.completo?'Completo':'Muestra parcial'}`;
-    btn.append(thumb,create('strong','',groupShort(group.nombre)),counts);
+    btn.title=`${group.nombre}, ${number(group.fotogramas.length)} de ${number(group.total)} fotogramas preparados, ${group.completo?'Completo':'Muestra parcial'}`;
+    btn.append(thumb,Object.assign(create('strong','',groupShort(group.nombre)),{translate:uiLabel(group)}),counts);
     btn.addEventListener('click',()=>chooseGroup(index,0,true));
     fragment.append(btn);
   });
@@ -381,7 +406,7 @@ function prepareStates(){
   }
   const states=state.detailData?.estados||[];state.actionFilter=-1;
   const all=create('option','','Todos');all.value='all';el.stateSelect.replaceChildren(all);
-  states.forEach((item,index)=>{const option=create('option','',item.etiqueta);option.value=String(index);el.stateSelect.append(option);});
+  states.forEach((item,index)=>{const option=create('option','',item.etiqueta);if(!state.current?.ui)option.setAttribute('translate','no');option.value=String(index);el.stateSelect.append(option);});
   el.stateSelect.value='all';el.stateSelect.disabled=!states.length;
   el.stateNote.textContent=state.current?.ui?(state.detailData.nota||'Interfaz original del juego.'):states.length?'Etiquetas del SWF y referencias estructurales; no certifican animaciones.':'Sin etiquetas disponibles en el símbolo principal auditado.';
 }
@@ -392,7 +417,7 @@ function preparePreviews(){
       stopPlayback();clearStage();state.actionFilter=-1;el.stateSelect.value='all';
       state.previewGroup={nombre:action,clave:preview.grupo,total:preview.fotogramas.length,completo:true,fotogramas:SWMedia.frames(preview),curada:true};
       if(![...el.fps.options].some(o=>o.value===String(preview.fps))){const o=create('option','',preview.fps);o.value=String(preview.fps);el.fps.append(o);}
-      el.fps.value=String(preview.fps);state.frame=0;el.groupLabel.textContent=action+' · preview seleccionada';updateFrame();if(canPlay(state.previewGroup))togglePlayback();
+      el.fps.value=String(preview.fps);state.frame=0;el.groupLabel.removeAttribute('data-original-text');el.groupLabel.textContent=action+', preview seleccionada';updateFrame();if(canPlay(state.previewGroup))togglePlayback();
     });buttons.append(b);
   }buttons.hidden=!buttons.children.length;
 }
@@ -424,14 +449,14 @@ async function openItem(item,updateUrl){
   state.previewGroup=null;state.current=item;state.detailData=null;state.group=-1;state.frame=0;
   const request=++state.openRequest;
   el.detail.hidden=false;document.body.classList.add('inspector-open');
-  el.title.textContent=item.nombre;el.file.textContent=item.archivo;
+  el.title.textContent=item.nombre;if(uiLabel(item))el.title.removeAttribute('translate');else el.title.setAttribute('translate','no');el.file.textContent=item.archivo;
   $('sprite-panel-title').textContent=item.ui?'Composición y piezas':'Imágenes y sprites';
   el.spriteSearch.placeholder=item.ui?'Filtrar piezas':'Filtrar sprites';
   if(el.animated.parentElement)el.animated.parentElement.hidden=Boolean(item.ui);
-  el.meta.textContent=item.ui?`${item.tipo} · ${item.origen} · resolución original`:`${number(item.imagenes)} PNG originales · ${number(item.grupos)} sprites`;
+  el.meta.textContent=item.ui?`${item.tipo}, ${item.origen}, resolución original`:`${number(item.imagenes)} PNG originales, ${number(item.grupos)} sprites`;
   $('quality-tip').textContent=item.ui?'La interfaz conserva su resolución original y usa compresión sin pérdida. PNG descarga esa resolución. GIF genera una copia a 220 px; el SWF conserva el original.':'Las imágenes se muestran a 220 px para reducir el peso y acelerar la carga. Al ampliarlas pueden verse pixeladas. Las descargas PNG y GIF usan esa misma resolución; el SWF conserva el archivo original.';
   $('detail-source-note').textContent=item.ui?'Interfaz a resolución original. Las composiciones pueden contener textos de ejemplo o espacios que el juego completa.':'Galería completa a 220 px. Varios fotogramas pueden ser direcciones o estados.';
-  el.groupLabel.textContent=item.portadaFuente==='juego'?'Miniatura original del juego':'Miniatura';
+  el.groupLabel.removeAttribute('data-original-text');el.groupLabel.textContent=item.portadaFuente==='juego'?'Miniatura original del juego':'Miniatura';
   el.groupCount.textContent=item.detalle?'Cargando…':'Solo miniatura';
   el.spriteGrid.replaceChildren(create('p','empty-sprites',item.detalle?'Cargando galería…':'Este elemento solo tiene miniatura preparada.'));
   el.gallerySummary.textContent='';el.stateSelect.disabled=true;el.stateNote.textContent='Cargando etiquetas...';
@@ -446,7 +471,7 @@ async function openItem(item,updateUrl){
   if(!item.detalle)return;
   try{
     let data=state.detailCache.get(item.id);
-    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.7');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
+    if(!data){data=await SWMedia.json(item.detalle+'?v=0.5.9');state.detailCache.set(item.id,data);while(state.detailCache.size>12)state.detailCache.delete(state.detailCache.keys().next().value);}
     if(request!==state.openRequest||state.current?.id!==item.id)return;
     if(!Array.isArray(data.groups))throw new Error('Formato de galería no válido');
     SWMedia.register(data);state.detailData=data;fillDetails();
@@ -560,7 +585,7 @@ function setupEvents(){
   el.stateSelect.addEventListener('change',()=>{
     state.previewGroup=null;state.actionFilter=el.stateSelect.value==='all'?-1:Number(el.stateSelect.value);
     const selected=state.detailData?.estados?.[state.actionFilter];
-    el.stateNote.textContent=state.current?.ui?(selected?`Estado: ${selected.etiqueta} · fotogramas ${selected.desde} a ${selected.hasta}`:(groupNow()?.nota||state.detailData?.nota||'Estados definidos en el SWF.')):selected?(selected.vacio?'Estado sin símbolos visibles en la auditoría.':`Fotogramas ${selected.desde} a ${selected.hasta} del símbolo principal. Se muestran sus grupos y componentes anidados.`):'Etiquetas del SWF y referencias estructurales; no certifican animaciones.';
+    el.stateNote.textContent=state.current?.ui?(selected?`Estado: ${selected.etiqueta}, fotogramas ${selected.desde} a ${selected.hasta}`:(groupNow()?.nota||state.detailData?.nota||'Estados definidos en el SWF.')):selected?(selected.vacio?'Estado sin símbolos visibles en la auditoría.':`Fotogramas ${selected.desde} a ${selected.hasta} del símbolo principal. Se muestran sus grupos y componentes anidados.`):'Etiquetas del SWF y referencias estructurales; no certifican animaciones.';
     stopPlayback();state.frame=0;renderSprites();updateFrame();
   });
   el.columns.addEventListener('change',()=>{
@@ -590,7 +615,7 @@ function setupEvents(){
   el.back.addEventListener('click',()=>closeItem());
   $('copy-link').addEventListener('click',async()=>{
     try{await navigator.clipboard.writeText(location.href);notify('Enlace copiado');}
-    catch{window.prompt('Copiá el enlace:',location.href);}
+    catch{window.prompt(window.SWI18n?.translate('Copiá el enlace:')||'Copiá el enlace:',location.href);}
   });
   el.previous.addEventListener('click',()=>{stopPlayback();changeFrame(-1);});
   el.next.addEventListener('click',()=>{stopPlayback();changeFrame(1);});
@@ -629,10 +654,10 @@ async function start(){
     if(saved && typeof saved==='object')state.overrides=saved;
   }catch{}
   try{
-    const data=await SWMedia.json('data/catalog.json?v=0.5.7');
+    const data=await SWMedia.json('data/catalog.json?v=0.5.9');
     if(!Array.isArray(data.items))throw new Error('Catálogo inválido');
     let ui=[];
-    try{const supplement=await SWMedia.json('data/ui/catalog.json?v=0.5.7');if(!Array.isArray(supplement.items))throw Error('Catálogo de interfaz inválido');ui=supplement.items;state.uiPngs=Number(supplement.pngsInventariados)||0;}
+    try{const supplement=await SWMedia.json('data/ui/catalog.json?v=0.5.9');if(!Array.isArray(supplement.items))throw Error('Catálogo de interfaz inválido');ui=supplement.items;state.uiPngs=Number(supplement.pngsInventariados)||0;}
     catch(error){console.warn('Interfaz adicional no disponible',error);}
     const merged=new Map(data.items.map(item=>[item.id,item]));
     for(const item of ui)if(item.ui===true&&item.categoria==='Interfaz'&&!merged.has(item.id))merged.set(item.id,item);
@@ -648,3 +673,6 @@ async function start(){
 start();
 
 window.addEventListener('sw-network-wait',event=>{notify('El servidor pidió una pausa. Se conservan las imágenes cargadas y se reintentará después.');});
+
+ // END AUTHORIZED EXPLORER
+})();
