@@ -7,9 +7,10 @@ window.SWMedia=(()=>{
  const stats={requests:0,cacheHits:0,bytes:0,rateLimits:0};let base='';
  const abort=()=>new DOMException('Carga cancelada','AbortError');
  const digest=async b=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');
- const absolute=url=>new URL(url,document.baseURI).href;
+ const migrated=url=>String(url).replace(/^https:\/\/raw\.githubusercontent\.com\/dasort\/sw-prueba-releases\//,'https://raw.githubusercontent.com/dasort/social-wars-asset-explorer/');
+ const absolute=url=>new URL(migrated(url),document.baseURI).href;
  function networkNotice(until){window.dispatchEvent(new CustomEvent('sw-network-wait',{detail:{until}}));}
- async function cache(){if(diskFailed)return null;try{return disk||(disk=await caches.open('sw-media-v105'));}catch{diskFailed=true;return null;}}
+ async function cache(){if(diskFailed)return null;try{return disk||(disk=await caches.open('sw-media-v106'));}catch{diskFailed=true;return null;}}
  async function diskRead(url){try{const c=await cache(),r=c&&await c.match(url);if(r){stats.cacheHits++;return await r.arrayBuffer();}}catch{}return null;}
  function diskWrite(url,body){
   if(body.byteLength>16*MB)return;
@@ -55,13 +56,13 @@ window.SWMedia=(()=>{
  }
  function touch(map,key){const v=map.get(key);if(v){map.delete(key);map.set(key,v);}return v;}
  function trim(map,max){let total=[...map.values()].reduce((s,v)=>s+(v.bytes||0),0);for(const [key,v] of map){if(total<=max)break;if(!v.ready)continue;total-=v.bytes;map.delete(key);if(v.url)URL.revokeObjectURL(v.url);}}
- function register(detail){const m=detail.media;if(!m)return;const u=new URL(m.base);
+ function register(detail){const m=detail.media;if(!m)return;const u=new URL(migrated(m.base));
   if(u.protocol!=='https:'||u.hostname!=='raw.githubusercontent.com'||u.username||u.password||u.search||u.hash)throw Error('Origen externo inválido');
   if(base&&base!==u.href)throw Error('Orígenes incompatibles');base=u.href;
   for(const [id,d] of Object.entries(m.assets)){if(!/^[0-9a-f]{64}$/.test(id))throw Error('Asset inválido');definitions.set(id,d);}
   for(const [name,d] of Object.entries(m.bundles)){if(!/^packs\/[0-9a-f]{2}\/[0-9a-f]{64}\.swp$/.test(name))throw Error('Paquete inválido');bundles.set(name,d);}
  }
- function descriptor(f){if(f.pack){const d=f.pack,u=new URL(d.url,document.baseURI);const local=u.origin===new URL(document.baseURI).origin&&/^media\/optimized\/[0-9a-f]{2}\/[0-9a-f]{64}\.swp$/.test(d.url);const remote=u.protocol==='https:'&&u.hostname==='raw.githubusercontent.com'&&!u.username&&!u.password&&!u.search&&!u.hash&&/^\/[^/]+\/[^/]+\/sw-assets-[0-9a-f]+\/webmedia\/[0-9a-f]{2}\/[0-9a-f]{64}\.swp$/.test(u.pathname);if(!local&&!remote)throw Error('Paquete inválido');return {...d,url:u.href};}
+ function descriptor(f){if(f.pack){const d=f.pack,u=new URL(migrated(d.url),document.baseURI);const local=u.origin===new URL(document.baseURI).origin&&/^media\/optimized\/[0-9a-f]{2}\/[0-9a-f]{64}\.swp$/.test(d.url);const remote=u.protocol==='https:'&&u.hostname==='raw.githubusercontent.com'&&!u.username&&!u.password&&!u.search&&!u.hash&&/^\/[^/]+\/[^/]+\/sw-assets-[0-9a-f]+\/webmedia\/[0-9a-f]{2}\/[0-9a-f]{64}\.swp$/.test(u.pathname);if(!local&&!remote)throw Error('Paquete inválido');return {...d,url:u.href};}
   const m=definitions.get(f.asset);if(!m)throw Error('Frame fuera del inventario');const d=bundles.get(m.bundle);if(!d)throw Error('Falta paquete');return {...d,url:new URL(m.bundle,base).href};}
  async function pack(d,options){
   let entry=touch(packed,d.url);if(entry?.ready)return entry.value;
@@ -101,6 +102,6 @@ window.SWMedia=(()=>{
  }
  async function show(canvas,f,group){const im=await image(f,{priority:0});const scratch=document.createElement('canvas');scratch.width=canvas.width;scratch.height=canvas.height;paint(scratch,im,f,group);return scratch;}
  async function png(f){const im=await image(f,{priority:0}),c=document.createElement('canvas');c.width=im.naturalWidth;c.height=im.naturalHeight;draw(c.getContext('2d'),im,f,0,0,c.width,c.height);return new Promise((resolve,reject)=>c.toBlob(b=>b?resolve(b):reject(Error('PNG vacío')),'image/png'));}
- async function json(url){return JSON.parse(new TextDecoder().decode(await request(url,{priority:0,immutable:/[?&]v=0\.5\.1(?:&|$)/.test(url)})));}
+ async function json(url){return JSON.parse(new TextDecoder().decode(await request(url,{priority:0,immutable:/[?&]v=0\.5\.2(?:&|$)/.test(url)})));}
  return {register,image,show,paint,png,frames,prepare,json,stats,request};
 })();
